@@ -1,0 +1,329 @@
+\documentclass[Master,Final,ngerman,UKenglish,twoside]{scrbook}
+%------------------------------------------------------------------------------
+% This file contains a skeleton thesis for
+% a Physics or Astronomy Institute in the University of Bonn
+
+% Specify the thesis type as an option: PhD, Master, Diplom, Bachelor
+% Specify the thesis stage as an option: Draft (default), Submit, Final, PILibrary
+
+% Specify the language(s) in the class and then use babel.
+% If you need more than one language, give the default language last,
+% e.g. ngerman,UKenglish for a thesis in British (UK) English where you want
+% to be able to set the language to German for some part of it.
+\textwidth15.0cm
+
+%------------------------------------------------------------------------------
+% Pass TeX Live version to the package
+% Use command pdflatex --version to find out which version you are running
+% Add option backref=false when your thesis is ready to turn off back-referencing
+% in your bibliography
+
+
+
+\usepackage[texlive=2014]{ubonn-thesis}
+% Adjustments to standard biblatex style
+\usepackage{TOPQ_2013_02-defs}
+
+\usepackage[backend=biber,style=numeric-comp,sorting=none,block=ragged,firstinits=true]{biblatex}
+
+\usepackage{ubonn-biblatex}
+
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\addbibresource{thesis_refs.bib}
+%\addbibresource{../refs/standard_refs-biber.bib}
+
+%fancy table
+\usepackage[table]{xcolor}
+%\usepackage{booktabs}
+
+\usepackage{mathrsfs}
+\usepackage{subcaption}
+% Glossary package
+% \usepackage[acronym,toc,nosuper]{glossaries}
+% TikZ packages and libraries
+\usepackage{tikz}
+ \usepackage{tikz-3dplot}
+ \usepackage{fix-cm}
+ \usepackage{pgfplots}
+ \usetikzlibrary{positioning,shapes,arrows}
+ \usetikzlibrary{decorations.pathmorphing}
+ \usetikzlibrary{decorations.markings}
+\usepackage{thesis_defs}
+%\usepackage{tikz}
+\usetikzlibrary{calc,positioning,shadows.blur,decorations.pathreplacing}
+\usepackage{etoolbox}
+\usepackage{verbatim}
+%%%>
+\usepackage{array}
+
+\usepackage{feynmf}
+
+
+
+\tikzset{%
+	brace/.style = { decorate, decoration={brace, amplitude=5pt} },
+	mbrace/.style = { decorate, decoration={brace, amplitude=5pt, mirror} },
+	label/.style = { black, midway, scale=0.5, align=center },
+	toplabel/.style = { label, above=.5em, anchor=south },
+	leftlabel/.style = { label,rotate=-90,left=.5em,anchor=north },   
+	bottomlabel/.style = { label, below=.5em, anchor=north },
+	force/.style = { rotate=-90,scale=0.4 },
+	round/.style = { rounded corners=2mm },
+	legend/.style = { right,scale=0.4 },
+	nosep/.style = { inner sep=0pt },
+	generation/.style = { anchor=base }
+}
+
+
+
+
+
+
+%------------------------------------------------------------------------------
+% Instead of colouring  links, cites, table of contents etc.
+% put them in a coloured box for the screen version.
+% This is probably a good idea when you print your thesis.
+\hypersetup{colorlinks=false,
+ linkbordercolor=blue,citebordercolor=magenta,urlbordercolor=darkgreen
+}
+
+%------------------------------------------------------------------------------
+% When writing your thesis it is often helpful to have the date and
+% time in the output file. Comment this out for the final version.
+%\ifoot[\today{} \thistime]{\today{} \thistime}
+
+% In order to check if your labels are referenced try the refcheck package
+% \usepackage{refcheck}
+
+
+
+%------------------------------------------------------------------------------
+% biblatex is included by ubonn-thesis. Look there for the settings used.
+% See the options for settings that can be changed easily.
+% For further changes copy the \RequirePackage[...]{biblatex} here
+% and include ubonn-thesis with the option biblatex=false.
+
+% Specify the bibliography files here and not at the end!
+% Use standard_refs-bibtex if you use bibtex or bibtex8
+% and standard_refs-biber  if you use biber
+\addbibresource{thesis_refs.bib}
+%\addbibresource{experiment.bib}
+%\addbibresource{Objectdefinition.bib}
+%\addbibresource{../refs/standard_refs-biber.bib}
+
+%------------------------------------------------------------------------------
+% The following definitions are used to produce the title pages
+% needed at various stages
+\newcommand{\thesistitle}{Studies for the Measurement of the Top-Quark Mass in the $t\bar{t}\rightarrow$ lepton + jets Channel, with $\sqrt{s}$=13~TeV Proton-Proton Collision Data from the ATLAS Experiment}
+\newcommand{\thesistitlem}{Studien zur Messung der Top-Quark Masse im $t\bar{t}\rightarrow$ lepton + jets Kanal, unter Verwendung von Daten aus $\sqrt{s}$=13~TeV Proton-Proton Kollisionen, aufgezeichnet mit dem ATLAS Experiment}
+	
+\newcommand{\thesistitleg}{}
+\newcommand*{\thesisauthor}{Sebastian Schulte}
+\newcommand*{\thesistown}{München}
+\renewcommand*{\InstituteName}{Max-Planck-Institut für Physik}
+\renewcommand*{\Institute}{(Werner Heisenberg Institut)}
+
+\renewcommand*{\inInstitute}{\inPI}
+\renewcommand*{\InstituteAddress}{\PIaddress}
+% Adjust \thesisreferee...text depending on male/female referee
+\newcommand*{\thesisrefereeonetext}{1.\ Gutachter}
+\newcommand*{\thesisrefereeone}{PD.\ Dr.\ Stefan Kluth}
+\newcommand*{\thesisrefereetwotext}{2.\ Gutachterin}
+\newcommand*{\thesisrefereetwo}{Prof.\ Dr.\ Kabelschacht}
+% Date when thesis was submitted (Master/Diplom)
+% Year or Month, Year when thesis was submitted (PhD)
+\newcommand*{\thesissubmit}{01.01.2017}
+ \newcommand*{\thesissubmit}{Month 2016}
+% Date of thesis examination (PhD)
+\newcommand*{\thesispromotion}{XX.YY.2016}
+% Month and year of the final printed version of the thesis
+\newcommand*{\thesismonth}{MMM}
+\newcommand*{\thesisyear}{2016}
+\newcommand*{\thesisnumber}{BONN-IR-2016-XXX}
+% The abstract is only needed for the printed version and should be in
+% English regardless of the language of the thesis
+
+
+
+		
+	
+
+
+%------------------------------------------------------------------------------
+% \includeonly can be used to select which chapters you want to process
+% A simple \include command just inserts a \clearpage before and after the file
+% Note that \includeonly can be quite picky! Do not forget to put a
+% comma after the filename, otherwise it will simply be ignored!
+% \includeonly{%
+%   thesis_intro,
+%   thesis_appendix,
+%   thesis_acknowledge
+% }
+
+%------------------------------------------------------------------------------
+% Give a list of directories where figures can be found. Do not leave
+% any spaces in the list and end the directory name with a /
+\graphicspath{%
+  {../figs/}%
+  {../figs/cover/}%
+  {../figs/graphics/}%
+  {../feynmf/}%
+}
+
+%------------------------------------------------------------------------------
+% Make a glossary and a list of acronyms
+% \makeglossaries
+
+% Glossary entries
+% \input{thesis_glossary}
+
+% Draft version - add the word DRAFT on the cover pages
+
+%\ifthenelse{\equal{\ThesisVersion}{Draft}}{%
+ %
+ %\usepackage{background}
+  %\ifthenelse{\texlive < 2013}{%
+   % \SetBgContents{DRAFT}
+    %\SetBgColor{blue!30}
+  %}{%
+%    \backgroundsetup{contents=DRAFT, color=blue!30}
+ % }
+%}
+
+
+
+\usepackage{hyperref}
+\usepackage[english]{cleveref}
+
+%------------------------------------------------------------------------------
+\begin{document}
+
+% Cover page of thesis - this is only needed for the printed final
+% version to be submitted to the department library
+% Do not use this page for thesis submission to the Prüfungsamt or Promotionsbüro!
+%\ifthenelse{\equal{\ThesisVersion}{PILibrary}}{%
+  %\typeout{Document \jobname, Info: PI library version of thesis}
+ %\input{cover/\ThesisType_Cover}
+%}{}
+
+
+% Start counting pages from the title page
+\frontmatter
+% Dedication has to come before \maketitle
+% \dedication{For ...}
+\input{coverCU}
+% Select the correct title page(s)
+%\ifthenelse{\equal{\ThesisType}{Unknown}}{%
+  %\typeout{Document \jobname, Error: Unknown thesis type - no title page printed}
+  % Bachelor thesis only has one title page
+  %\ifthenelse{\equal{\ThesisType}{Bachelor}}{%
+    %\typeout{Document \jobname, Info: Bachelor thesis}
+    %\input{../cover/\ThesisType_Title}
+  %}{%
+    \ifthenelse{\equal{\ThesisVersion}{Final} \OR \equal{\ThesisVersion}{PILibrary}}{
+      % Final and PI library versions
+      \typeout{Document \jobname, Info: Final version of a \ThesisType  thesis}
+      %\input{cover/\ThesisType_Final_Title}
+    }{% Submission and draft versions
+     % \input{../cover/\ThesisType_Submit_Title}
+      %\typeout{Document \jobname, Info: Draft/submission version of a \ThesisType  thesis}
+    }
+  }
+
+
+\pagestyle{scrplain}
+
+%------------------------------------------------------------------------------
+% You can add your acknowledgements here - don't forget to also add
+% them to \includeonly above
+%\include{thesis_acknowledge}
+
+\tableofcontents
+
+\mainmatter
+\pagestyle{scrheadings}
+
+% Turn off DRAFT for the following pages
+%\ifthenelse{\equal{\ThesisVersion}{Draft}}{%
+ %55 \ifthenelse{\texlive < 2013}{%
+   % \SetBgContents{}
+  %}{%
+  % \backgroundsetup{contents={}}
+ %}
+%}{}
+
+%------------------------------------------------------------------------------
+% Add your chapters here - don't forget to also add them to \includeonly above
+\include{thesis_intro}
+\include{Standard_Modell}
+\include{Exp2}
+\include{Objectdefinition}
+\include{Reco}
+\include{Template}
+\include{unser}
+\include{Summary}
+
+
+% Uncomment the following command to get references per chapter.
+% Put it inside the file or change \include to \input if you do not want the references
+% on a separate page
+% \printbibliography[heading=subbibliography]
+
+%------------------------------------------------------------------------------
+% Use biblatex for the bibliography
+% Add bibliography to Table of Contents
+% Comment out this command if your references are printed for each chapter.
+\printbibliography[heading=bibintoc]
+
+
+
+%------------------------------------------------------------------------------
+% Include the following lines and comment out \printbibliography if
+% you use BiBTeX for the bibliography.
+% If you use biblatex package the files should be specified in the preamble.
+ %\KOMAoptions{toc=bibliography}
+% {\raggedright
+  % \bibliographystyle{../refs/atlasBibStyleWithTitle.bst}
+ %\bibliographystyle{unsrt}
+ %  \bibliography{./thesis_refs,../refs/standard_refs-bibtex}
+% }
+
+
+
+%------------------------------------------------------------------------------
+\appendix
+% \part*{Appendix}
+% Add your appendices here - don't forget to also add them to \includeonly above
+\include{thesis_appendix}
+% \printbibliography[heading=subbibliography]
+
+%------------------------------------------------------------------------------
+% Declare lists of figures and tables and acknowledgements as backmatter
+% Chapter/section numbers are turned off
+\backmatter
+
+\listoffigures
+\listoftables
+
+%------------------------------------------------------------------------------
+% Print the glossary and list of acronyms
+% \printglossaries
+
+%------------------------------------------------------------------------------
+% You could instead add your acknowledgements here - don't forget to
+% also add them to \includeonly above
+\include{thesis_acknowledge}
+
+%------------------------------------------------------------------------------
+% CV needed when you submit your PhD thesis
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

@@ -1,0 +1,222 @@
+%
+
+
+%
+% Cover page layout for the department library version
+%
+% Make the top margin on the title page larger and also increase the
+% size of the left margin to allow for binding. These parameters may
+% have to be adjusted if you change the fraction of the page area that
+% is used for the text.
+% Changing margins works well. Changing the text height has a bad
+% effect on the table of contents.
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+	
+	\noindent\begin{minipage}[h]{.5\linewidth}%
+		\raggedright\ifpdfoutput{\includegraphics[width=3.74cm]{Pics/tumlogo}\hspace{0.5cm}\includegraphics[width=2cm]{Pics/PH}}{}
+		%\normalfont\sffamily Technische Universit\"{a}t M\"{u}nchen\\
+		%Fakult\"{a}t f\"{u}r Physik
+	\end{minipage}
+	\hfill
+	\begin{minipage}[h]{.5\linewidth}
+		\raggedleft\includegraphics[width=4.5cm]{Pics/mpplogo}
+	\end{minipage}%
+	\null\vfill%
+	\vskip 2em
+	\begin{center}
+		{\Large
+		\textbf{\thesistitle} \\
+	}
+		\vskip 3em
+		{\Large 	\textbf{\thesistitlem}}\\
+		{\
+				\vskip 2.em
+			Abschlussarbeit im Masterstudiengang Physik\\ von\\
+			\vskip 1.5em
+			\thesisauthor\\
+			\vskip 2.5em
+			Eingereicht am\\
+			Physik Department\\
+			Technischen Universität München\\
+				\vskip 2em
+			Erstellt am\\	
+		Max-Planck-Institut f\"ur Physik\\
+		(Werner Heisenberg Institut) \par}
+		%\ifx\@subject\@empty \else
+		%	{\subject@font \@subject \par}%
+		%	\vskip 2em
+		%\fi
+		%{\othertitle@font \lineskip 0.75em
+		%	\begin{tabular}[t]{c}
+		%		\subject@font\@author
+		%	\end{tabular}\par
+		%}%
+		%\vskip 2em
+		%\subject@font am Max-Planck-Institut f\"ur Physik \par
+		\vskip 4em
+		\begin{table}[htbp]
+			\centering
+		
+			\begin{tabular}{ l l }
+				Themensteller: & PD Dr. Stefan Kluth\\			
+				%	\textcolor{red}{Zweitgutachter: & Prof. Dr. Thomas Kuhr}\\
+				
+				
+				
+			\end{tabular}
+		\end{table}
+	
+		\vspace{2cm}
+	1. Januar 2018
+		\vfill
+		
+		%\vskip \z@ \@plus3fill
+		%{\othertitle@font \@publishers \par}%
+		
+	\end{center}%\par
+	
+	
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage
+
+\vspace*{0.2\textheight}
+
+\begin{declaration}
+	
+	\textsc{\huge Selbstständigkeitserklärung }\\[0.9cm] % Thesis type
+	
+	\vspace{4.0cm}
+	
+	\noindent Ich versichere, dass ich die vorliegende Arbeit selbstst\"andig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe.
+	\vspace{1.5cm}
+
+	
+
+		\begin{flushright}
+		\noindent\rule{5cm}{.4pt}\par
+		Sebastian Schulte\par
+		M\"unchen, den 01. Januar 2018\par
+	\end{flushright}
+	
+	% This prints a line to write the date
+\end{declaration}
+
+
+%\cleardoublepage
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+%\vspace*{0.2\textheight}
+
+%\noindent\enquote{\itshape Willst du dich am Ganzen erquicken, so musst du das Ganze im Kleinsten erblicken.}\bigbreak
+
+%\hfill Johann Wolfgang von Goethe 
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+\cleardoublepage 
+\vspace*{0.15\textheight}
+\begin{abstract*}
+	{ \centering
+		{\fontsize{30}{35}\selectfont
+			
+			Technische Universität München}
+		
+		\vspace{0.2cm}
+		
+		\begin{singlespace}
+		%	\fontsize{20}{15}\selectfont
+		\Huge
+			\InstituteName	
+		\end{singlespace}
+		\begin{singlespace}
+			\fontsize{15}{10}\selectfont
+			\Institute	
+		\end{singlespace}
+		\vspace{2.0cm}
+		\begin{singlespace}
+			{\Large
+				\textbf{\thesistitlem} \\
+			}
+		\end{singlespace}
+		\vspace{0.5cm}
+		\begin{singlespace}
+			
+			von\\
+			\vspace{0.5cm}
+			\thesisauthor
+		\end{singlespace}
+		\date{}
+		
+		\vspace{2.0cm}
+	}
+\begin{abstract}
+\noindent Das Top Quark ist das schwerste bekannte Teilchen im Standard Modell der Teilchenphysik (SM).
+Die Masse des Top Quarks $m_{\textrm{top}}$ ist ein fundamentaler Parameter des SM und spielt ein wichtige Rolle für die Überprüfung und das Verständnis der zugrundeliegenden theoretischen Konzepte. Die möglichst präzise Kenntnis von $m_{\textrm{top}}$, ist beispielsweise essentielle für die Untersuchung der elektroschwachen Symmetriebrechung, sowie der Stabilität des elektroschwachen Vakuums.
+
+ Im Rahmen dieser Arbeit wird  $m_{\textrm{top}}$ mit Hilfe von Proton-Proton Kollisionen im sogenannten  lepton + Jets Kanal studiert. Die verwendeten Daten wurden 2016 mit dem ATLAS Experiment bei einer Schwerpunktenergie von 13~TeV mit einer integrierten Luminosität von 33~fb$^{-1}$ aufgezeichnet.
+ 
+Die Top-Quark Masse wird zusammen mit den Jet Energie Skalenfaktoren JSF und bJSF gemessen. Die simultane Messung basiert auf einem  dreidimensionaler Ansatz  der Templatemethode. Simulierte Verteilung von physikalischen Observablen die sensitive auf die Top-Quark Masse sind, sowie auf die Energie  Skalenfaktoren, werden mit analytischen Funktionen parametrisiert. Diese Parametrisierungen entsprechen Wahrscheinlichkeitsdichten, welche in einem unbinned maximum likelihood fit verwendet werden, um $m_{\textrm{top}}$, JSF und bJSF zu bestimmen. Des weiteren wird die Konsistenz der Methode mit Ensemble Tests überprüft, und erste systematische Unsicherheiten werden evaluiert.
+ \end{abstract}
+\cleardoublepage
+
+
+\vspace*{0.15\textheight}
+\begin{abstract*}
+	{ \centering
+		{\fontsize{30}{35}\selectfont
+	
+			Technische Universität München}
+		
+		\vspace{0.2cm}
+		
+		\begin{singlespace}
+		%	\fontsize{20}{15}\selectfont
+		\Huge
+			\InstituteName	
+		\end{singlespace}
+		\begin{singlespace}
+		\fontsize{15}{10}\selectfont
+	
+			\Institute	
+		\end{singlespace}
+		\vspace{2.0cm}
+		\begin{singlespace}
+			{\Large
+				\textbf{\thesistitle} \\
+			}
+		\end{singlespace}
+		\vspace{0.5cm}
+		\begin{singlespace}
+			
+			by\\
+			\vspace{0.5cm}
+			\thesisauthor
+		\end{singlespace}
+		\date{}
+		
+		\vspace{2.0cm}
+	}
+\begin{abstract*}
+\noindent The top quark is the heaviest known particle of the Standard Model of Particle Physics (SM). Precise knowledge of its mass value $m_{\textrm{top}}$, which is a free parameter in the SM, is a key ingredient for the understanding and testing of the underlying theoretical concepts, e.g. to assert the SM validity near the electroweak symmetry breaking scale or to investigate the stability of the electroweak vacuum. Therefore, $m_{\textrm{top}}$ has been subject of intense studies by the ATLAS collaboration.
+
+ In this thesis $m_{\textrm{top}}$ is studied using data from proton-proton collisions in the so-called lepton + jets channel. The corresponding dataset was recorded in the year 2016 by the ATLAS experiment, at a center-of-mass energy of 13~TeV with an integrated luminosity of 33~fb$^{-1}$. 
+ 
+For the determination of the top-quark mass, a three dimensional template approach is used, which measures  $m_{\textrm{top}}$ simultaneously with the jet energy scale factors JSF and bJSF. Simulated  distributions of observables, sensitive to the top-quark mass and the scale factors, are parametrized with analytical functions, representing probability densities. These are used in a unbinned maximum likelihood fit to determine $m_{\textrm{top}}$ . Furthermore, closure tests are applied to test the consistency of the method with pseudoexperiments, which are also performed  for the evaluation of the first systematic uncertainties.
+\end{abstract*}
+
+
+
+
+
