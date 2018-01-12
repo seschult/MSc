@@ -1,0 +1,861 @@
+
+
+#include "TSystem.h"
+#include "TFile.h"
+#include "TF1.h"
+#include "TTree.h"
+#include "TH1F.h"
+#include "TROOT.h"
+#include "TPad.h"
+#include "TMath.h"
+#include "TStyle.h"
+#include "TCanvas.h"
+#include "TLatex.h"
+#include "TLegend.h"
+#include "TLine.h"
+#include "TMinuit.h"
+#include "TColor.h"
+#include "TMinuitMinimizer.h"
+#include "TAttMarker.h"
+#include "Math/Functor.h"
+#include "Math/Functor.h"
+
+#include <vector>
+#include <string>
+#include <sstream>
+#include <iostream>
+#include <fstream>
+#include <math.h>
+#include <stdio.h>
+#include <string>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <iomanip>
+#include <omp.h>
+
+
+
+#include "PlotFactory_13TeV/Fill3D.h"
+#include "PlotFactory_13TeV/FCN.h"
+#include "PlotFactory_13TeV/TemplateHolder.h"
+#include "PlotFactory_13TeV/TemplateHolderbg.h"
+
+using namespace std;
+
+
+
+
+int main(int argc, char* argv[])
+{
+	
+	// uncomment me on 6 ROOT::EnableThreadSafety();
+if (argc>5) exit(1);	
+
+ std::string Channel = argv[2];
+ std::string Outputfolder = argv[3];
+ std::string Setting = argv[4];
+ std::vector<double> gMTOP={170,171.5,172.5,173.5,175};
+ std::vector<double> gbJSF={0.96, 0.98, 1.0, 1.02, 1.04};
+ std::vector<double> gJSF={0.96, 0.98, 1.0, 1.02, 1.04};
+ Fill3D* topquark = new Fill3D(argv[1],argv[2],gMTOP,gbJSF,gJSF);
+ //TFile* file1  = new TFile("/ptmp/mpp/sschulte/TopAnalysis_13TeV/AnalysisTop02.4.24/November2017/18_11_17/comp.root","RECREATE");
+ //file1->Close();
+
+ topquark->top_fit();
+ 
+ std::cout<<"parameters are fitted"<<std::endl;
+ topquark->save_par(Outputfolder);
+ std::cout<<"parameters are saved"<<std::endl;
+ std::cout<<topquark->gALL.size()<<std::endl;
+
+ for(int i = 0; i < topquark->gALL.size(); i++){
+
+   std::cout<<"start plot"<<std::endl;
+   //topquark->gALL[i]->plot(Form("%sout_mass_%2.2f_JSF_%2.2f_bJSF_%3.1f",Outputfolder.c_str(),topquark->gALL[i]->fmtop,topquark->gALL[i]->fJSF,topquark->gALL[i]->fbJSF));
+   
+  //std::cout<< Form("%sout_mass_%2.2f_JSF_%2.2f_bJSF_%3.1f",Outputfolder.c_str(),topquark->gALL[i]->fmtop,topquark->gALL[i]->fJSF,topquark->gALL[i]->fbJSF)<< std::endl;
+  topquark->gALL[i]->plot(std::string(Form("%sout_mass_%2.2f_JSF_%2.2f_bJSF_%2.2f",Outputfolder.c_str(),topquark->gALL[i]->fmtop,topquark->gALL[i]->fJSF,topquark->gALL[i]->fbJSF)));
+   std::cout<<"end plot"<<std::endl;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	double padsize=0.3; 
+TCanvas* c111 = new TCanvas("cp11","cp11", 800, 10, 800, 600);
+TPad *pad1 = new TPad("pad1","pad1",0.,padsize,1.,1.);
+TPad *pad2 = new TPad("pad2","pad2",0.,0.,1.,padsize);
+TLegend *leg1 = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+Color_t a[10] = {kBlue, kBlack, kRed};
+int mycolor = 0;
+
+
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+if((topquark->gALL[i]->fmtop - 170.0)<0.000000001)	continue;	 
+if(((topquark->gALL[i]->fmtop - 171.5)>0.000000001) && ((topquark->gALL[i]->fmtop - 172.5)>0.000000001) &&((topquark->gALL[i]->fmtop - 173.5)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fJSF - 1.00) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fbJSF - 1.00) > 0.000001  )continue;
+c111->cd();
+
+int yyy= mycolor++;
+
+	double padsize=0.3; 
+
+
+	
+     pad1->SetBottomMargin(0.03); 
+     pad1->SetGridx();         // Vertical grid
+ 
+     pad1->Draw();             // Draw the upper pad: pad1
+    
+     pad2->SetTopMargin(0.045);
+     pad2->SetBottomMargin(0.45);
+     pad2->SetGridx(); // vertical grid
+     pad2->SetGridy();
+     pad2->Draw();
+     pad1->cd();
+
+
+      	
+
+					
+	topquark->gALL[i]->h1->SetLineColor(a[yyy]);
+	topquark->gALL[i]->h1->SetMarkerColor(a[yyy]);
+	topquark->gALL[i]->h1->Draw("same");
+	topquark->gALL[i]->ftop->SetLineColor(a[yyy]);
+	topquark->gALL[i]->ftop->SetMarkerColor(a[yyy]);
+	topquark->gALL[i]->ftop->Draw("same");				
+	leg1->AddEntry(topquark->gALL[i]->h1,Form("m_{top} %.2f",topquark->gALL[i]->fmtop),"lep");	
+	
+	pad2->cd();
+	topquark->gALL[i]->h_ratio->SetLineColor(a[yyy]);
+	topquark->gALL[i]->h_ratio->SetMarkerColor(a[yyy]);
+	topquark->gALL[i]->h_ratio->Draw("Same");
+	//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+    //topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+    topquark->gALL[i]->tline_0->Draw("SAME");			 	
+	//leg1->AddEntry(topquark->gALL[i]->h1->SetLineColor(a[yyy]);,From("%d",topquark->gALL[i]->fmtop),"lep");			
+			};
+
+	
+    
+
+      pad1->cd();
+      leg1->Draw("Same");	
+	  c111->SaveAs((Outputfolder+"mtop_mtop.png").c_str());
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+
+
+TCanvas* cJSF1 = new TCanvas("cpJSF","cpJSF", 800, 10, 800, 600);
+TLegend *leg2 = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+
+Color_t a2[10] = {kBlue, kBlack, kRed};
+int mycolor2 = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+	 
+	 
+
+	
+if(fabs(topquark->gALL[i]->fJSF - 0.96) < 0.000001)  continue; 
+if(((topquark->gALL[i]->fJSF - 0.98)>0.000000001) && ((topquark->gALL[i]->fJSF - 1.00)>0.000000001) &&((topquark->gALL[i]->fJSF - 1.02)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fmtop - 172.5) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fbJSF - 1.00) > 0.000001  )continue;
+		
+			
+			
+			
+			
+			
+				cJSF1->cd();
+
+				int yyy2= mycolor2++;
+				
+				
+				 pad1->SetBottomMargin(0.03); 
+				 pad1->SetGridx();         // Vertical grid
+			 
+				 pad1->Draw();             // Draw the upper pad: pad1
+				
+				 pad2->SetTopMargin(0.045);
+				 pad2->SetBottomMargin(0.45);
+				 pad2->SetGridx(); // vertical grid
+				 pad2->SetGridy();
+				 pad2->Draw();
+				 pad1->cd();
+				
+				
+				
+						
+				topquark->gALL[i]->h1->SetLineColor(a2[yyy2]);
+				topquark->gALL[i]->h1->SetMarkerColor(a2[yyy2]);
+				topquark->gALL[i]->h1->Draw("same");
+				leg2->AddEntry(topquark->gALL[i]->h1,Form("JSF %.2f",topquark->gALL[i]->fJSF),"lep");	
+	
+				pad2->cd();
+				topquark->gALL[i]->h_ratio->SetLineColor(a2[yyy2]);
+				topquark->gALL[i]->h_ratio->SetMarkerColor(a2[yyy2]);
+				topquark->gALL[i]->h_ratio->Draw("Same");
+				//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+				topquark->gALL[i]->tline_0->Draw("SAME");		
+							
+						
+					};
+
+
+
+      pad1->cd();
+      leg2->Draw("Same");
+cJSF1->SaveAs((Outputfolder+"mtop_JSF.png").c_str());
+
+
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+
+
+TCanvas* cbJSF1 = new TCanvas("cpbJSF","cpbJSF", 800, 10, 800, 600);
+TLegend *leg3 = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+
+Color_t a3[10] = {kBlue, kBlack, kRed};
+int mycolor3 = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+	 
+	 
+
+	
+if(fabs(topquark->gALL[i]->fbJSF - 0.96) < 0.000001)  continue; 
+if(((topquark->gALL[i]->fbJSF - 0.98)>0.000000001) && ((topquark->gALL[i]->fbJSF - 1.00)>0.000000001) &&((topquark->gALL[i]->fbJSF - 1.02)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fmtop - 172.5) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fJSF - 1.00) > 0.000001  )continue;
+		
+			
+			
+			
+			
+			
+				cbJSF1->cd();
+
+				int yyy3= mycolor3++;
+				
+				
+				 pad1->SetBottomMargin(0.03); 
+				 pad1->SetGridx();         // Vertical grid
+			 
+				 pad1->Draw();             // Draw the upper pad: pad1
+				
+				 pad2->SetTopMargin(0.045);
+				 pad2->SetBottomMargin(0.45);
+				 pad2->SetGridx(); // vertical grid
+				 pad2->SetGridy();
+				 pad2->Draw();
+				 pad1->cd();
+				
+				
+				
+						
+				topquark->gALL[i]->h1->SetLineColor(a3[yyy3]);
+				topquark->gALL[i]->h1->SetMarkerColor(a3[yyy3]);
+				topquark->gALL[i]->h1->Draw("same");
+				leg3->AddEntry(topquark->gALL[i]->h1,Form("bJSF %.2f",topquark->gALL[i]->fbJSF),"lep");	
+	
+				pad2->cd();
+				topquark->gALL[i]->h_ratio->SetLineColor(a3[yyy3]);
+				topquark->gALL[i]->h_ratio->SetMarkerColor(a3[yyy3]);
+				topquark->gALL[i]->h_ratio->Draw("Same");
+				//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->Draw("SAME");		
+							
+						
+					};
+	
+
+
+      pad1->cd();
+      leg3->Draw("Same");
+cbJSF1->SaveAs((Outputfolder+"mtop_bJSF.png").c_str());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TCanvas* cmW_mtop = new TCanvas("cp111","cp111", 800, 10, 800, 600);
+TPad *pad3 = new TPad("pad1","pad1",0.,padsize,1.,1.);
+TPad *pad4 = new TPad("pad2","pad2",0.,0.,1.,padsize);
+TLegend *leg1w = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+Color_t aw[10] = {kBlue, kBlack, kRed};
+int mycolorw = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+if((topquark->gALL[i]->fmtop - 170.0)<0.000000001)	continue;	 
+if(((topquark->gALL[i]->fmtop - 171.5)>0.000000001) && ((topquark->gALL[i]->fmtop - 172.5)>0.000000001) &&((topquark->gALL[i]->fmtop - 173.5)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fJSF - 1.00) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fbJSF - 1.00) > 0.000001  )continue;
+cmW_mtop->cd();
+
+int yyyw= mycolorw++;
+
+	
+
+	
+     pad3->SetBottomMargin(0.03); 
+     pad3->SetGridx();         // Vertical grid
+ 
+     pad3->Draw();             // Draw the upper pad: pad1
+    
+     pad4->SetTopMargin(0.045);
+     pad4->SetBottomMargin(0.45);
+     pad4->SetGridx(); // vertical grid
+     pad4->SetGridy();
+     pad4->Draw();
+     pad3->cd();
+
+
+      	
+
+					
+	topquark->gALL[i]->h2->SetLineColor(aw[yyyw]);
+	topquark->gALL[i]->h2->SetMarkerColor(aw[yyyw]);
+	topquark->gALL[i]->h2->Draw("same");
+	topquark->gALL[i]->fw->SetLineColor(aw[yyyw]);
+	topquark->gALL[i]->fw->SetMarkerColor(aw[yyyw]);
+	topquark->gALL[i]->fw->Draw("same");				
+	leg1w->AddEntry(topquark->gALL[i]->h2,Form("m_{top} %.2f",topquark->gALL[i]->fmtop),"lep");	
+	
+	pad4->cd();
+	topquark->gALL[i]->h_ratiow->SetLineColor(aw[yyyw]);
+	topquark->gALL[i]->h_ratiow->SetMarkerColor(aw[yyyw]);
+	topquark->gALL[i]->h_ratiow->Draw("Same");
+	//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+    //topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+    //topquark->gALL[i]->tline_0->Draw("SAME");			 	
+	//leg1->AddEntry(topquark->gALL[i]->h1->SetLineColor(a[yyy]);,From("%d",topquark->gALL[i]->fmtop),"lep");			
+			};
+
+	
+    
+
+      pad3->cd();
+      leg1w->Draw("Same");	
+	  cmW_mtop->SaveAs((Outputfolder+"mw_mtop.png").c_str());
+
+
+
+
+
+
+
+
+
+
+
+
+
+TCanvas* cmW_JSF = new TCanvas("cpJSF1","cpJS1F", 800, 10, 800, 600);
+TLegend *leg2w = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+
+Color_t a2w[10] = {kBlue, kBlack, kRed};
+int mycolor2w = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+	 
+	 
+
+	
+if(fabs(topquark->gALL[i]->fJSF - 0.96) < 0.000001)  continue; 
+if(((topquark->gALL[i]->fJSF - 0.98)>0.000000001) && ((topquark->gALL[i]->fJSF - 1.00)>0.000000001) &&((topquark->gALL[i]->fJSF - 1.02)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fmtop - 172.5) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fbJSF - 1.00) > 0.000001  )continue;
+		
+			
+			
+			
+			
+			
+				cmW_JSF->cd();
+
+				int yyy2w= mycolor2w++;
+				
+				
+				 pad3->SetBottomMargin(0.03); 
+				 pad3->SetGridx();         // Vertical grid
+			 
+				 pad3->Draw();             // Draw the upper pad: pad1
+				
+				 pad4->SetTopMargin(0.045);
+				 pad4->SetBottomMargin(0.45);
+				 pad4->SetGridx(); // vertical grid
+				 pad4->SetGridy();
+				 pad4->Draw();
+				 pad3->cd();
+				
+				
+				
+						
+				topquark->gALL[i]->h2->SetLineColor(a2w[yyy2w]);
+				topquark->gALL[i]->h2->SetMarkerColor(a2w[yyy2w]);
+				topquark->gALL[i]->h2->Draw("same");
+				leg2w->AddEntry(topquark->gALL[i]->h2,Form("JSF %.2f",topquark->gALL[i]->fJSF),"lep");	
+	
+				pad4->cd();
+				topquark->gALL[i]->h_ratiow->SetLineColor(a2w[yyy2w]);
+				topquark->gALL[i]->h_ratiow->SetMarkerColor(a2w[yyy2w]);
+				topquark->gALL[i]->h_ratiow->Draw("Same");
+				//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->Draw("SAME");		
+							
+						
+					};
+
+
+
+      pad3->cd();
+      leg2w->Draw("Same");
+cmW_JSF->SaveAs((Outputfolder+"mw_JSF.png").c_str());
+
+
+
+
+
+
+
+
+
+
+TCanvas* cmwbJSF = new TCanvas("cpbfJSF","cpbfJSF", 800, 10, 800, 600);
+TLegend *leg3w = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+
+Color_t a3w[10] = {kBlue, kBlack, kRed};
+int mycolor3w = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+	 
+	 
+
+	
+if(fabs(topquark->gALL[i]->fbJSF - 0.96) < 0.000001)  continue; 
+if(((topquark->gALL[i]->fbJSF - 0.98)>0.000000001) && ((topquark->gALL[i]->fbJSF - 1.00)>0.000000001) &&((topquark->gALL[i]->fbJSF - 1.02)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fmtop - 172.5) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fJSF - 1.00) > 0.000001  )continue;
+		
+			
+			
+			
+			
+			
+				cmwbJSF->cd();
+
+				int yyyw3= mycolor3w++;
+				
+				
+				 pad3->SetBottomMargin(0.03); 
+				 pad3->SetGridx();         // Vertical grid
+			 
+				 pad3->Draw();             // Draw the upper pad: pad1
+				
+				 pad4->SetTopMargin(0.045);
+				 pad4->SetBottomMargin(0.45);
+				 pad4->SetGridx(); // vertical grid
+				 pad4->SetGridy();
+				 pad4->Draw();
+				 pad3->cd();
+				
+				
+				
+						
+				topquark->gALL[i]->h2->SetLineColor(a3w[yyyw3]);
+				topquark->gALL[i]->h2->SetMarkerColor(a3w[yyyw3]);
+				topquark->gALL[i]->h2->Draw("same");
+				leg3w->AddEntry(topquark->gALL[i]->h2,Form("bJSF %.2f",topquark->gALL[i]->fbJSF),"lep");	
+	
+				pad4->cd();
+				topquark->gALL[i]->h_ratiow->SetLineColor(a3w[yyyw3]);
+				topquark->gALL[i]->h_ratiow->SetMarkerColor(a3w[yyyw3]);
+				topquark->gALL[i]->h_ratiow->Draw("Same");
+				//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->Draw("SAME");		
+							
+						
+					};
+	
+
+
+      pad3->cd();
+      leg3w->Draw("Same");
+cmwbJSF->SaveAs((Outputfolder+"mw_bJSF.png").c_str());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TCanvas* crbq_mtop = new TCanvas("cp11r1","cp1r11", 800, 10, 800, 600);
+TPad *pad5 = new TPad("pad5","pad5",0.,padsize,1.,1.);
+TPad *pad6 = new TPad("pad6","pad6",0.,0.,1.,padsize);
+TLegend *leg1r = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+Color_t ar[10] = {kBlue, kBlack, kRed};
+int mycolorr = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+if((topquark->gALL[i]->fmtop - 170.0)<0.000000001)	continue;	 
+if(((topquark->gALL[i]->fmtop - 171.5)>0.000000001) && ((topquark->gALL[i]->fmtop - 172.5)>0.000000001) &&((topquark->gALL[i]->fmtop - 173.5)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fJSF - 1.00) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fbJSF - 1.00) > 0.000001  )continue;
+
+puts("1");
+crbq_mtop->cd();
+
+int yyyr= mycolorr++;
+
+	
+puts("2");
+	
+     pad5->SetBottomMargin(0.03); 
+     pad5->SetGridx();         // Vertical grid
+ 
+     pad5->Draw();             // Draw the upper pad: pad1
+    
+     pad6->SetTopMargin(0.045);
+     pad6->SetBottomMargin(0.45);
+     pad6->SetGridx(); // vertical grid
+     pad6->SetGridy();
+     pad6->Draw();
+     pad5->cd();
+
+
+      puts("3");	
+
+			
+	topquark->gALL[i]->h3->SetLineColor(ar[yyyr]);
+	topquark->gALL[i]->h3->SetMarkerColor(ar[yyyr]);
+	topquark->gALL[i]->h3->Draw("same");
+	topquark->gALL[i]->frbq->SetLineColor(ar[yyyr]);
+	topquark->gALL[i]->frbq->SetMarkerColor(ar[yyyr]);
+	topquark->gALL[i]->frbq->Draw("same");				
+	leg1r->AddEntry(topquark->gALL[i]->h3,Form("m_{top} %.2f",topquark->gALL[i]->fmtop),"lep");	
+	  puts("4");	
+	pad6->cd();
+	topquark->gALL[i]->h_ratior->SetLineColor(ar[yyyr]);
+	topquark->gALL[i]->h_ratior->SetMarkerColor(ar[yyyr]);
+	topquark->gALL[i]->h_ratior->Draw("Same");
+	//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+    //topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+    //topquark->gALL[i]->tline_0->Draw("SAME");			 	
+	//leg1->AddEntry(topquark->gALL[i]->h1->SetLineColor(a[yyy]);,From("%d",topquark->gALL[i]->fmtop),"lep");	
+	 puts("5");		
+			};
+
+	
+     puts("6");
+
+      pad5->cd();
+      leg1r->Draw("Same");	
+	  crbq_mtop->SaveAs((Outputfolder+"rbq_mtop.png").c_str());
+
+
+
+
+
+
+
+
+
+
+
+
+TCanvas* crbq_JSF = new TCanvas("cprJSF1","cprJS1F", 800, 10, 800, 600);
+TLegend *leg2r = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+
+Color_t a2r[10] = {kBlue, kBlack, kRed};
+int mycolor2r = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+	 
+	 
+
+	
+if(fabs(topquark->gALL[i]->fJSF - 0.96) < 0.000001)  continue; 
+if(((topquark->gALL[i]->fJSF - 0.98)>0.000000001) && ((topquark->gALL[i]->fJSF - 1.00)>0.000000001) &&((topquark->gALL[i]->fJSF - 1.02)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fmtop - 172.5) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fbJSF - 1.00) > 0.000001  )continue;
+		
+			
+			
+			
+			
+			
+				crbq_JSF->cd();
+
+				int yyy2r= mycolor2r++;
+				
+				
+				 pad3->SetBottomMargin(0.03); 
+				 pad3->SetGridx();         // Vertical grid
+			 
+				 pad3->Draw();             // Draw the upper pad: pad1
+				
+				 pad4->SetTopMargin(0.045);
+				 pad4->SetBottomMargin(0.45);
+				 pad4->SetGridx(); // vertical grid
+				 pad4->SetGridy();
+				 pad4->Draw();
+				 pad3->cd();
+				
+				
+				
+						
+				topquark->gALL[i]->h3->SetLineColor(a2r[yyy2r]);
+				topquark->gALL[i]->h3->SetMarkerColor(a2r[yyy2r]);
+				topquark->gALL[i]->h3->Draw("same");
+				leg2r->AddEntry(topquark->gALL[i]->h3,Form("JSF %.2f",topquark->gALL[i]->fJSF),"lep");	
+	
+				pad4->cd();
+				topquark->gALL[i]->h_ratior->SetLineColor(a2r[yyy2r]);
+				topquark->gALL[i]->h_ratior->SetMarkerColor(a2r[yyy2r]);
+				topquark->gALL[i]->h_ratior->Draw("Same");
+				//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->Draw("SAME");		
+							
+						
+					};
+
+
+
+      pad3->cd();
+      leg2r->Draw("Same");
+crbq_JSF->SaveAs((Outputfolder+"rbq_JSF.png").c_str());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TCanvas* crbq_bJSF = new TCanvas("cpbfrJSF","cpbfrJSF", 800, 10, 800, 600);
+TLegend *leg3r = new TLegend(0.7078059,0.6690754,0.8987342,0.8986966,NULL,"brNDC");
+
+Color_t a3r[10] = {kBlue, kBlack, kRed};
+int mycolor3r = 0;
+
+for(int i = 0; i < topquark->gALL.size(); i++){
+	 
+	 
+
+	
+if(fabs(topquark->gALL[i]->fbJSF - 0.96) < 0.000001)  continue; 
+if(((topquark->gALL[i]->fbJSF - 0.98)>0.000000001) && ((topquark->gALL[i]->fbJSF - 1.00)>0.000000001) &&((topquark->gALL[i]->fbJSF - 1.02)>0.000000001)) continue;	 
+
+if(fabs(topquark->gALL[i]->fmtop - 172.5) > 0.000001)  continue;
+	
+if(fabs(topquark->gALL[i]->fJSF - 1.00) > 0.000001  )continue;
+		
+			
+			
+			
+			
+			
+				crbq_bJSF->cd();
+
+				int yyyr3= mycolor3r++;
+				
+				
+				 pad3->SetBottomMargin(0.03); 
+				 pad3->SetGridx();         // Vertical grid
+			 
+				 pad3->Draw();             // Draw the upper pad: pad1
+				
+				 pad4->SetTopMargin(0.045);
+				 pad4->SetBottomMargin(0.45);
+				 pad4->SetGridx(); // vertical grid
+				 pad4->SetGridy();
+				 pad4->Draw();
+				 pad3->cd();
+				
+				
+				
+						
+				topquark->gALL[i]->h3->SetLineColor(a3r[yyyr3]);
+				topquark->gALL[i]->h3->SetMarkerColor(a3r[yyyr3]);
+				topquark->gALL[i]->h3->Draw("same");
+				leg3r->AddEntry(topquark->gALL[i]->h3,Form("bJSF %.2f",topquark->gALL[i]->fbJSF),"lep");	
+	
+				pad4->cd();
+				topquark->gALL[i]->h_ratior->SetLineColor(a3r[yyyr3]);
+				topquark->gALL[i]->h_ratior->SetMarkerColor(a3r[yyyr3]);
+				topquark->gALL[i]->h_ratior->Draw("Same");
+				//topquark->gALL[i]->tline_0->SetLineColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->SetMarkerColor(a[yyy]);
+				//topquark->gALL[i]->tline_0->Draw("SAME");		
+							
+						
+					};
+	
+
+
+      pad3->cd();
+      leg3r->Draw("Same");
+crbq_bJSF->SaveAs((Outputfolder+"rbq_bJSF.png").c_str());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ if   (Setting == "Signal+Background"){  
+   topquark->fillbg(argv[1],argv[2],gMTOP,gbJSF,gJSF);
+   topquark->bg_fit();
+   printf("%i\n",topquark->gBackground.size());
+   topquark->save_parbg(Outputfolder);
+  
+   for(int i = 0; i < topquark->gBackground.size(); i++)
+     {
+     topquark->gBackground[i]->plotbg(Form("%sBackground_JSF_%2.2f_bJSF_%3.1f",Outputfolder.c_str(),topquark->gBackground[i]->fJSF,topquark->gBackground[i]->fbJSF));
+     //topquark->gALL[i]->save(Outputfolder,Form(topquark->gALL[i]->fmtop),Form(topquark->gALL[i]->fJSF),Form(topquark->gALL[i]->fbJSF)
+     };
+   
+ } else std::cout<< "Option Background OFF"<< std::endl;
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
