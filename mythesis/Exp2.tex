@@ -1,4 +1,4 @@
-\chapter{The ATLAS Experiment at the LHC}\label{ch3}
+\chapter{The ATLAS experiment at the LHC}\label{ch3}
 
 The production of massive particles, i.e. top quarks, requires a huge amount of energy. 
 Therefore, powerful particle accelerators have been developed for the collision of high energetic initial particles. The kinetic energy of these particles has been used for the creation of new objects. Furthermore, complex experimental setups have been constructed to measure the results of those collisions and hence providing data, which is used for the reconstruction of the initial states of interesting events (e.g. $t\bar{t}$ production).
@@ -39,7 +39,7 @@ Therefore, powerful particle accelerators have been developed for the collision 
  It depends on the number of particles $N_i$ in each bunch, as well as of the total number of bunches $n_i$ in the LHC, the revolution frequency $f$ and the cross-sections $\sigma_i$ of the incoming particle bunches. $\gamma$ denotes the relativistic coefficient. Design goal for the LHC has been to achieve a peak luminosity of $O$($10^{34}$~1/cm$^2$s$^{-1}$), at a center-of-mass energy of 14~TeV~\cite{Bruning:2004ej}. For 2015/2016 at 13~TeV the peak luminosity was 1.38$\cdot$10$^{34}$~1/cm$^2$s$^{-1}$.  
  
  
-\section{The ATLAS Experiment}\label{ATLAS}
+\section{The ATLAS experiment}\label{ATLAS}
  ATLAS  is one of the two multipurpose detectors at the LHC and has obtained the dataset used in this analysis. It measures 44~m in length and 25~m in diameter and weighs around 7000~t~\cite{Aad:2008zzm}. 
  As shown by~\cref{fig:33}, it covers almost a full 4$\pi$ solid angle and has a forward-backward symmetry, which is realized by the so-called barrel around the collision center and the two end-caps. The detector is built up with an onion-shell structure, consisting of various sub-detector layers. The three main subcomponents of the ATLAS detector are:
  \begin{itemize}
@@ -63,7 +63,7 @@ The different layers of the ATLAS experiment will be briefly discussed after a s
 
 
 
-\subsubsection{The Coordinate System }\label{Coordinate}
+\subsubsection{The coordinate system }\label{Coordinate}
 The cylindrical shape of the ATLAS experiment implies the use of a common coordinate system, which has its origin at the interaction point of the initial particles. 
 The z-axis lies parallel to the LHC beam-pipe, while the  x-y plane (the so-called transverse plane)  is perpendicular to it, with the x-axis pointing inwards to the LHC center and the y-axis pointing to the surface of the earth.  Often the r-$\phi$ coordinates are used in the transverse plane.
  $\phi$ denotes the azimuthal angle, which is defined  around the beam-pipe with respect to the x-axis.
@@ -187,7 +187,7 @@ Additional trigger information in the end-cap regions is obtained by \textbf{Thi
 measure the radial coordinate of the particle track and outer strip electrodes provide the azimuthal information. The ATLAS TGCs are operating a gas combination of CO$_2$ and n-C$_5$H$_{12}$, which offer high quench capabilities.
 
 
-\section{Trigger System and Data Acquisition}
+\section{Trigger system and data acquisition}
 
 
  The amount of information produced due to the  high luminosity and large bunch-crossing rate of 40~Mhz at the LHC, makes it impossible to store all the data. Furthermore, only a fraction of all interactions result in interesting events, e.g. $t\bar{t}$ production. Therefore, the ATLAS collaboration works with a \textbf{three level trigger system}. The so-called trigger stations consist of a hardware-based Level 1 trigger (L1), the software based Level 2 trigger (L2) and the Event Filter (EF). For the second run period of the LHC (Run 2), the L2 trigger and the Event Filter are merged in  the~\text{High Level Trigger} (HLT). In order to reduce to the complexity of the system the following explanation will stick to the three levels of the trigger system. The complete trigger system is illustrated in~\cref{fig:38}. For the data storage, as well as for the further analysis, the \textbf{Worldwide LHC Computing Grid} is used.
@@ -210,12 +210,12 @@ Events that survive this selection step, are passed to the Event Filter.
 
 
 
-\subsection{Data Handling}
+\subsection{Data handling}
 
  In order to handle the storage of the huge amount of data, as well as providing the necessary computational infrastructure, e.g. for Monte Carlo simulations, the\textbf{ Worldwide LHC Computing Grid (WLCG)} has been developed. It is based on large computational facilities around the globe, which are shearing their storage capabilities and processing power. This computer network is structured into different hierarchies, where the CERN computing center has the highest, so-called  Tier-0,  rank. There are stored copies of all raw data sets. Furthermore, there are backups at eleven computer centres around the globe, which are the so-called Tier-1 centers. Moreover,  the smaller Tier-2 centers are used to store copies of selected data and to provide the necessary resources for the data analysis and the simulation of events via Monte Carlo generators. The datasets are stored in streams and reconstructed within 24h.
 
 
-\subsection{Detector Simulation}
+\subsection{Detector simulation}
 This analysis uses the template method, which is based on simulated Monte Carlo distributions. In order to compare the simulated events to measured data, a detailed simulation of the ATLAS detector has been developed by the ATLAS collaboration (see~\cite{Aad:2010ah}). 
 The detector simulation is based on the \text{Geant4}~\cite{Agostinelli:2002hh} program  and starts from the event generation. The provided output of the simulation has a format, which can be compared to the data measured with the real detector.  
 

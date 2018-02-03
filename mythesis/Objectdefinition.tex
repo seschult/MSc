@@ -1,12 +1,12 @@
-\chapter{Object Definition and Preselection}\label{ch4}
+\chapter{Object definition and preselection}\label{ch4}
 
 
 The $t\bar{t}$ pairs, produced in proton-proton collisions at the LHC, decay immediately after their creation and leave a unique signature in the detector, which allows to distinguish the interesting events from the physical background. However, the observed signature in the detector gives only hints about the decay products of the top-quark pair.
 In case of the lepton + jets channel, these decay products are electrons, muons, jets and a certain amount of missing transverse energy, corresponding to the neutrino. In order to identify these objects, one has to introduce a definition of the different physical objects, which are required for measurements. Hence, the decay products of the $t\bar{t}$ final states are connected with the quantities measured by the experiment.
 
 All definitions which are used in terms of this analysis are introduced in the following, after a short consideration of the general event topology. In addition, the used data and simulation samples are described, as well as the different background processes. Finally, the chosen event selection cuts are shown.
-\section{Physics Objects}
-\subsection{Total Event Topology}
+\section{Physics objects}
+\subsection{Total event topology}
 
 For the general reconstruction of events arising from particle collisions at the LHC, the very complex nature of the event topology and the underlying processes have to be considered.
 Additional activities in the detector make it difficult to identify specific physical objects. Furthermore, a lot of processes have a similar event structure like the one of the $t\bar{t} \rightarrow$ lepton + jets channel.  
@@ -18,7 +18,7 @@ If these interactions appear in the same bunch-crossing  as the hard interaction
       
 These additional processes, are overlaying with the interactions of interest. The reduction of pile-up contamination is a challenging task and is important not only for  a good event reconstruction, but also for the correct identification of the physical objects. 
 
-\subsection{Electron Candidates}   
+\subsection{Electron candidates}   
 Electron candidates are reconstructed with the information provided by the Electromagnetic Calorimeter (EC) and the Inner Detector (ID). The sliding-window algorithm is used to seed and reconstruct electromagnetic clusters with a deposited energy of at least 2.5~GeV~\cite{Aad:2014fxa}. The measured transverse energy in the EC, along the trajectory of the possible electron is defined as
 \begin{equation}
 	E_T= \frac{E_{cluster}}{cos(\eta)},
@@ -42,7 +42,7 @@ Nevertheless, there are leptons which can be mis-identified with the so-called p
 
 
 
-\subsection{Muon Candidates}
+\subsection{Muon candidates}
 
 At the LHC, muons are minimum-ionizing particles. The corresponding mean energy deposition in the calorimeter system is noticeable small, e.g. compared to electrons or photons. Therefore, the Muon Spectrometer (MS) at the outer regions of the ATLAS experiment was installed, for a better reconstruction of muon candidates.  In principle muons can be reconstructed at the ATLAS experiment using just the information from the MS. In this case, the particle track is obtained by the MS and further deduced towards the collision point of the protons. For this purpose, the toroidal magnetic field, which encloses the MS, bends the particle tracks.  One refers to muons that are constructed in that way as \textbf{stand alone} muons. 
 The success rate to identify muon candidates can be increased by the use of \textbf{combined} muons. For combined muons, the particles obtained with the MS are matched with tracks of the Inner Detector (ID) system, using the MuID reconstruction algorithm~\cite{Aad:2014rra}. Alternatively, one can require so-called \textbf{tagged} muons, where  promising ID tracks of possible muon candidates are searched. This tracks are than approximated towards the outer MS layers, where events  close to the extrapolated tracks  are searched. For the studies presented in this thesis, combined muons are used.
@@ -74,7 +74,7 @@ Compared to electrons and muons, which can be treated as quasi-free particles, t
 \end{figure}
 
 
-\subsubsection{Jet Reconstruction}
+\subsubsection{Jet reconstruction}
  For this analysis the jet reconstruction software FastJet 2.4.3~\cite{Cacciari:2011ma} is used to reconstruct jets formed at the electromagnetic (EM) scale from topological calorimeter cell clusters~\cite{Lampl:1099735}.  The anti-k$_T$ reconstruction algorithm~\cite{Cacciari:2008gp} is used with a radius parameter of $R$ = 0.4.
 Calorimeter cells, where the deposited energy exceeds a certain noise threshold, are grouped to topological clusters. This noise threshold is obtained from measurements of the electronic noise of the calorimeter system and simulations of the pile-up noise~\cite{Aaboud:2017jcu}. 
  The clustering is performed by the anti-k$_T$ algorithm, which starts by calculating the distance of two distinguishable particles $i$ and $j$: 
@@ -87,7 +87,7 @@ In addition to $d_{i,j}$, the distance to the beam pipe $d_{\rm i,beam}=k_{T,i}^
 
 
 
-\subsubsection{Jet Calibration }
+\subsubsection{Jet calibration }
 
  The reconstructed jets are built from calorimeter clusters obtained at a certain energy scale, determined by the deposited energy. The jet energy scale (JES) is calibrated in several consecutive steps derived from a combination of MC-based simulation and in-situ methods. The calorimeter jets are obtained at the electromagnetic (EM) scale and corrected in their orientation. Therefore, the four-momenta of the jets are orientated to point towards the primary vertex of the hard interaction, which results in an improvement of the $\eta$ resolution.  In the next calibration step, pile-up effects are removed, by the subtraction via the area-based $p_T$ method~\cite{Cacciari:2007fd} and  residual corrections are applied to the  jets in data.  The  average momentum contamination from pile-up is subtracted from each jet momentum, depending on the jet area $A$. The average $p_T$ per event density in the $\eta-\phi$ plane is calculated and for each jet taken to be $p_T/A$, using ghost particles. The measurement of the number of ghost particles,  allows to determine the size of the  jet area $A$.~\cite{Aaboud:2017jcu}
 
@@ -128,7 +128,7 @@ A $b$-tagging working point (WP) is chosen by constraining $w$ via specific cuts
  
 
 
-\subsection{Missing Transverse  Energy}\label{ET}
+\subsection{Missing transverse  energy}\label{ET}
 
 The transfers energy ($E_T$)  is determined with the cell structure of the calorimeter system.  For a physical object, the transverse energy can be calculated with:
 \begin{equation}
@@ -149,7 +149,7 @@ The missing transverse energy is built per event.
 
 
 
-\section{Data and Monte Carlo Samples}\label{DATA}
+\section{Data and Monte Carlo samples}\label{DATA}
 
 This analysis is based on the data taken in 2016 with the ATLAS detector, obtained from  $pp$ collisions at a center-of-mass energy of $\sqrt{s}$= 13~TeV, with a corresponding luminosity of 33~fb$^{-1}$. For several purposes of this analysis, e.g. the simulation of the different signal and background contributions or the estimation of interactions with the detector material, Monte Carlo generators (MC) are used. 
 
@@ -180,33 +180,33 @@ the resummation of next-to-next-to-leading logarithmic soft gluon terms~\cite{Ca
 
 
 
-\section{Event Preselection and Background Contributions}\label{selection}
+\section{Event preselection and background contributions}\label{selection}
  One of the most difficult tasks at modern hadron collider experiments is the handling of the large amount of data and the selection of the interesting physical processes. Therefore, analysis dependent quality criteria are applied, taking the characteristic event topology of the  $t\bar{t}\rightarrow$ lepton + jets into account. In addition, the chosen selection cuts try to minimize the background contamination of the signal region. 
  
  In the following, the different background contributions for the lepton + jets channel will be discussed, before the applied event triggers and selection cuts are presented together with the control distributions of the observables.
  
  
- \subsection{Single Top Background}
+ \subsection{Single top background}
  
  In the phase space of the $t\bar{t} \rightarrow$lepton + jets decay, several background processes contribute to the measurement.  Those background events are able to pass certain selection criteria and can be misidentified as signal events.
  
  Single-top events are a major background process, due to the presence of the top-quarks. They can lead to a simultaneous event structure and  event kinematic as of the lepton + jets  decay channel. However, there is a noticeable mass dependence of single-top events, which is the reason why it has been added to the signal region in the previous analyses~\cite{ATLAS-CONF-2017-071, Aad:2015nba}. Nevertheless, in terms of this thesis, single top events are referred to as background, due to missing MC samples for the different mass points\footnote{Only the nominal sample for 172.5~GeV is available for single-top production.}. 
  
- \subsection{Diboson Background}
+ \subsection{Diboson background}
  The top-quark mass measurement is also affected by final states with two $W$-bosons, two $Z$-bosons or the combination of a $W$- and a $Z$-boson.  If one of the two bosons decays leptonically, while the other one decays into hadrons, this can lead to the mis-identification with the detector signature of the lepton + jets final state.  
  
 
- \subsection{$W$ + Jets Background}
+ \subsection{$W$ + jets background}
 The main background source  are $W$ + jets events. This event type arises from $W$-boson production together with strongly interacting particles (quarks and gluons), which end up as additional jets. Particular events, where the $W$-boson decays leptonically, can lead to detector signatures, which can easily be mis-identified with $t\bar{t} \rightarrow$ lepton + jets events.
 
 
 
- \subsection{$Z$ + Jets Background} 
+ \subsection{$Z$ + jets background} 
 In addition to the $W$ + jets background, there are also events with a leptonically decaying $Z$-boson, which, together with hadronically decaying particles, have a similar detector signature as the  $t\bar{t} \rightarrow$ lepton + jets final state. As shown in the following, the $Z$ + jets background is about one magnitude smaller than the $W$ + jets background and can be easily suppressed by requesting exactly one charged lepton and $b$-jets.
 
 
 
-\subsection{Multijet/Non-Prompt Lepton Background}
+\subsection{Multijet/non-prompt lepton background}
 QCD-multijet events are final states which do not contain any primary leptons. They only arise from hard-scattering processes of strongly interacting particles (quarks and gluons). However, some hadronic jets can be misidentified as electrons, due to the energy deposition in the Electromagnetic Calorimeter. One refers to these jets as fake-lepton background. Furthermore, weak hadron decays inside of an hadronic jet, lead to the identification of further leptons, which might be able to pass the isolation criteria (non-prompt leptons).
 The consideration of the non-prompt/fake lepton background is very important, due to the fact that this contributions can be mis-identified with the charged isolated leptons arising from the $W$-boson decay of the $t\bar{t}$ final state.
 
@@ -214,11 +214,11 @@ The background has not been estimated yet and will not be included in this thesi
  
  
 
- \subsection{Event Triggering}
+ \subsection{Event triggering}
  In context of this measurement, events containing single leptons (electrons and muons) are selected using different single lepton triggers.
  For each case of the $t\bar{t} \rightarrow$ lepton + jets decay, several  trigger options for the single leptons are available, which do not take any further hadron information into account. The used trigger setup is given in~\cref{tab:trigr2}.
  
- \clearpage
+
  \begin{center}
  	\captionof{table}{Trigger setup for electrons and muons. }\label{tab:trigr2}
  	
@@ -251,7 +251,7 @@ The background has not been estimated yet and will not be included in this thesi
  
  
  
-\subsection{Preselection Criteria} 
+\subsection{Preselection criteria} 
 In order to obtain the $t\bar{t} \rightarrow$ lepton + jets events and perform an efficient separation from background, one uses the fact that each of the interesting events can be identified by its characteristic decay topology, with  two $b$-jets and at least two light jets. Furthermore, the detector signature contains one charged isolated lepton and the corresponding neutrino, which can only be registered by considering the missing transverse energy $E^{miss}_T$. Preselection cuts are applied to obtain events with these criteria using a similar selection as for the previous analyses for 7~TeV~\cite{Aad:2015nba} and 8~TeV~\cite{ATLAS-CONF-2017-071}:
 
 
