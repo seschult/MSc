@@ -123,19 +123,18 @@ The key ingredients for the combined parametrization of the templates are the li
 p_i = a_{\rm 0i} + a_{\rm 1i}m_{\text{top}} + a_{\rm 2i}(\text{JSF}-1.00) + a_{\rm 3i}(\text{bJSF}-1.00) .
 \end{equation}
 For the \rm reconstructed $W$-boson mass, the parametrization  is adopted by neglecting the terms which depend  on  $m_{\text{top}}$ and bJSF. The used functional forms are exactly the same as used for the parametrization of the single templates.  With the introduced sub-parametrization  the $\chi^2$ for each single template (for all mass points, all JSFs and all bJSFs) is calculated:
-\begin{equation}
-\chi^2_k = \sum_{n} \left( \frac{h_{k}(x_n)-f_{k}(x_n)}{\sigma_{x_n}}\right)^2.
+\begin{equation}\label{chi1}
+\chi^2_k^j = \sum_{n} \left( \frac{h_n^{k}-f^{k}_n(x_n)}{\sigma_n^{k}\right)^2.
 \end{equation}
-The different samples are denoted by $k$ (e.g. $m_{\text{top}}^{\rm reco}$ with $m_{\text{top}}$ = 172.5~GeV, JSF = 1.00 and bJSF = 1.00). The sum runs over all entries $n$ of the corresponding histogram $h_k$. $x_n$ denotes the number of events of $h_k$ at entry $n$. $\sigma(x_n)$ is the corresponding error obtained for $x_n$.  After the $\chi^2$ for each single distribution is calculated, a total $\chi^{2~j}_{\text{tot}}$ for  each estimator distribution  ( j = $m_{\text{top}}^{\rm reco}$, $m_{\text{W}}^{\rm reco}$ and $R_{\text{bq}}^{\rm reco}$) is summed up:
+The different samples of the three distributions ( $j$= $m_{\text{top}}^{\rm reco}$, $m_{\text{W}}^{\rm reco}$ and $R_{\text{bq}}^{\rm reco}$) are denoted by the tuple $k$ = ($m_{\text{top}}$, JSF, bJSF). The sum runs over all bins ($n$) of the corresponding histogram and $x_n$ denotes the positon of the nth bin center. $h_n^{k}$ is the value of the nth bin at $x_n$.
+In the next step, the $\chi^2$ of the single distributions are summed up. The results are three total $\chi^{2~j}_{\text{tot}}$ for  each estimator $j$, which can be expressd as:
 \begin{equation}
-\chi^2_{\text{tot}}^{\rm j} = \sum_{\rm i}  \chi^2_{\rm i}^{\rm j}.
+\chi^2_{\text{tot}}^{\rm j} = \sum_{\rm k}  \chi^2_{\rm k}^{\rm j}.
 \end{equation} 
-These  are finally minimized with the \textsc{MINUIT} framework~\cite{James:2004xla} and one ends up with 36 parameters in total, for each of the three distributions.
+Here  the sum runs over all samples of one estimator  which are denoted by the tuples $k$, as in~\cref{chi1}. 
+The total $\chi^{2}$ are finally minimized with the \textsc{MINUIT} framework~\cite{James:2004xla} and one ends up with 36 parameters in total for each of the three distributions.
 
-
-
-
- The template fit for each distribution is plotted, together with the corresponding fit functions as shown e.g. in~\cref{fig:mtoptemp1,fig:mtoptemp2,fig:mtoptemp3}. It is important to keep in mind, that the displayed parametrizations are not obtained via a single fit of each distribution. Instead the results show the parametrization of the individual distributions under the simultaneous fit in $m_{\text{top}}$, JSF and bJSF. In this case, the parameters of the different templates are correlated. Further parametrized templates are shown in~\cref{sec:apptem}. The individual templates show, that the chosen fit functions describe the distributions well, which is in good agreement with the observations from the previous measurements.
+Furthermore, the template fit for each distribution is plotted, together with the corresponding fit functions as shown e.g in~\cref{fig:mtoptemp1,fig:mtoptemp2,fig:mtoptemp3}. It is important to keep in mind, that the displayed parametrizations are not obtained via a single fit of each distribution. Instead the results show the parametrization of the individual distributions under the simultaneous fit in $m_{\text{top}}$, JSF and bJSF. In this case, the parameters of the different templates are correlated. Further parametrized templates are shown in~\cref{sec:apptem}. The individual templates show, that the chosen fit functions describe the distributions well, which is in good agreement with the observations from the previous measurements.
 
 For each of the three combined fits the knowledge of the dependencies on $m_{\text{top}}$, JSF and bJSF is essential, since the simultaneous parametrization is performed with~\cref{eq:lin}, under the assumption that all  are linear. 
 These assumptions have been explicitly proofed by the previous analyses~\cite{Aad:2015nba,ATLAS-CONF-2017-071}  and also by theoretical studies~\cite{Heinrich:2017bqp}. In addition to the linear fits, which are performed her, one can also argue that the linearity can be shown by the simultaneous fit itself.  If the linearity assumption is not true, one would expect to see disagreements in the description  templates by the analytical functions, e.g. for different scale factors. Furthermore, the consistency of the complete analysis and therefore also for the parametrization is here checked via closure tests (see~\cref{ct}).
@@ -161,16 +160,28 @@ for all events $i = 1,..,N$, to obtain simultaneously the top-quark mass and the
  \begin{equation}
  	P(x_1, x_2) = \frac{1}{2\pi \sigma_1 \sigma_2 \sqrt{1-\rho^2}}  e^{-\frac{1}{2(1-\rho^2)} [\frac{x_1^2}{\sigma_1^2} + \frac{x_2^2}{\sigma_2^2} - \frac{2\rho x_1 x_2}{\sigma_1 \sigma_2}]}.
  \end{equation}
-This is a two dimensional Gaussian, where the correlation between the variables are taken into account by the correlation factor $\rho$. In case of small correlations between the two variables, which results in small values for $\rho$, the last term of the distribution can be neglected and the multiplication factor of the exponent becomes -1/2. Thus the probability density can be split into to the product of two single Gaussian distributions, which reduces the complexity of the functional from.
- \input{PlotCorr}
- 
+This is a two dimensional Gaussian, where the correlation between the variables are taken into account by the correlation factor $\rho$. 
+Mathematically, the correlation coefficient is defined as:
+\begin{equation}
+\rho = \frac{E[(x_1-E[x_1])(x_2-E[x_2])]}{\sigma_{x_1}\sigma_{x_2}}.
+\end{equation}
+$E[x_1]$ stands for the expectation value of the variable $x_1$  and $\sigma_{x_1}$ for the corresponding standard deviation.
 
-In this measurement, the correlations of all three variables are displayed in~\cref{fig:1a,fig:1b}. The evaluated correlation factors are:
+In case of small correlations between the two variables, which results in small values for $\rho$, the last term of the distribution can be neglected and the multiplication factor of the exponent becomes -1/2. Thus the probability density can be split into to the product of two single Gaussian distributions, which reduces the complexity of the functional from. 
+
+
+
+
+
+ \input{PlotCorr}
+ \clearpage
+ 
+ For the determination of the correlation coefficients of this measurement,  the entries of the there estimators are plotted against each other in two dimensional plots (see~\cref{fig:1a,fig:1b}). $\rho$ is evaluated by counting the entries of this two dimensional plots. As a result one gets the three correlation factors: 
 \begin{eqnarray*}
 \rho (m_{\text{top}}^{\rm reco} - m_\text{W}^{\rm reco}) = -0.02,\hspace{0.3cm}\rho (m_{\text{top}}^{\rm reco} - R_{\text{bq}}^{\rm reco}) =0.05 \hspace{0.3cm} \text{and} \hspace{0.3cm}
 \rho (m_{\text{W}}^{\rm reco} - R_{\text{bq}}^{\rm reco}) = -0.10.\nonumber \\ 
 \end{eqnarray*}
-The observed values are sufficiently small, which allows the application of the factorization theorem. 
+Compared to the correlation values which are obtained for the previous measurements, the obtained results are of the same order. Therefore, the here presented correlations are assumed to be  sufficiently small, which allows the application of the factorization theorem. 
 
  The final likelihood function is:
 \begin{eqnarray}
@@ -252,6 +263,8 @@ For the three-dimensional fit all three variables are varied, in two dimensions,
 Results of the 1D closure tests. On the right,  $m_{\text{top}}^{\rm fit}$ is plotted vs five different $m_{\text{top}}^{\rm in}$, while  JSF and bJSF are set to 1.00. The results are obtained with 250 pseudoexperiments. In addition, the corresponding pull-widths are shown. The dashed lines represent the ideal value. All error bars correspond to statistical uncertainties. 
 }\label{closure3}
 \end{figure}
+
+
 The results of the one dimensional closure test can be seen, together with the corresponding pull-width plot (right), in~\cref{closure3}. For the linearity test on the left, only $m_{\text{top}}$ is fitted, while both scale factors are set to 1.00.  The result of the linear  fit on the left, demonstrates that the offset is not consistent with zero, but very small. The corresponding pull-width fit, however, shows a noticeable offset from unity towards larger values. Thus, the average pull-width for the different mass points is larger than one and the uncertainties are underestimated.
 In~\cref{closure2} the results for the two-dimensional fit are presented. In the top line, the closure testes are displayed for the fit of $m_{\text{top}}$ and JSF. bJSF is kept at 1.00. The second line displays the pull-widths. For the two-dimensional fit, a similar result as in one dimension is obtained. While the linearity tests of $m_{\text{top}}$ and JSF show that the offsets are not consistent with zero, but very small.  The pull-widths show that the uncertainties are underestimated.
 
