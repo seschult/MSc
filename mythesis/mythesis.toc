@@ -57,7 +57,7 @@
 \contentsline {subsubsection}{\nonumberline The single fits}{52}{section*.37}
 \contentsline {subsubsection}{\nonumberline Simultaneous template parametrization}{54}{section*.39}
 \contentsline {section}{\numberline {6.2}The unbinned maximum likelihood fit}{55}{section.6.2}
-\contentsline {section}{\numberline {6.3}Closure tests}{58}{section.6.3}
+\contentsline {section}{\numberline {6.3}Closure tests}{57}{section.6.3}
 \contentsline {chapter}{\numberline {7}Uncertainty evaluation}{63}{chapter.7}
 \contentsline {section}{\numberline {7.1}Evaluation of the systematic uncertainties}{63}{section.7.1}
 \contentsline {section}{\numberline {7.2}Modelling of the systematics}{64}{section.7.2}

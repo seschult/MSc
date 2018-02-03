@@ -174,7 +174,7 @@ In case of small correlations between the two variables, which results in small 
 
 
  \input{PlotCorr}
- \clearpage
+
  
  For the determination of the correlation coefficients of this measurement,  the entries of the there estimators are plotted against each other in two dimensional plots (see~\cref{fig:1a,fig:1b}). $\rho$ is evaluated by counting the entries of this two dimensional plots. As a result one gets the three correlation factors: 
 \begin{eqnarray*}
@@ -235,6 +235,21 @@ For the three-dimensional fit all three variables are varied, in two dimensions,
   
  Closure tests are performed for each dimension. The difference between the input and the output value of the three variables, i.e.  $m_{\text{top}}^{\rm fit}-m_{\text{top}}^{\rm in}$  (analogous for JSF and bJSF) , are  plotted vs the different input values of $m_{\text{top}}^{\rm in}$, JSF$^{\rm in}$ and bJSF$^{\rm in}$. Moreover,  a linear fit is performed, which takes the statistical uncertainties per parameter into account. The slope of the linear fit is forced to be zero. If the offset of the linear fit is consistent with zero, the result is unbiased.
  
+ \begin{figure}[h] % "[t!]" placement specifier just for this example
+ 	\centering 
+ 	\begin{subfigure}{0.37\textwidth}
+ 		\includegraphics[width=\linewidth]{Pics/{Closure_mtop_diff_250PE_1D}.pdf}
+ 		\label{fig:x1cb}
+ 	\end{subfigure}	
+ 	\begin{subfigure}{0.37\textwidth}
+ 		\includegraphics[width=\linewidth]{Pics/{Closure_mtop_pull_250PE_1D}.pdf}
+ 		\label{figx:1cb}
+ 	\end{subfigure}
+ 	\caption{ 
+ 		Results of the 1D closure tests. On the right,  $m_{\text{top}}^{\rm fit}$ is plotted vs five different $m_{\text{top}}^{\rm in}$, while  JSF and bJSF are set to 1.00. The results are obtained with 250 pseudoexperiments. In addition, the corresponding pull-widths are shown. The dashed lines represent the ideal value. All error bars correspond to statistical uncertainties. 
+ 	}\label{closure3}
+ \end{figure}
+ 
  %The consistency of the method is further check by performing cross-checks of the closure tests, i.e. the mass residual is also plotted vs JSF$^{in}$, in the 2D fit and vs bJSF$^{in}$ for the 3D case.\\
  
  
@@ -249,20 +264,7 @@ For the three-dimensional fit all three variables are varied, in two dimensions,
 
 
 
-\begin{figure}[h] % "[t!]" placement specifier just for this example
-	\centering 
-		\begin{subfigure}{0.37\textwidth}
-	\includegraphics[width=\linewidth]{Pics/{Closure_mtop_diff_250PE_1D}.pdf}
-	\label{fig:x1cb}
-\end{subfigure}	
-\begin{subfigure}{0.37\textwidth}
-	\includegraphics[width=\linewidth]{Pics/{Closure_mtop_pull_250PE_1D}.pdf}
-	\label{figx:1cb}
-\end{subfigure}
-\caption{ 
-Results of the 1D closure tests. On the right,  $m_{\text{top}}^{\rm fit}$ is plotted vs five different $m_{\text{top}}^{\rm in}$, while  JSF and bJSF are set to 1.00. The results are obtained with 250 pseudoexperiments. In addition, the corresponding pull-widths are shown. The dashed lines represent the ideal value. All error bars correspond to statistical uncertainties. 
-}\label{closure3}
-\end{figure}
+
 
 
 The results of the one dimensional closure test can be seen, together with the corresponding pull-width plot (right), in~\cref{closure3}. For the linearity test on the left, only $m_{\text{top}}$ is fitted, while both scale factors are set to 1.00.  The result of the linear  fit on the left, demonstrates that the offset is not consistent with zero, but very small. The corresponding pull-width fit, however, shows a noticeable offset from unity towards larger values. Thus, the average pull-width for the different mass points is larger than one and the uncertainties are underestimated.
