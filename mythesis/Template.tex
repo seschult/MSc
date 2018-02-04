@@ -3,7 +3,7 @@
 \label{sec:Temp1}
 %------------------------------------------------------------------------------
 
-The event selection and \rm reconstruction are the base for the final analysis step, which is required to determine the mass of the top-quark. In this final step, the template method  is adopted to determine $m_{\text{top}}$  from Monte Carlo (MC) simulated distributions of observables, which are sensitive to the mass value. These MC simulated samples are generated for different input values of $m_{\text{top}}$ and parametrized with analytical functions, which represent probability densities. These probabilities are used to determine the top-quark mass in an unbinned maximum likelihood fit.
+The event selection and \rm reconstruction are the basis for the final analysis step, which is required to determine the mass of the top-quark. In this final step, the template method  is adopted to determine $m_{\text{top}}$  from Monte Carlo (MC) simulated distributions of observables, which are sensitive to the mass value. These MC simulated samples are generated for different input values of $m_{\text{top}}$ and parametrized with analytical functions, which represent probability densities. These probabilities are used to determine the top-quark mass in an unbinned maximum likelihood fit.
 
  The template method is a standard analysis tool in high energy physics. However, there are certain issues affecting the measurement of the top-quark mass.  Hence, a unique approach has been developed and applied very successfully for the 7 and 8~TeV measurements~\cite{Aad:2015nba,ATLAS-CONF-2017-071}.
 
@@ -11,30 +11,52 @@ In the following the complete template parametrization is discussed in detail. F
 
 
 \section{3D-template method}
-The measurement of the top-quark mass with the template method, suffers from large uncertainties, which arise from the jet energy scale (JES) and the $b$-to-light jet energy scale (bJES), which is related to energy calibration of $b$-jets. The large impact of the JES uncertainties on the top mass measurement has been shown by previous top-quark mass measurements. For  the 7~TeV analysis, the JES uncertainty is with 0.58 $ \pm $ 0.11~GeV ~\cite{Aad:2015nba} one of the largest systematics, as well as for  the 8~TeV measurement, where the JES uncertainty is 0.54 $\pm$ 0.11~GeV~\cite{ATLAS-CONF-2017-071}.
 
- The basic idea to face the large jet energy scale uncertainties, is to measure the top-quark mass simultaneously with the jet energy scale factor (JSF) and the $b$-to-light jet energy scale factor (bJSF). The et energy scale factors are introduced to provide the necessary sensitivity to the jet energy scales. The simultaneous determination of these three variables allows to absorb the effects arising from energy scale variations, by making use of the multidimensionality of the fit. 
-However, in order to make use of the higher dimensionality of the fit, one needs enough statics to consider the sum in quadrature of the systematic uncertainties as small, compared to JES and bJES uncertainties~\cite{ATLAS-CONF-2017-071}. 
-
+The determination of the top-quark mass with the standard template method from simulated distributions as introduced in~\cref{Relevanz}  suffers form large uncertainties, which arise from the imperfect knowledge of the jet energy scale (JES). 
+Therefore, a two-dimensional (2D) version of the template method has been developed and successfully  successful applied  by CDF collaboration~\cite{Aaltonen:2011dr}, as well as by the ATLAS collaboration~\cite{ATLAS:2012aj}.
 
 
-The success of the three dimensional approach can be seen by the remarkable results from the 8~TeV measurement. There, the template fit is performed for one, two and three dimensions, which demonstrates the  effect of the higher dimensional fit on the corresponding uncertainties. The achieved improvement of a two dimensional fit, i.e. the determination of $m_{\text{top}}$ and JSF, compared to a one dimensional fit where only $m_{\text{top}}$ is measured, is  8.3~\% of the final error on $m_{\text{top}$~\cite{ATLAS-CONF-2017-071}.
+
+In this measurement,  the top-quark mass is determined together with a global jet energy scale factor (JSF), which is sensitive to JES. 
+While in one-dimension, where only $m_{\rm top}$ is measured, the estimator of top-quark mass is stabilised against JES variations, the 2D approach uses in-situ jet scaling~\cite{ATLAS:2012aj}. 
+JSF is a multiplicative factor, which is obtained by the deviations of the top-quark mass estimator distribution between simulation and data. The corresponding corrections, which are applied to all jets, are predicted by these observed differences and provide the sensitivity of the JSF to the JES~\cite{ATLAS:2012aj}.
+
+The simultaneous determination of the top-quark mass and the JSF allows to absorb the effects arising from the jet energy scale variations by making use of the multidimensionality of the fit and help to reduce the total systematic uncertainties and especially the systematic uncertainties which arise from the JES. In the 2D ATLAS analysis for example, the JES uncertainty could be reduced form 1.23~GeV to 0.66~GeV and the total systematics from 2.66~GeV to 2.39~GeV~\cite{ATLAS:2012aj}.  
+
+The largest systematic uncertaintes in the 2D template fit arise form the $b$-to-jet energy scale (bJES). Therefore, the 2D template approach has been extended to three-dimensional (3D) template fit for the 7~TeV~\cite{Aad:2015nba} and the 8~TeV~\cite{ATLAS-CONF-2017-071} measurement and is the base for this analysis. Equal to the JSF a $b$-to-jet energy scale factor (bJSF) is introduced, which is sensitive to bJES  and simultaneously determined with the top-quark mass and JSF. 
+ The large impact of the JES uncertainties on the top mass measurement has been shown by previous top-quark mass measurements.
+ The results of both 3D measurements demonstrate clearly the impact of the jet energy scales.
+  For  the 7~TeV analysis, the JES uncertainty is with 0.58 $ \pm $ 0.11~GeV~\cite{Aad:2015nba} one of the largest systematics, as well as for  the 8~TeV measurement, where the JES uncertainty is 0.54 $\pm$ 0.11~GeV~\cite{ATLAS-CONF-2017-071}.
+
+However,  the success of the three dimensional approach can also be  seen for example by the remarkable results from the 8~TeV measurement.  The achieved improvement of a two dimensional fit, i.e. the determination of $m_{\text{top}}$ and JSF, compared to a one dimensional fit where only $m_{\text{top}}$ is measured, is  8.3~\% of the final error on $m_{\text{top}$~\cite{ATLAS-CONF-2017-071}.
 Moreover, the additional measurement of  bJSF improves the total uncertainty about 43~\%~\cite{ATLAS-CONF-2017-071}.
- Despite these impressive results, one has to keep in mind that the situation might be different for the 13~TeV analysis and a qualified statement can only be given after the first evaluation of all uncertainties.
+ Despite these impressive results, one has to keep in mind that the situation might be different for the 13~TeV analysis and a judging statement can only be given after the first evaluation of all uncertainties.
 
- The three observables used in the analysis here have already been introduced in~\cref{ch5}.
-The first estimator is the \rm reconstructed top-quark mass $m_{\text{top}}^{\rm reco}$, which is obtained from the kinematic likelihood fit of the event \rm reconstruction.
-From the corresponding  jet permutation of the \textsc{KLFitter} output, the \rm reconstructed $W$-boson mass $m_{\text{W}}^{\rm reco}$ is used, as well as the third variable $R_{\text{bq}}^{\rm reco}$. While $m_{\text{top}}^{\rm reco} $ is determined as free parameter of the kinematic likelihood fit,  the other two are built from the original four vectors.  $R_{\text{bq}}^{\rm reco}$ is here calculated with the two $b$-tag definition. For all three of these \rm reconstructed estimators, Monte Carlo simulated distributions are generated, with an input top-quark mass value between 170.0 and 175.0~GeV. The nominal sample has a mass of 172.5~GeV. Furthermore, all of these distributions are calculated for different scale factors. 
+In order to measure the top-quark mass and both jet scale factors, estimator distributions have to be established which are sensitive to these three quantities. In this analysis, the three estimators are obtained via the event reconstruction and have already been introduced in~\cref{ch5} and are the same as for the previous measurement. 
+ 
+The first estimator is the  reconstructed top-quark mass $m_{\text{top}}^{\rm reco}$, which is obtained from the kinematic likelihood fit of the event reconstruction.
+From the corresponding  jet permutation of the \textsc{KLFitter} output, the reconstructed $W$-boson mass $m_{\text{W}}^{\rm reco}$ is used, as well as the third variable $R_{\text{bq}}^{\rm reco}$. While $m_{\text{top}}^{\rm reco} $ is determined as free parameter of the kinematic likelihood fit,  the other two are built from the original four vectors.  $R_{\text{bq}}^{\rm reco}$ is here calculated with the two $b$-tag definition. 
+
+For all three of these reconstructed estimators, Monte Carlo simulated distributions are generated, with an input top-quark mass value between 170.0 and 175.0~GeV. The nominal sample has a mass of 172.5~GeV. Furthermore, all of these distributions are calculated for different scale factors. 
 If the JSF is varied (between 0.96 and 1.04) the bJSF is set to unity and vice versa.
- In~\cref{fig:Comparison} the sensitivities of the estimator distributions to different values for $m_{\text{top}}$, JSF and bJSF are shown and compared to 
-the nominal sample (red). For each sample, only one variable is varied, while the rest are set to the nominal values, which is 172.5~GeV for $ m_{\text{top}}$ and 1.00 for both scale factors. The deviations from the nominal samples are displayed in the ratio plot below. 
-As it can be seen in~\cref{fig:mtopmtop,fig:mtopJSF,fig:mtopbJSF}, the first estimator  $m_{\text{top}}^{\rm reco}$  shows a noticeable sensitivity to all three variables, while $m_{\text{W}}^{\rm reco}$ only varies with the jet energy scale factor (JSF) (see~\cref{fig:mwmtop,fig:mwJSF,fig:mwbJSF}).  The third observable $R_{\text{bq}}^{\rm reco}$ (~\cref{fig:Rbqmtop,fig:RbqJSF,fig:RbqbJSF}), shows a weak sensitivity to the JSF variations, compared to its dependency on the $b$-to-light jet energy scale factor (bJSF). The scale factors are  multiplicative quantities and reduce or increase the number of events  passing the event selection cuts. Events with a higher scale factor, compared to the nominal one, are more likely to pass the event selection than those of samples with a lower scale factor.
 
- The displayed distributions in~\cref{fig:Comparison} are already normalized to one and parametrized with analytical functions, which are basically the sum of  Gaussians and Landau distributions. From the parametrized templates, the probability density functions for the unbinned maximum likelihood fit are constructed. 
- 
- 
+For the choice oft the three estimators is based on the sensitivities to the top-quark mass and the jet scale factors, since these are essential for this measurement.  
+ In~\cref{fig:Comparison} the sensitivities of the estimator distributions for different values for $m_{\text{top}}$, JSF and bJSF are shown and compared to 
+the nominal sample (red). For each sample, only one variable is varied, while the rest is set to the nominal values, which is 172.5~GeV for $ m_{\text{top}}$ and 1.00 for both scale factors. The deviations from the nominal samples are displayed in the ratio plot below. 
+As it can be seen in~\cref{fig:mtopmtop,fig:mtopJSF,fig:mtopbJSF}, the first estimator  $m_{\text{top}}^{\rm reco}$  shows a noticeable sensitivity to all three variables, which one expect since the jet energy scales, which are considered by jet energy scale factors, affect the measurement of the top-quark mass noticeable. 
+In the second line the sensitivities of  $m_{\text{W}}^{\rm reco}$ are displayed. As it can be seen, the reconstructed $W$-boson mass  only varies with the jet energy scale factor (JSF) (see~\cref{fig:mwmtop,fig:mwJSF,fig:mwbJSF}). This is in good agreement with the expectations, since $m_{\text{W}}^{\rm reco}$ is calculated as the invariant mass, which only takes the light-jets of the hadronically decaying $W$-boson into account. 
 
-The parametrization of the templates is one of the major tasks of this thesis. This part has been implemented completely new, based on the method of the previous measurements. 
+
+
+The third estimator distribution $R_{\text{bq}}^{\rm reco}$ (~\cref{fig:Rbqmtop,fig:RbqJSF,fig:RbqbJSF}), however, shows a weak sensitivity to JSF variations and a larger one to the variations of the bJSF. 
+The sensitivity to the bJSF is realized by the enumerator in the $R_{\text{bq}}^{\rm reco}$ definition, where the transverse momenta of the $b$-jets are included, while the scalar sum in the denominator respects the transverse momenta of the light jets of the $W$-boson.
+
+
+The scale factors are  multiplicative quantities and reduce or increase the number of events  passing the event selection cuts. Events with a higher scale factor, compared to the nominal one, are more likely to pass the event selection than those from samples with a lower scale factor. This can explains the observed shifts in the displayed distributions.
+
+ Furthermore, the displayed distributions in~\cref{fig:Comparison} are already normalized to one and parametrized with analytical functions, which are basically the sum of  Gaussians and Landau distributions
+ 
+ The parametrization of the templates is one of the major tasks of this thesis. This part has been implemented completely new, based on the method of the previous measurements. 
 
 In the following the different steps of the template parametrization are introduced together with corresponding results. If not mentioned otherwise, all shown distributions are normalized to one. 
 
@@ -43,7 +65,6 @@ In the following the different steps of the template parametrization are introdu
 \input{PlotComp}
   
   
-\clearpage  
 
 \subsubsection{The template parametrization}
 
@@ -156,7 +177,7 @@ for all events $i = 1,..,N$, to obtain simultaneously the top-quark mass and the
 
 
 
- For the illustration of the factorization theorem, one can consider a normal two dimensional probability density function of two variables $x_1$ and $x_2$:
+ For the illustration of the factorization theorem, one can consider a normal two-dimensional probability density function of two variables $x_1$ and $x_2$:
  \begin{equation}
  	P(x_1, x_2) = \frac{1}{2\pi \sigma_1 \sigma_2 \sqrt{1-\rho^2}}  e^{-\frac{1}{2(1-\rho^2)} [\frac{x_1^2}{\sigma_1^2} + \frac{x_2^2}{\sigma_2^2} - \frac{2\rho x_1 x_2}{\sigma_1 \sigma_2}]}.
  \end{equation}
