@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {4.1.3}Muon candidates}{31}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Jets}{31}{subsection.4.1.4}
 \contentsline {subsubsection}{\nonumberline Jet reconstruction}{32}{section*.24}
-\contentsline {subsubsection}{\nonumberline Jet calibration}{32}{section*.25}
+\contentsline {subsubsection}{\nonumberline Jet energy scales}{32}{section*.25}
 \contentsline {subsection}{\numberline {4.1.5}Tagging of $b$-Jets}{33}{subsection.4.1.5}
 \contentsline {subsection}{\numberline {4.1.6}Missing transverse energy}{34}{subsection.4.1.6}
 \contentsline {section}{\numberline {4.2}Data and Monte Carlo samples}{34}{section.4.2}
@@ -59,9 +59,9 @@
 \contentsline {section}{\numberline {6.2}The unbinned maximum likelihood fit}{55}{section.6.2}
 \contentsline {section}{\numberline {6.3}Closure tests}{57}{section.6.3}
 \contentsline {chapter}{\numberline {7}Uncertainty evaluation}{63}{chapter.7}
-\contentsline {section}{\numberline {7.1}Evaluation of the systematic uncertainties}{63}{section.7.1}
+\contentsline {section}{\numberline {7.1}Evaluation of the systematics}{63}{section.7.1}
 \contentsline {section}{\numberline {7.2}Modelling of the systematics}{64}{section.7.2}
-\contentsline {section}{\numberline {7.3}Evaluated systematics}{65}{section.7.3}
+\contentsline {section}{\numberline {7.3}Obtained systematics}{65}{section.7.3}
 \contentsline {chapter}{\numberline {8}Summary and outlook}{69}{chapter.8}
 \contentsline {chapter}{\nonumberline Bibliography}{71}{chapter*.47}
 \contentsline {chapter}{\numberline {A}KLFitter reconstruction}{81}{appendix.A}

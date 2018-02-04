@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.18)  3 FEB 2018 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.18)  4 FEB 2018 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4707,16 +4707,16 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 [32 <./Pics/cp4/41.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 103.
+(hyperref)                removing `math shift' on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 103.
+(hyperref)                removing `math shift' on input line 106.
 
-<Pics/btag.png, id=869, 426.59375pt x 316.18124pt>
+<Pics/btag.png, id=870, 426.59375pt x 316.18124pt>
 File: Pics/btag.png Graphic file (type png)
  <use Pics/btag.png>
-Package pdftex.def Info: Pics/btag.png used on input line 111.
+Package pdftex.def Info: Pics/btag.png used on input line 114.
 (pdftex.def)             Requested size: 225.79298pt x 167.35815pt.
 
 
@@ -4735,51 +4735,8 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 141.
+(scrbook)              by `\mathrm ' on input line 144.
 
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 161.
-
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 161.
-
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 161.
-
-[34 <./Pics/btag.png>]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4795,29 +4752,69 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 164.
 
 
-Underfull \vbox (badness 1292) has occurred while \output is active []
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 164.
 
- [35]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 164.
+
+[34 <./Pics/btag.png>]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 167.
+
+[35]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 199.
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 199.
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 204.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 204.
+(hyperref)                removing `math shift' on input line 207.
 
 [36]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 223.
+(caption)                particular \caption on input line 226.
 See the caption package documentation for explanation.
 
 
@@ -4832,7 +4829,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4846,7 +4843,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4860,7 +4857,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4874,7 +4871,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4888,7 +4885,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4902,7 +4899,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4916,7 +4913,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4930,7 +4927,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4944,7 +4941,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 264.
+(scrbook)              by `\mathrm ' on input line 267.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -4958,7 +4955,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 266.
+(scrbook)              by `\mathrm ' on input line 269.
 
 [37])
 \openout2 = `Reco.aux'.
@@ -4979,7 +4976,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
-<Pics/cp5/51.png, id=970, 4200.69376pt x 3632.57124pt>
+<Pics/cp5/51.png, id=972, 4200.69376pt x 3632.57124pt>
 File: Pics/cp5/51.png Graphic file (type png)
  <use Pics/cp5/51.png>
 Package pdftex.def Info: Pics/cp5/51.png used on input line 10.
@@ -5985,7 +5982,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 2.
 
 ) [42] (./Plots1.tex
-<ControlPlots_emujets_2016_4incl_2incl/jet_n_emujets_2016.png, id=1015, 718.685
+<ControlPlots_emujets_2016_4incl_2incl/jet_n_emujets_2016.png, id=1017, 718.685
 pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet_n_emujets_2016.png Graphic file
  (type png)
@@ -5995,7 +5992,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet_n_emujets_20
 16.png used on input line 4.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/nBTags_emujets_2016.png, id=1016, 718.68
+<ControlPlots_emujets_2016_4incl_2incl/nBTags_emujets_2016.png, id=1018, 718.68
 5pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/nBTags_emujets_2016.png Graphic fil
 e (type png)
@@ -6005,7 +6002,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/nBTags_emujets_2
 016.png used on input line 9.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/met_plus_mtw_emujets_2016.pdf, id=1017, 
+<ControlPlots_emujets_2016_4incl_2incl/met_plus_mtw_emujets_2016.pdf, id=1019, 
 569.12625pt x 692.5875pt>
 File: ControlPlots_emujets_2016_4incl_2incl/met_plus_mtw_emujets_2016.pdf Graph
 ic file (type pdf)
@@ -6044,7 +6041,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 15.
 
 
-<ControlPlots_emujets_2016_4incl_2incl/mtw_emujets_2016.png, id=1018, 718.685pt
+<ControlPlots_emujets_2016_4incl_2incl/mtw_emujets_2016.png, id=1020, 718.685pt
  x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/mtw_emujets_2016.png Graphic file (
 type png)
@@ -6053,7 +6050,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/mtw_emujets_2016
 .png used on input line 20.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/met_met_emujets_2016.png, id=1019, 718.6
+<ControlPlots_emujets_2016_4incl_2incl/met_met_emujets_2016.png, id=1021, 718.6
 85pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/met_met_emujets_2016.png Graphic fi
 le (type png)
@@ -6092,7 +6089,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 25.
 
 
-<ControlPlots_emujets_2016_4incl_2incl/met_phi_emujets_2016.png, id=1020, 718.6
+<ControlPlots_emujets_2016_4incl_2incl/met_phi_emujets_2016.png, id=1022, 718.6
 85pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/met_phi_emujets_2016.png Graphic fi
 le (type png)
@@ -6131,7 +6128,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 30.
 
 
-<ControlPlots_emujets_2016_4incl_2incl/el_eta_emujets_2016.png, id=1021, 718.68
+<ControlPlots_emujets_2016_4incl_2incl/el_eta_emujets_2016.png, id=1023, 718.68
 5pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/el_eta_emujets_2016.png Graphic fil
 e (type png)
@@ -6141,7 +6138,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/el_eta_emujets_2
 016.png used on input line 37.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/el_phi_emujets_2016.png, id=1022, 718.68
+<ControlPlots_emujets_2016_4incl_2incl/el_phi_emujets_2016.png, id=1024, 718.68
 5pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/el_phi_emujets_2016.png Graphic fil
 e (type png)
@@ -6151,7 +6148,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/el_phi_emujets_2
 016.png used on input line 41.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/el_pt_emujets_2016.png, id=1023, 718.685
+<ControlPlots_emujets_2016_4incl_2incl/el_pt_emujets_2016.png, id=1025, 718.685
 pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/el_pt_emujets_2016.png Graphic file
  (type png)
@@ -6161,7 +6158,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/el_pt_emujets_20
 16.png used on input line 45.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/mu_eta_emujets_2016.png, id=1024, 718.68
+<ControlPlots_emujets_2016_4incl_2incl/mu_eta_emujets_2016.png, id=1026, 718.68
 5pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/mu_eta_emujets_2016.png Graphic fil
 e (type png)
@@ -6171,7 +6168,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/mu_eta_emujets_2
 016.png used on input line 61.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/mu_phi_emujets_2016.png, id=1025, 718.68
+<ControlPlots_emujets_2016_4incl_2incl/mu_phi_emujets_2016.png, id=1027, 718.68
 5pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/mu_phi_emujets_2016.png Graphic fil
 e (type png)
@@ -6181,7 +6178,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/mu_phi_emujets_2
 016.png used on input line 65.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/mu_pt_emujets_2016.png, id=1026, 718.685
+<ControlPlots_emujets_2016_4incl_2incl/mu_pt_emujets_2016.png, id=1028, 718.685
 pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/mu_pt_emujets_2016.png Graphic file
  (type png)
@@ -6191,7 +6188,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/mu_pt_emujets_20
 16.png used on input line 69.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/jet0_eta_emujets_2016.png, id=1027, 718.
+<ControlPlots_emujets_2016_4incl_2incl/jet0_eta_emujets_2016.png, id=1029, 718.
 685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet0_eta_emujets_2016.png Graphic f
 ile (type png)
@@ -6201,7 +6198,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet0_eta_emujets
 _2016.png used on input line 75.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/jet1_eta_emujets_2016.png, id=1028, 718.
+<ControlPlots_emujets_2016_4incl_2incl/jet1_eta_emujets_2016.png, id=1030, 718.
 685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet1_eta_emujets_2016.png Graphic f
 ile (type png)
@@ -6211,7 +6208,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet1_eta_emujets
 _2016.png used on input line 79.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/jet2_eta_emujets_2016.png, id=1029, 718.
+<ControlPlots_emujets_2016_4incl_2incl/jet2_eta_emujets_2016.png, id=1031, 718.
 685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet2_eta_emujets_2016.png Graphic f
 ile (type png)
@@ -6221,7 +6218,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet2_eta_emujets
 _2016.png used on input line 83.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/jet3_eta_emujets_2016.png, id=1030, 718.
+<ControlPlots_emujets_2016_4incl_2incl/jet3_eta_emujets_2016.png, id=1032, 718.
 685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet3_eta_emujets_2016.png Graphic f
 ile (type png)
@@ -6245,7 +6242,7 @@ ts_2016.png> <./ControlPlots_emujets_2016_4incl_2incl/jet0_eta_emujets_2016.png
 > <./ControlPlots_emujets_2016_4incl_2incl/jet1_eta_emujets_2016.png> <./Contro
 lPlots_emujets_2016_4incl_2incl/jet2_eta_emujets_2016.png> <./ControlPlots_emuj
 ets_2016_4incl_2incl/jet3_eta_emujets_2016.png>]
-<ControlPlots_emujets_2016_4incl_2incl/jet0_pt_emujets_2016.png, id=1250, 718.6
+<ControlPlots_emujets_2016_4incl_2incl/jet0_pt_emujets_2016.png, id=1252, 718.6
 85pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet0_pt_emujets_2016.png Graphic fi
 le (type png)
@@ -6255,7 +6252,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet0_pt_emujets_
 2016.png used on input line 143.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/jet1_pt_emujets_2016.png, id=1251, 718.6
+<ControlPlots_emujets_2016_4incl_2incl/jet1_pt_emujets_2016.png, id=1253, 718.6
 85pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet1_pt_emujets_2016.png Graphic fi
 le (type png)
@@ -6265,7 +6262,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet1_pt_emujets_
 2016.png used on input line 147.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/jet2_pt_emujets_2016.png, id=1252, 718.6
+<ControlPlots_emujets_2016_4incl_2incl/jet2_pt_emujets_2016.png, id=1254, 718.6
 85pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet2_pt_emujets_2016.png Graphic fi
 le (type png)
@@ -6275,7 +6272,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet2_pt_emujets_
 2016.png used on input line 154.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/jet3_pt_emujets_2016.png, id=1253, 718.6
+<ControlPlots_emujets_2016_4incl_2incl/jet3_pt_emujets_2016.png, id=1255, 718.6
 85pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/jet3_pt_emujets_2016.png Graphic fi
 le (type png)
@@ -6287,7 +6284,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/jet3_pt_emujets_
 
 (./Plot2.tex
 <ControlPlots_emujets_2016_4incl_2incl//klf_window_mtop_reco_emujets_2016.png, 
-id=1261, 718.685pt x 875.27pt>
+id=1263, 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl//klf_window_mtop_reco_emujets_2016.
 png Graphic file (type png)
 
@@ -6355,7 +6352,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 
 
 <ControlPlots_emujets_2016_4incl_2incl/klf_window_mw_reco_emujets_2016.pdf, id=
-1262, 569.12625pt x 692.5875pt>
+1264, 569.12625pt x 692.5875pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_window_mw_reco_emujets_2016.pdf
  Graphic file (type pdf)
 
@@ -6421,7 +6418,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 
 
 <ControlPlots_emujets_2016_4incl_2incl/klf_window_rbq_reco_emujets_2016.png, id
-=1263, 718.685pt x 875.27pt>
+=1265, 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_window_rbq_reco_emujets_2016.pn
 g Graphic file (type png)
 
@@ -6488,7 +6485,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 17.
 
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_LL_emujets_2016.png, id=1264, 718.68
+<ControlPlots_emujets_2016_4incl_2incl/klf_LL_emujets_2016.png, id=1266, 718.68
 5pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_LL_emujets_2016.png Graphic fil
 e (type png)
@@ -6503,7 +6500,7 @@ Underfull \hbox (badness 3930) in paragraph at lines 25--25
  []
 
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_E_emujets_2016.png, id=1265, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_E_emujets_2016.png, id=1267, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_E_emujets_2016.png Graph
 ic file (type png)
@@ -6513,7 +6510,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_E_emu
 jets_2016.png used on input line 28.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_eta_emujets_2016.png, id=1266
+<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_eta_emujets_2016.png, id=1268
 , 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_eta_emujets_2016.png Gra
 phic file (type png)
@@ -6523,7 +6520,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_eta_e
 mujets_2016.png used on input line 33.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_phi_emujets_2016.png, id=1267
+<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_phi_emujets_2016.png, id=1269
 , 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_phi_emujets_2016.png Gra
 phic file (type png)
@@ -6533,7 +6530,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_phi_e
 mujets_2016.png used on input line 40.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_pt_emujets_2016.png, id=1268,
+<ControlPlots_emujets_2016_4incl_2incl/klf_topHad_pt_emujets_2016.png, id=1270,
  718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_pt_emujets_2016.png Grap
 hic file (type png)
@@ -6543,7 +6540,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_topHad_pt_em
 ujets_2016.png used on input line 45.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topLEP_E_emujets_2016.png, id=1269, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_topLEP_E_emujets_2016.png, id=1271, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topLEP_E_emujets_2016.png Graph
 ic file (type png)
@@ -6610,7 +6607,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 53.
 
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_eta_emujets_2016.png, id=1270
+<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_eta_emujets_2016.png, id=1272
 , 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topLep_eta_emujets_2016.png Gra
 phic file (type png)
@@ -6626,7 +6623,7 @@ Underfull \hbox (badness 1286) in paragraph at lines 63--63
  []
 
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_phi_emujets_2016.png, id=1271
+<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_phi_emujets_2016.png, id=1273
 , 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topLep_phi_emujets_2016.png Gra
 phic file (type png)
@@ -6648,7 +6645,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_topLep_eta_e
 mujets_2016.png used on input line 71.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_pt_emujets_2016.png, id=1272,
+<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_pt_emujets_2016.png, id=1274,
  718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topLep_pt_emujets_2016.png Grap
 hic file (type png)
@@ -6658,7 +6655,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_topLep_pt_em
 ujets_2016.png used on input line 80.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_m_emujets_2016.png, id=1273, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_topLep_m_emujets_2016.png, id=1275, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_topLep_m_emujets_2016.png Graph
 ic file (type png)
@@ -6673,7 +6670,7 @@ Underfull \hbox (badness 1371) in paragraph at lines 85--85
  []
 
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_E_emujets_2016.png, id=1274, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_E_emujets_2016.png, id=1276, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_E_emujets_2016.png Graphi
 c file (type png)
@@ -6683,7 +6680,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_E_emuj
 ets_2016.png used on input line 88.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_eta_emujets_2016.png, id=1275,
+<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_eta_emujets_2016.png, id=1277,
  718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_eta_emujets_2016.png Grap
 hic file (type png)
@@ -6693,7 +6690,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_eta_em
 ujets_2016.png used on input line 94.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_phi_emujets_2016.png, id=1276,
+<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_phi_emujets_2016.png, id=1278,
  718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_phi_emujets_2016.png Grap
 hic file (type png)
@@ -6703,7 +6700,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_phi_em
 ujets_2016.png used on input line 99.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_pt_emujets_2016.png, id=1277, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_pt_emujets_2016.png, id=1279, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_pt_emujets_2016.png Graph
 ic file (type png)
@@ -6939,7 +6936,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 31.
 
 (./PlotComp.tex [50]
-<Pics/PlotCombi/mtop_mtop.png, id=1364, 798.985pt x 574.145pt>
+<Pics/PlotCombi/mtop_mtop.png, id=1366, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/mtop_mtop.png Graphic file (type png)
 
 <use Pics/PlotCombi/mtop_mtop.png>
@@ -7030,7 +7027,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 10.
 
-<Pics/PlotCombi/mtop_JSF.png, id=1365, 798.985pt x 574.145pt>
+<Pics/PlotCombi/mtop_JSF.png, id=1367, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/mtop_JSF.png Graphic file (type png)
 
 <use Pics/PlotCombi/mtop_JSF.png>
@@ -7093,7 +7090,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 15.
 
-<Pics/PlotCombi/mtop_bJSF.png, id=1366, 798.985pt x 574.145pt>
+<Pics/PlotCombi/mtop_bJSF.png, id=1368, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/mtop_bJSF.png Graphic file (type png)
 
 <use Pics/PlotCombi/mtop_bJSF.png>
@@ -7156,7 +7153,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 20.
 
-<Pics/PlotCombi/mw_mtop.png, id=1367, 798.985pt x 574.145pt>
+<Pics/PlotCombi/mw_mtop.png, id=1369, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/mw_mtop.png Graphic file (type png)
 
 <use Pics/PlotCombi/mw_mtop.png>
@@ -7247,7 +7244,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 24.
 
-<Pics/PlotCombi/mw_JSF.png, id=1368, 798.985pt x 574.145pt>
+<Pics/PlotCombi/mw_JSF.png, id=1370, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/mw_JSF.png Graphic file (type png)
 
 <use Pics/PlotCombi/mw_JSF.png>
@@ -7310,7 +7307,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 29.
 
-<Pics/PlotCombi/mw_bJSF.png, id=1369, 798.985pt x 574.145pt>
+<Pics/PlotCombi/mw_bJSF.png, id=1371, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/mw_bJSF.png Graphic file (type png)
 
 <use Pics/PlotCombi/mw_bJSF.png>
@@ -7373,7 +7370,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 34.
 
-<Pics/PlotCombi/rbq_mtop.png, id=1370, 798.985pt x 574.145pt>
+<Pics/PlotCombi/rbq_mtop.png, id=1372, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/rbq_mtop.png Graphic file (type png)
 
 <use Pics/PlotCombi/rbq_mtop.png>
@@ -7464,7 +7461,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 38.
 
-<Pics/PlotCombi/rbq_JSF.png, id=1371, 798.985pt x 574.145pt>
+<Pics/PlotCombi/rbq_JSF.png, id=1373, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/rbq_JSF.png Graphic file (type png)
 
 <use Pics/PlotCombi/rbq_JSF.png>
@@ -7527,7 +7524,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 43.
 
-<Pics/PlotCombi/rbq_bJSF.png, id=1372, 798.985pt x 574.145pt>
+<Pics/PlotCombi/rbq_bJSF.png, id=1374, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/rbq_bJSF.png Graphic file (type png)
 
 <use Pics/PlotCombi/rbq_bJSF.png>
@@ -8078,7 +8075,7 @@ I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-(./Linear.tex <Pics/Linear/Lin0_d0_p2_n.png, id=1388, 1501.61pt x 975.645pt>
+(./Linear.tex <Pics/Linear/Lin0_d0_p2_n.png, id=1390, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p2_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p2_n.png>
@@ -8113,7 +8110,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 7.
 
-<Pics/Linear/Lin0_d1_p1_n.png, id=1389, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p1_n.png, id=1391, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p1_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p1_n.png>
@@ -8148,7 +8145,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 12.
 
-<Pics/Linear/Lin0_d2_p3_n.png, id=1390, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p3_n.png, id=1392, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p3_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p3_n.png>
@@ -8555,7 +8552,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 195.
 
 [54] (./Temp2.tex
-<Pics/Para/172.501.001.00mtop.png, id=1418, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.00mtop.png, id=1420, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.00mtop.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.00mtop.png>
@@ -8563,14 +8560,14 @@ Package pdftex.def Info: Pics/Para/172.501.001.00mtop.png used on input line 8.
 
 (pdftex.def)             Requested size: 203.21231pt x 146.02394pt.
 
-<Pics/Para/172.501.001.00mw.png, id=1419, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.00mw.png, id=1421, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.00mw.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.00mw.png>
 Package pdftex.def Info: Pics/Para/172.501.001.00mw.png used on input line 13.
 (pdftex.def)             Requested size: 203.21231pt x 146.02394pt.
 
-<Pics/Para/172.501.001.00rbq.png, id=1420, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.00rbq.png, id=1422, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.00rbq.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.00rbq.png>
@@ -8579,21 +8576,21 @@ Package pdftex.def Info: Pics/Para/172.501.001.00rbq.png used on input line 19.
 (pdftex.def)             Requested size: 203.21231pt x 146.02394pt.
 ) [55 <./Pics/Para/172.501.001.00mtop.png> <./Pics/Para/172.501.001.00mw.png> <
 ./Pics/Para/172.501.001.00rbq.png>]
-(./PlotCorr.tex <Pics/PlotCombi/mtopmw.png, id=1426, 798.985pt x 574.145pt>
+(./PlotCorr.tex <Pics/PlotCombi/mtopmw.png, id=1428, 798.985pt x 574.145pt>
 File: Pics/PlotCombi/mtopmw.png Graphic file (type png)
 
 <use Pics/PlotCombi/mtopmw.png>
 Package pdftex.def Info: Pics/PlotCombi/mtopmw.png used on input line 6.
 (pdftex.def)             Requested size: 180.63162pt x 129.79906pt.
 
-<Pics/PlotCombi/mtopRbq.png, id=1427, 819.06pt x 594.22pt>
+<Pics/PlotCombi/mtopRbq.png, id=1429, 819.06pt x 594.22pt>
 File: Pics/PlotCombi/mtopRbq.png Graphic file (type png)
 
 <use Pics/PlotCombi/mtopRbq.png>
 Package pdftex.def Info: Pics/PlotCombi/mtopRbq.png used on input line 11.
 (pdftex.def)             Requested size: 180.63162pt x 131.04614pt.
 
-<Pics/PlotCombi/mwRbq2.png, id=1428, 819.06pt x 594.22pt>
+<Pics/PlotCombi/mwRbq2.png, id=1430, 819.06pt x 594.22pt>
 File: Pics/PlotCombi/mwRbq2.png Graphic file (type png)
 
 <use Pics/PlotCombi/mwRbq2.png>
@@ -9088,7 +9085,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 236.
 
-<Pics/Closure_mtop_diff_250PE_1D.pdf, id=1447, 569.12625pt x 452.69125pt>
+<Pics/Closure_mtop_diff_250PE_1D.pdf, id=1449, 569.12625pt x 452.69125pt>
 File: Pics/Closure_mtop_diff_250PE_1D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_mtop_diff_250PE_1D.pdf>
@@ -9096,7 +9093,7 @@ Package pdftex.def Info: Pics/Closure_mtop_diff_250PE_1D.pdf used on input line
  241.
 (pdftex.def)             Requested size: 167.0846pt x 132.90036pt.
 
-<Pics/Closure_mtop_pull_250PE_1D.pdf, id=1448, 569.12625pt x 452.69125pt>
+<Pics/Closure_mtop_pull_250PE_1D.pdf, id=1450, 569.12625pt x 452.69125pt>
 File: Pics/Closure_mtop_pull_250PE_1D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_mtop_pull_250PE_1D.pdf>
@@ -9285,7 +9282,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 
 [58 <./Pics/Closure_mtop_diff_250PE_1D.pdf, page is rotated 90 degrees> <./Pics
 /Closure_mtop_pull_250PE_1D.pdf, page is rotated 90 degrees>]
-<Pics/Closure_mtop_diff_250PE_2D.pdf, id=1546, 569.12625pt x 452.69125pt>
+<Pics/Closure_mtop_diff_250PE_2D.pdf, id=1548, 569.12625pt x 452.69125pt>
 File: Pics/Closure_mtop_diff_250PE_2D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_mtop_diff_250PE_2D.pdf>
@@ -9293,7 +9290,7 @@ Package pdftex.def Info: Pics/Closure_mtop_diff_250PE_2D.pdf used on input line
  277.
 (pdftex.def)             Requested size: 158.05785pt x 125.72346pt.
 
-<Pics/Closure_jsf_diff_250PE_2D.pdf, id=1547, 569.12625pt x 452.69125pt>
+<Pics/Closure_jsf_diff_250PE_2D.pdf, id=1549, 569.12625pt x 452.69125pt>
 File: Pics/Closure_jsf_diff_250PE_2D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_jsf_diff_250PE_2D.pdf>
@@ -9301,7 +9298,7 @@ Package pdftex.def Info: Pics/Closure_jsf_diff_250PE_2D.pdf used on input line
 282.
 (pdftex.def)             Requested size: 158.05785pt x 125.72346pt.
 
-<Pics/Closure_mtop_pull_250PE_2D.pdf, id=1548, 569.12625pt x 452.69125pt>
+<Pics/Closure_mtop_pull_250PE_2D.pdf, id=1550, 569.12625pt x 452.69125pt>
 File: Pics/Closure_mtop_pull_250PE_2D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_mtop_pull_250PE_2D.pdf>
@@ -9309,7 +9306,7 @@ Package pdftex.def Info: Pics/Closure_mtop_pull_250PE_2D.pdf used on input line
  287.
 (pdftex.def)             Requested size: 158.05785pt x 125.72346pt.
 
-<Pics/Closure_jsf_pull_250PE_2D.pdf, id=1549, 569.12625pt x 452.69125pt>
+<Pics/Closure_jsf_pull_250PE_2D.pdf, id=1551, 569.12625pt x 452.69125pt>
 File: Pics/Closure_jsf_pull_250PE_2D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_jsf_pull_250PE_2D.pdf>
@@ -9335,7 +9332,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 /Closure_jsf_diff_250PE_2D.pdf, page is rotated 90 degrees> <./Pics/Closure_mto
 p_pull_250PE_2D.pdf, page is rotated 90 degrees> <./Pics/Closure_jsf_pull_250PE
 _2D.pdf, page is rotated 90 degrees>] (./closure1.tex [60]
-<Pics/Closure_mtop_diff_250PE_3D.pdf, id=1735, 569.12625pt x 452.69125pt>
+<Pics/Closure_mtop_diff_250PE_3D.pdf, id=1737, 569.12625pt x 452.69125pt>
 File: Pics/Closure_mtop_diff_250PE_3D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_mtop_diff_250PE_3D.pdf>
@@ -9343,7 +9340,7 @@ Package pdftex.def Info: Pics/Closure_mtop_diff_250PE_3D.pdf used on input line
  9.
 (pdftex.def)             Requested size: 167.0846pt x 132.90036pt.
 
-<Pics/Closure_jsf_diff_250PE_3D.pdf, id=1736, 569.12625pt x 452.69125pt>
+<Pics/Closure_jsf_diff_250PE_3D.pdf, id=1738, 569.12625pt x 452.69125pt>
 File: Pics/Closure_jsf_diff_250PE_3D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_jsf_diff_250PE_3D.pdf>
@@ -9351,7 +9348,7 @@ Package pdftex.def Info: Pics/Closure_jsf_diff_250PE_3D.pdf used on input line
 14.
 (pdftex.def)             Requested size: 167.0846pt x 132.90036pt.
 
-<Pics/Closure_bjsf_diff_250PE_3D.pdf, id=1737, 569.12625pt x 452.69125pt>
+<Pics/Closure_bjsf_diff_250PE_3D.pdf, id=1739, 569.12625pt x 452.69125pt>
 File: Pics/Closure_bjsf_diff_250PE_3D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_bjsf_diff_250PE_3D.pdf>
@@ -9359,7 +9356,7 @@ Package pdftex.def Info: Pics/Closure_bjsf_diff_250PE_3D.pdf used on input line
  19.
 (pdftex.def)             Requested size: 167.0846pt x 132.90036pt.
 
-<Pics/Closure_mtop_pull_250PE_3D.pdf, id=1738, 569.12625pt x 452.69125pt>
+<Pics/Closure_mtop_pull_250PE_3D.pdf, id=1740, 569.12625pt x 452.69125pt>
 File: Pics/Closure_mtop_pull_250PE_3D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_mtop_pull_250PE_3D.pdf>
@@ -9367,7 +9364,7 @@ Package pdftex.def Info: Pics/Closure_mtop_pull_250PE_3D.pdf used on input line
  25.
 (pdftex.def)             Requested size: 167.0846pt x 132.90036pt.
 
-<Pics/Closure_jsf_pull_250PE_3D.pdf, id=1739, 569.12625pt x 452.69125pt>
+<Pics/Closure_jsf_pull_250PE_3D.pdf, id=1741, 569.12625pt x 452.69125pt>
 File: Pics/Closure_jsf_pull_250PE_3D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_jsf_pull_250PE_3D.pdf>
@@ -9375,7 +9372,7 @@ Package pdftex.def Info: Pics/Closure_jsf_pull_250PE_3D.pdf used on input line
 30.
 (pdftex.def)             Requested size: 167.0846pt x 132.90036pt.
 
-<Pics/Closure_bjsf_pull_250PE_3D.pdf, id=1740, 569.12625pt x 452.69125pt>
+<Pics/Closure_bjsf_pull_250PE_3D.pdf, id=1742, 569.12625pt x 452.69125pt>
 File: Pics/Closure_bjsf_pull_250PE_3D.pdf Graphic file (type pdf)
 
 <use Pics/Closure_bjsf_pull_250PE_3D.pdf>
@@ -9402,7 +9399,7 @@ ted 90 degrees>]))
 Chapter 7.
 
 <OutputFolder_PE_Syst_Plots/PlotParameter_JES_Flavor_Composition_mtop_250PE_1D.
-pdf, id=2015, 569.12625pt x 467.7475pt>
+pdf, id=2017, 569.12625pt x 467.7475pt>
 File: OutputFolder_PE_Syst_Plots/PlotParameter_JES_Flavor_Composition_mtop_250P
 E_1D.pdf Graphic file (type pdf)
 
@@ -9442,7 +9439,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 
 
 <OutputFolder_PE_Syst_Plots/PlotParameter_JES_Flavor_Composition_mtop_250PE_2D.
-pdf, id=2016, 569.12625pt x 467.7475pt>
+pdf, id=2018, 569.12625pt x 467.7475pt>
 File: OutputFolder_PE_Syst_Plots/PlotParameter_JES_Flavor_Composition_mtop_250P
 E_2D.pdf Graphic file (type pdf)
 
@@ -9482,7 +9479,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 
 
 <OutputFolder_PE_Syst_Plots/PlotParameter_JES_Flavour_Com_jsf_250PE_2D.pdf, id=
-2017, 569.12625pt x 467.7475pt>
+2019, 569.12625pt x 467.7475pt>
 File: OutputFolder_PE_Syst_Plots/PlotParameter_JES_Flavour_Com_jsf_250PE_2D.pdf
  Graphic file (type pdf)
 
@@ -9597,7 +9594,7 @@ Overfull \hbox (1.34587pt too wide) in paragraph at lines 179--180
 
 ]
 Chapter 8.
-<Pics/Workflow.png, id=2203, 871.255pt x 710.655pt>
+<Pics/Workflow.png, id=2204, 871.255pt x 710.655pt>
 File: Pics/Workflow.png Graphic file (type png)
  <use Pics/Workflow.png>
 Package pdftex.def Info: Pics/Workflow.png used on input line 8.
@@ -9696,7 +9693,7 @@ or  <return>  to continue without it.
 ]
 Appendix A.
 (./KLF1.tex
-<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_m_emujets_2016.png, id=2657, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_m_emujets_2016.png, id=2659, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_m_emujets_2016.png Graphi
 c file (type png)
@@ -9706,7 +9703,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_ttbar_m_emuj
 ets_2016.png used on input line 13.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_Whad_eta_emujets_2016.png, id=2658, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_Whad_eta_emujets_2016.png, id=2660, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_Whad_eta_emujets_2016.png Graph
 ic file (type png)
@@ -9716,7 +9713,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_Whad_eta_emu
 jets_2016.png used on input line 18.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_bhad_eta_emujets_2016.png, id=2659, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_bhad_eta_emujets_2016.png, id=2661, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_bhad_eta_emujets_2016.png Graph
 ic file (type png)
@@ -9726,7 +9723,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_bhad_eta_emu
 jets_2016.png used on input line 22.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_Whad_pt_emujets_2016.png, id=2660, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_Whad_pt_emujets_2016.png, id=2662, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_Whad_pt_emujets_2016.png Graphi
 c file (type png)
@@ -9736,7 +9733,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_Whad_pt_emuj
 ets_2016.png used on input line 30.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_eta_emujets_2016.png, id=2661, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_eta_emujets_2016.png, id=2663, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_eta_emujets_2016.png Graph
 ic file (type png)
@@ -9746,7 +9743,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_eta_emu
 jets_2016.png used on input line 35.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_pt_emujets_2016.png, id=2662, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_pt_emujets_2016.png, id=2664, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_pt_emujets_2016.png Graphi
 c file (type png)
@@ -9756,7 +9753,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_Wlep_pt_emuj
 ets_2016.png used on input line 40.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_bhad_phi_emujets_2016.png, id=2665, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_bhad_phi_emujets_2016.png, id=2667, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_bhad_phi_emujets_2016.png Graph
 ic file (type png)
@@ -9766,7 +9763,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_bhad_phi_emu
 jets_2016.png used on input line 71.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_bhad_pt_emujets_2016.png, id=2666, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_bhad_pt_emujets_2016.png, id=2668, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_bhad_pt_emujets_2016.png Graphi
 c file (type png)
@@ -9776,7 +9773,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_bhad_pt_emuj
 ets_2016.png used on input line 75.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_blep_eta_emujets_2016.png, id=2667, 
+<ControlPlots_emujets_2016_4incl_2incl/klf_blep_eta_emujets_2016.png, id=2669, 
 718.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_blep_eta_emujets_2016.png Graph
 ic file (type png)
@@ -9786,7 +9783,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_blep_eta_emu
 jets_2016.png used on input line 80.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_blep_pt_emujets_2016.png, id=2668, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_blep_pt_emujets_2016.png, id=2670, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_blep_pt_emujets_2016.png Graphi
 c file (type png)
@@ -9796,7 +9793,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_blep_pt_emuj
 ets_2016.png used on input line 93.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_lq1_eta_emujets_2016.png, id=2669, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_lq1_eta_emujets_2016.png, id=2671, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_lq1_eta_emujets_2016.png Graphi
 c file (type png)
@@ -9806,7 +9803,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_lq1_eta_emuj
 ets_2016.png used on input line 98.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_lq1_pt_emujets_2016.png, id=2670, 71
+<ControlPlots_emujets_2016_4incl_2incl/klf_lq1_pt_emujets_2016.png, id=2672, 71
 8.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_lq1_pt_emujets_2016.png Graphic
  file (type png)
@@ -9816,7 +9813,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_lq1_pt_emuje
 ts_2016.png used on input line 103.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_lq2_eta_emujets_2016.png, id=2671, 7
+<ControlPlots_emujets_2016_4incl_2incl/klf_lq2_eta_emujets_2016.png, id=2673, 7
 18.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_lq2_eta_emujets_2016.png Graphi
 c file (type png)
@@ -9833,7 +9830,7 @@ Package pdftex.def Info: ControlPlots_emujets_2016_4incl_2incl/klf_lq1_pt_emuje
 ts_2016.png used on input line 116.
 (pdftex.def)             Requested size: 112.89648pt x 137.4818pt.
 
-<ControlPlots_emujets_2016_4incl_2incl/klf_lq2_pt_emujets_2016.png, id=2672, 71
+<ControlPlots_emujets_2016_4incl_2incl/klf_lq2_pt_emujets_2016.png, id=2674, 71
 8.685pt x 875.27pt>
 File: ControlPlots_emujets_2016_4incl_2incl/klf_lq2_pt_emujets_2016.png Graphic
  file (type png)
@@ -9858,14 +9855,14 @@ ontrolPlots_emujets_2016_4incl_2incl/klf_lq2_eta_emujets_2016.png> <./ControlPl
 ots_emujets_2016_4incl_2incl/klf_lq2_pt_emujets_2016.png>]
 Appendix B.
 (./Linearisi.tex
-<Pics/Linear/Lin0_d0_p0_n.png, id=2686, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p0_n.png, id=2688, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p0_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p0_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p0_n.png used on input line 7.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d0_p1_n.png, id=2687, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p1_n.png, id=2689, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p1_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p1_n.png>
@@ -9876,49 +9873,49 @@ File: Pics/Linear/Lin0_d0_p2_n.png Graphic file (type png)
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p2_n.png used on input line 9.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d0_p3_n.png, id=2688, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p3_n.png, id=2690, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p3_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p3_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p3_n.png used on input line 11.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d0_p4_n.png, id=2689, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p4_n.png, id=2691, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p4_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p4_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p4_n.png used on input line 12.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d0_p5_n.png, id=2690, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p5_n.png, id=2692, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p5_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p5_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p5_n.png used on input line 13.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d0_p6_n.png, id=2691, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p6_n.png, id=2693, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p6_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p6_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p6_n.png used on input line 15.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d0_p7_n.png, id=2692, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p7_n.png, id=2694, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p7_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p7_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p7_n.png used on input line 16.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d0_p8_n.png, id=2693, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d0_p8_n.png, id=2695, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d0_p8_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d0_p8_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d0_p8_n.png used on input line 17.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p0_n.png, id=2694, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p0_n.png, id=2696, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p0_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p0_n.png>
@@ -9929,70 +9926,70 @@ File: Pics/Linear/Lin0_d1_p1_n.png Graphic file (type png)
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p1_n.png used on input line 31.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p2_n.png, id=2695, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p2_n.png, id=2697, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p2_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p2_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p2_n.png used on input line 32.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p3_n.png, id=2696, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p3_n.png, id=2698, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p3_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p3_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p3_n.png used on input line 34.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p4_n.png, id=2697, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p4_n.png, id=2699, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p4_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p4_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p4_n.png used on input line 35.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p5_n.png, id=2698, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p5_n.png, id=2700, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p5_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p5_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p5_n.png used on input line 36.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p6_n.png, id=2699, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p6_n.png, id=2701, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p6_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p6_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p6_n.png used on input line 38.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p7_n.png, id=2700, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p7_n.png, id=2702, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p7_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p7_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p7_n.png used on input line 39.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d1_p8_n.png, id=2701, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d1_p8_n.png, id=2703, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d1_p8_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d1_p8_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d1_p8_n.png used on input line 40.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p0_n.png, id=2702, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p0_n.png, id=2704, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p0_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p0_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p0_n.png used on input line 50.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p1_n.png, id=2703, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p1_n.png, id=2705, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p1_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p1_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p1_n.png used on input line 51.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p2_n.png, id=2704, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p2_n.png, id=2706, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p2_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p2_n.png>
@@ -10003,287 +10000,287 @@ File: Pics/Linear/Lin0_d2_p3_n.png Graphic file (type png)
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p3_n.png used on input line 54.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p4_n.png, id=2705, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p4_n.png, id=2707, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p4_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p4_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p4_n.png used on input line 55.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p5_n.png, id=2706, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p5_n.png, id=2708, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p5_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p5_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p5_n.png used on input line 56.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p6_n.png, id=2707, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p6_n.png, id=2709, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p6_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p6_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p6_n.png used on input line 58.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p7_n.png, id=2708, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p7_n.png, id=2710, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p7_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p7_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p7_n.png used on input line 59.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin0_d2_p8_n.png, id=2709, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin0_d2_p8_n.png, id=2711, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin0_d2_p8_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin0_d2_p8_n.png>
 Package pdftex.def Info: Pics/Linear/Lin0_d2_p8_n.png used on input line 60.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p0_n.png, id=2710, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p0_n.png, id=2712, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p0_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p0_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p0_n.png used on input line 78.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p1_n.png, id=2711, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p1_n.png, id=2713, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p1_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p1_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p1_n.png used on input line 79.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p2_n.png, id=2712, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p2_n.png, id=2714, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p2_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p2_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p2_n.png used on input line 80.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p3_n.png, id=2713, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p3_n.png, id=2715, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p3_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p3_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p3_n.png used on input line 82.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p4_n.png, id=2714, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p4_n.png, id=2716, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p4_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p4_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p4_n.png used on input line 83.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p5_n.png, id=2715, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p5_n.png, id=2717, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p5_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p5_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p5_n.png used on input line 84.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p6_n.png, id=2716, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p6_n.png, id=2718, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p6_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p6_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p6_n.png used on input line 86.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p7_n.png, id=2717, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p7_n.png, id=2719, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p7_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p7_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p7_n.png used on input line 87.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin1_d1_p8_n.png, id=2718, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin1_d1_p8_n.png, id=2720, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin1_d1_p8_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin1_d1_p8_n.png>
 Package pdftex.def Info: Pics/Linear/Lin1_d1_p8_n.png used on input line 88.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p0_n.png, id=2719, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p0_n.png, id=2721, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p0_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p0_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p0_n.png used on input line 99.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p1_n.png, id=2720, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p1_n.png, id=2722, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p1_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p1_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p1_n.png used on input line 100.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p2_n.png, id=2721, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p2_n.png, id=2723, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p2_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p2_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p2_n.png used on input line 101.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p3_n.png, id=2722, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p3_n.png, id=2724, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p3_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p3_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p3_n.png used on input line 103.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p4_n.png, id=2723, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p4_n.png, id=2725, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p4_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p4_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p4_n.png used on input line 104.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p5_n.png, id=2724, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p5_n.png, id=2726, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p5_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p5_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p5_n.png used on input line 105.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p6_n.png, id=2725, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p6_n.png, id=2727, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p6_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p6_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p6_n.png used on input line 107.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p7_n.png, id=2726, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p7_n.png, id=2728, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p7_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p7_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p7_n.png used on input line 108.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d0_p8_n.png, id=2727, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d0_p8_n.png, id=2729, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d0_p8_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d0_p8_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d0_p8_n.png used on input line 109.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p0_n.png, id=2728, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p0_n.png, id=2730, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p0_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p0_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p0_n.png used on input line 122.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p1_n.png, id=2729, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p1_n.png, id=2731, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p1_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p1_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p1_n.png used on input line 123.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p2_n.png, id=2730, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p2_n.png, id=2732, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p2_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p2_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p2_n.png used on input line 124.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p3_n.png, id=2731, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p3_n.png, id=2733, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p3_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p3_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p3_n.png used on input line 126.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p4_n.png, id=2732, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p4_n.png, id=2734, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p4_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p4_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p4_n.png used on input line 127.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p5_n.png, id=2733, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p5_n.png, id=2735, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p5_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p5_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p5_n.png used on input line 128.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p6_n.png, id=2734, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p6_n.png, id=2736, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p6_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p6_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p6_n.png used on input line 130.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p7_n.png, id=2735, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p7_n.png, id=2737, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p7_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p7_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p7_n.png used on input line 131.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d1_p8_n.png, id=2736, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d1_p8_n.png, id=2738, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d1_p8_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d1_p8_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d1_p8_n.png used on input line 132.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p0_n.png, id=2737, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p0_n.png, id=2739, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p0_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p0_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p0_n.png used on input line 142.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p1_n.png, id=2738, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p1_n.png, id=2740, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p1_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p1_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p1_n.png used on input line 143.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p2_n.png, id=2739, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p2_n.png, id=2741, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p2_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p2_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p2_n.png used on input line 144.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p3_n.png, id=2740, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p3_n.png, id=2742, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p3_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p3_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p3_n.png used on input line 146.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p4_n.png, id=2741, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p4_n.png, id=2743, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p4_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p4_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p4_n.png used on input line 147.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p5_n.png, id=2742, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p5_n.png, id=2744, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p5_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p5_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p5_n.png used on input line 148.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p6_n.png, id=2743, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p6_n.png, id=2745, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p6_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p6_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p6_n.png used on input line 150.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p7_n.png, id=2744, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p7_n.png, id=2746, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p7_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p7_n.png>
 Package pdftex.def Info: Pics/Linear/Lin2_d2_p7_n.png used on input line 151.
 (pdftex.def)             Requested size: 135.47717pt x 88.01268pt.
 
-<Pics/Linear/Lin2_d2_p8_n.png, id=2745, 1501.61pt x 975.645pt>
+<Pics/Linear/Lin2_d2_p8_n.png, id=2747, 1501.61pt x 975.645pt>
 File: Pics/Linear/Lin2_d2_p8_n.png Graphic file (type png)
 
 <use Pics/Linear/Lin2_d2_p8_n.png>
@@ -10318,7 +10315,7 @@ s/Linear/Lin2_d2_p1_n.png> <./Pics/Linear/Lin2_d2_p2_n.png> <./Pics/Linear/Lin2
 _d2_p3_n.png> <./Pics/Linear/Lin2_d2_p4_n.png> <./Pics/Linear/Lin2_d2_p5_n.png>
  <./Pics/Linear/Lin2_d2_p6_n.png> <./Pics/Linear/Lin2_d2_p7_n.png> <./Pics/Line
 ar/Lin2_d2_p8_n.png>]
-<Pics/Para/170.000.961.00mtop.png, id=2769, 798.985pt x 574.145pt>
+<Pics/Para/170.000.961.00mtop.png, id=2771, 798.985pt x 574.145pt>
 File: Pics/Para/170.000.961.00mtop.png Graphic file (type png)
 
 <use Pics/Para/170.000.961.00mtop.png>
@@ -10326,14 +10323,14 @@ Package pdftex.def Info: Pics/Para/170.000.961.00mtop.png used on input line 8.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.000.961.00mw.png, id=2770, 798.985pt x 574.145pt>
+<Pics/Para/170.000.961.00mw.png, id=2772, 798.985pt x 574.145pt>
 File: Pics/Para/170.000.961.00mw.png Graphic file (type png)
 
 <use Pics/Para/170.000.961.00mw.png>
 Package pdftex.def Info: Pics/Para/170.000.961.00mw.png used on input line 9.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.000.961.00rbq.png, id=2771, 798.985pt x 574.145pt>
+<Pics/Para/170.000.961.00rbq.png, id=2773, 798.985pt x 574.145pt>
 File: Pics/Para/170.000.961.00rbq.png Graphic file (type png)
 
 <use Pics/Para/170.000.961.00rbq.png>
@@ -10341,7 +10338,7 @@ Package pdftex.def Info: Pics/Para/170.000.961.00rbq.png used on input line 10.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.000.981.00mtop.png, id=2772, 798.985pt x 574.145pt>
+<Pics/Para/170.000.981.00mtop.png, id=2774, 798.985pt x 574.145pt>
 File: Pics/Para/170.000.981.00mtop.png Graphic file (type png)
 
 <use Pics/Para/170.000.981.00mtop.png>
@@ -10349,14 +10346,14 @@ Package pdftex.def Info: Pics/Para/170.000.981.00mtop.png used on input line 12
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.000.981.00mw.png, id=2773, 798.985pt x 574.145pt>
+<Pics/Para/170.000.981.00mw.png, id=2775, 798.985pt x 574.145pt>
 File: Pics/Para/170.000.981.00mw.png Graphic file (type png)
 
 <use Pics/Para/170.000.981.00mw.png>
 Package pdftex.def Info: Pics/Para/170.000.981.00mw.png used on input line 13.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.000.981.00rbq.png, id=2774, 798.985pt x 574.145pt>
+<Pics/Para/170.000.981.00rbq.png, id=2776, 798.985pt x 574.145pt>
 File: Pics/Para/170.000.981.00rbq.png Graphic file (type png)
 
 <use Pics/Para/170.000.981.00rbq.png>
@@ -10364,7 +10361,7 @@ Package pdftex.def Info: Pics/Para/170.000.981.00rbq.png used on input line 14.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.000.96mtop.png, id=2775, 798.985pt x 574.145pt>
+<Pics/Para/170.001.000.96mtop.png, id=2777, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.000.96mtop.png Graphic file (type png)
 
 <use Pics/Para/170.001.000.96mtop.png>
@@ -10372,14 +10369,14 @@ Package pdftex.def Info: Pics/Para/170.001.000.96mtop.png used on input line 16
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.000.96mw.png, id=2776, 798.985pt x 574.145pt>
+<Pics/Para/170.001.000.96mw.png, id=2778, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.000.96mw.png Graphic file (type png)
 
 <use Pics/Para/170.001.000.96mw.png>
 Package pdftex.def Info: Pics/Para/170.001.000.96mw.png used on input line 17.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.000.96rbq.png, id=2777, 798.985pt x 574.145pt>
+<Pics/Para/170.001.000.96rbq.png, id=2779, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.000.96rbq.png Graphic file (type png)
 
 <use Pics/Para/170.001.000.96rbq.png>
@@ -10387,7 +10384,7 @@ Package pdftex.def Info: Pics/Para/170.001.000.96rbq.png used on input line 18.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.000.98mtop.png, id=2778, 798.985pt x 574.145pt>
+<Pics/Para/170.001.000.98mtop.png, id=2780, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.000.98mtop.png Graphic file (type png)
 
 <use Pics/Para/170.001.000.98mtop.png>
@@ -10395,14 +10392,14 @@ Package pdftex.def Info: Pics/Para/170.001.000.98mtop.png used on input line 27
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.000.98mw.png, id=2779, 798.985pt x 574.145pt>
+<Pics/Para/170.001.000.98mw.png, id=2781, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.000.98mw.png Graphic file (type png)
 
 <use Pics/Para/170.001.000.98mw.png>
 Package pdftex.def Info: Pics/Para/170.001.000.98mw.png used on input line 28.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.000.98rbq.png, id=2780, 798.985pt x 574.145pt>
+<Pics/Para/170.001.000.98rbq.png, id=2782, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.000.98rbq.png Graphic file (type png)
 
 <use Pics/Para/170.001.000.98rbq.png>
@@ -10410,7 +10407,7 @@ Package pdftex.def Info: Pics/Para/170.001.000.98rbq.png used on input line 29.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.00mtop.png, id=2781, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.00mtop.png, id=2783, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.00mtop.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.00mtop.png>
@@ -10418,14 +10415,14 @@ Package pdftex.def Info: Pics/Para/170.001.001.00mtop.png used on input line 31
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.00mw.png, id=2782, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.00mw.png, id=2784, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.00mw.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.00mw.png>
 Package pdftex.def Info: Pics/Para/170.001.001.00mw.png used on input line 32.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.00rbq.png, id=2783, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.00rbq.png, id=2785, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.00rbq.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.00rbq.png>
@@ -10433,7 +10430,7 @@ Package pdftex.def Info: Pics/Para/170.001.001.00rbq.png used on input line 33.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.02mtop.png, id=2784, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.02mtop.png, id=2786, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.02mtop.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.02mtop.png>
@@ -10441,14 +10438,14 @@ Package pdftex.def Info: Pics/Para/170.001.001.02mtop.png used on input line 35
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.02mw.png, id=2785, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.02mw.png, id=2787, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.02mw.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.02mw.png>
 Package pdftex.def Info: Pics/Para/170.001.001.02mw.png used on input line 36.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.02rbq.png, id=2786, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.02rbq.png, id=2788, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.02rbq.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.02rbq.png>
@@ -10456,7 +10453,7 @@ Package pdftex.def Info: Pics/Para/170.001.001.02rbq.png used on input line 37.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.04mtop.png, id=2787, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.04mtop.png, id=2789, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.04mtop.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.04mtop.png>
@@ -10464,14 +10461,14 @@ Package pdftex.def Info: Pics/Para/170.001.001.04mtop.png used on input line 45
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.04mw.png, id=2788, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.04mw.png, id=2790, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.04mw.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.04mw.png>
 Package pdftex.def Info: Pics/Para/170.001.001.04mw.png used on input line 46.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.001.04rbq.png, id=2789, 798.985pt x 574.145pt>
+<Pics/Para/170.001.001.04rbq.png, id=2791, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.001.04rbq.png Graphic file (type png)
 
 <use Pics/Para/170.001.001.04rbq.png>
@@ -10479,7 +10476,7 @@ Package pdftex.def Info: Pics/Para/170.001.001.04rbq.png used on input line 47.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.021.00mtop.png, id=2790, 798.985pt x 574.145pt>
+<Pics/Para/170.001.021.00mtop.png, id=2792, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.021.00mtop.png Graphic file (type png)
 
 <use Pics/Para/170.001.021.00mtop.png>
@@ -10487,14 +10484,14 @@ Package pdftex.def Info: Pics/Para/170.001.021.00mtop.png used on input line 49
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.021.00mw.png, id=2791, 798.985pt x 574.145pt>
+<Pics/Para/170.001.021.00mw.png, id=2793, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.021.00mw.png Graphic file (type png)
 
 <use Pics/Para/170.001.021.00mw.png>
 Package pdftex.def Info: Pics/Para/170.001.021.00mw.png used on input line 50.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.021.00rbq.png, id=2792, 798.985pt x 574.145pt>
+<Pics/Para/170.001.021.00rbq.png, id=2794, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.021.00rbq.png Graphic file (type png)
 
 <use Pics/Para/170.001.021.00rbq.png>
@@ -10502,7 +10499,7 @@ Package pdftex.def Info: Pics/Para/170.001.021.00rbq.png used on input line 51.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.041.00mtop.png, id=2793, 798.985pt x 574.145pt>
+<Pics/Para/170.001.041.00mtop.png, id=2795, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.041.00mtop.png Graphic file (type png)
 
 <use Pics/Para/170.001.041.00mtop.png>
@@ -10510,14 +10507,14 @@ Package pdftex.def Info: Pics/Para/170.001.041.00mtop.png used on input line 53
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.041.00mw.png, id=2794, 798.985pt x 574.145pt>
+<Pics/Para/170.001.041.00mw.png, id=2796, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.041.00mw.png Graphic file (type png)
 
 <use Pics/Para/170.001.041.00mw.png>
 Package pdftex.def Info: Pics/Para/170.001.041.00mw.png used on input line 54.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/170.001.041.00rbq.png, id=2795, 798.985pt x 574.145pt>
+<Pics/Para/170.001.041.00rbq.png, id=2797, 798.985pt x 574.145pt>
 File: Pics/Para/170.001.041.00rbq.png Graphic file (type png)
 
 <use Pics/Para/170.001.041.00rbq.png>
@@ -10525,7 +10522,7 @@ Package pdftex.def Info: Pics/Para/170.001.041.00rbq.png used on input line 55.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.500.961.00mtop.png, id=2796, 798.985pt x 574.145pt>
+<Pics/Para/171.500.961.00mtop.png, id=2798, 798.985pt x 574.145pt>
 File: Pics/Para/171.500.961.00mtop.png Graphic file (type png)
 
 <use Pics/Para/171.500.961.00mtop.png>
@@ -10533,14 +10530,14 @@ Package pdftex.def Info: Pics/Para/171.500.961.00mtop.png used on input line 65
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.500.961.00mw.png, id=2797, 798.985pt x 574.145pt>
+<Pics/Para/171.500.961.00mw.png, id=2799, 798.985pt x 574.145pt>
 File: Pics/Para/171.500.961.00mw.png Graphic file (type png)
 
 <use Pics/Para/171.500.961.00mw.png>
 Package pdftex.def Info: Pics/Para/171.500.961.00mw.png used on input line 66.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.500.961.00rbq.png, id=2798, 798.985pt x 574.145pt>
+<Pics/Para/171.500.961.00rbq.png, id=2800, 798.985pt x 574.145pt>
 File: Pics/Para/171.500.961.00rbq.png Graphic file (type png)
 
 <use Pics/Para/171.500.961.00rbq.png>
@@ -10548,7 +10545,7 @@ Package pdftex.def Info: Pics/Para/171.500.961.00rbq.png used on input line 67.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.500.981.00mtop.png, id=2799, 798.985pt x 574.145pt>
+<Pics/Para/171.500.981.00mtop.png, id=2801, 798.985pt x 574.145pt>
 File: Pics/Para/171.500.981.00mtop.png Graphic file (type png)
 
 <use Pics/Para/171.500.981.00mtop.png>
@@ -10556,14 +10553,14 @@ Package pdftex.def Info: Pics/Para/171.500.981.00mtop.png used on input line 69
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.500.981.00mw.png, id=2800, 798.985pt x 574.145pt>
+<Pics/Para/171.500.981.00mw.png, id=2802, 798.985pt x 574.145pt>
 File: Pics/Para/171.500.981.00mw.png Graphic file (type png)
 
 <use Pics/Para/171.500.981.00mw.png>
 Package pdftex.def Info: Pics/Para/171.500.981.00mw.png used on input line 70.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.500.981.00rbq.png, id=2801, 798.985pt x 574.145pt>
+<Pics/Para/171.500.981.00rbq.png, id=2803, 798.985pt x 574.145pt>
 File: Pics/Para/171.500.981.00rbq.png Graphic file (type png)
 
 <use Pics/Para/171.500.981.00rbq.png>
@@ -10571,7 +10568,7 @@ Package pdftex.def Info: Pics/Para/171.500.981.00rbq.png used on input line 71.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.000.96mtop.png, id=2802, 798.985pt x 574.145pt>
+<Pics/Para/171.501.000.96mtop.png, id=2804, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.000.96mtop.png Graphic file (type png)
 
 <use Pics/Para/171.501.000.96mtop.png>
@@ -10579,14 +10576,14 @@ Package pdftex.def Info: Pics/Para/171.501.000.96mtop.png used on input line 73
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.000.96mw.png, id=2803, 798.985pt x 574.145pt>
+<Pics/Para/171.501.000.96mw.png, id=2805, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.000.96mw.png Graphic file (type png)
 
 <use Pics/Para/171.501.000.96mw.png>
 Package pdftex.def Info: Pics/Para/171.501.000.96mw.png used on input line 74.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.000.96rbq.png, id=2804, 798.985pt x 574.145pt>
+<Pics/Para/171.501.000.96rbq.png, id=2806, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.000.96rbq.png Graphic file (type png)
 
 <use Pics/Para/171.501.000.96rbq.png>
@@ -10594,7 +10591,7 @@ Package pdftex.def Info: Pics/Para/171.501.000.96rbq.png used on input line 75.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.000.98mtop.png, id=2805, 798.985pt x 574.145pt>
+<Pics/Para/171.501.000.98mtop.png, id=2807, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.000.98mtop.png Graphic file (type png)
 
 <use Pics/Para/171.501.000.98mtop.png>
@@ -10602,14 +10599,14 @@ Package pdftex.def Info: Pics/Para/171.501.000.98mtop.png used on input line 85
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.000.98mw.png, id=2806, 798.985pt x 574.145pt>
+<Pics/Para/171.501.000.98mw.png, id=2808, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.000.98mw.png Graphic file (type png)
 
 <use Pics/Para/171.501.000.98mw.png>
 Package pdftex.def Info: Pics/Para/171.501.000.98mw.png used on input line 86.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.000.98rbq.png, id=2807, 798.985pt x 574.145pt>
+<Pics/Para/171.501.000.98rbq.png, id=2809, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.000.98rbq.png Graphic file (type png)
 
 <use Pics/Para/171.501.000.98rbq.png>
@@ -10617,7 +10614,7 @@ Package pdftex.def Info: Pics/Para/171.501.000.98rbq.png used on input line 87.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.00mtop.png, id=2808, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.00mtop.png, id=2810, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.00mtop.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.00mtop.png>
@@ -10625,14 +10622,14 @@ Package pdftex.def Info: Pics/Para/171.501.001.00mtop.png used on input line 90
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.00mw.png, id=2809, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.00mw.png, id=2811, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.00mw.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.00mw.png>
 Package pdftex.def Info: Pics/Para/171.501.001.00mw.png used on input line 91.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.00rbq.png, id=2810, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.00rbq.png, id=2812, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.00rbq.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.00rbq.png>
@@ -10640,7 +10637,7 @@ Package pdftex.def Info: Pics/Para/171.501.001.00rbq.png used on input line 92.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.02mtop.png, id=2811, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.02mtop.png, id=2813, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.02mtop.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.02mtop.png>
@@ -10648,14 +10645,14 @@ Package pdftex.def Info: Pics/Para/171.501.001.02mtop.png used on input line 95
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.02mw.png, id=2812, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.02mw.png, id=2814, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.02mw.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.02mw.png>
 Package pdftex.def Info: Pics/Para/171.501.001.02mw.png used on input line 96.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.02rbq.png, id=2813, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.02rbq.png, id=2815, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.02rbq.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.02rbq.png>
@@ -10663,7 +10660,7 @@ Package pdftex.def Info: Pics/Para/171.501.001.02rbq.png used on input line 97.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.04mtop.png, id=2814, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.04mtop.png, id=2816, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.04mtop.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.04mtop.png>
@@ -10671,7 +10668,7 @@ Package pdftex.def Info: Pics/Para/171.501.001.04mtop.png used on input line 10
 7.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.04mw.png, id=2815, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.04mw.png, id=2817, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.04mw.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.04mw.png>
@@ -10679,7 +10676,7 @@ Package pdftex.def Info: Pics/Para/171.501.001.04mw.png used on input line 108.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.001.04rbq.png, id=2816, 798.985pt x 574.145pt>
+<Pics/Para/171.501.001.04rbq.png, id=2818, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.001.04rbq.png Graphic file (type png)
 
 <use Pics/Para/171.501.001.04rbq.png>
@@ -10687,7 +10684,7 @@ Package pdftex.def Info: Pics/Para/171.501.001.04rbq.png used on input line 109
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.021.00mtop.png, id=2817, 798.985pt x 574.145pt>
+<Pics/Para/171.501.021.00mtop.png, id=2819, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.021.00mtop.png Graphic file (type png)
 
 <use Pics/Para/171.501.021.00mtop.png>
@@ -10695,7 +10692,7 @@ Package pdftex.def Info: Pics/Para/171.501.021.00mtop.png used on input line 11
 2.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.021.00mw.png, id=2818, 798.985pt x 574.145pt>
+<Pics/Para/171.501.021.00mw.png, id=2820, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.021.00mw.png Graphic file (type png)
 
 <use Pics/Para/171.501.021.00mw.png>
@@ -10703,7 +10700,7 @@ Package pdftex.def Info: Pics/Para/171.501.021.00mw.png used on input line 113.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.021.00rbq.png, id=2819, 798.985pt x 574.145pt>
+<Pics/Para/171.501.021.00rbq.png, id=2821, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.021.00rbq.png Graphic file (type png)
 
 <use Pics/Para/171.501.021.00rbq.png>
@@ -10711,7 +10708,7 @@ Package pdftex.def Info: Pics/Para/171.501.021.00rbq.png used on input line 114
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.041.00mtop.png, id=2820, 798.985pt x 574.145pt>
+<Pics/Para/171.501.041.00mtop.png, id=2822, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.041.00mtop.png Graphic file (type png)
 
 <use Pics/Para/171.501.041.00mtop.png>
@@ -10719,7 +10716,7 @@ Package pdftex.def Info: Pics/Para/171.501.041.00mtop.png used on input line 11
 8.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.041.00mw.png, id=2821, 798.985pt x 574.145pt>
+<Pics/Para/171.501.041.00mw.png, id=2823, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.041.00mw.png Graphic file (type png)
 
 <use Pics/Para/171.501.041.00mw.png>
@@ -10727,7 +10724,7 @@ Package pdftex.def Info: Pics/Para/171.501.041.00mw.png used on input line 119.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/171.501.041.00rbq.png, id=2822, 798.985pt x 574.145pt>
+<Pics/Para/171.501.041.00rbq.png, id=2824, 798.985pt x 574.145pt>
 File: Pics/Para/171.501.041.00rbq.png Graphic file (type png)
 
 <use Pics/Para/171.501.041.00rbq.png>
@@ -10735,7 +10732,7 @@ Package pdftex.def Info: Pics/Para/171.501.041.00rbq.png used on input line 120
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.500.961.00mtop.png, id=2823, 798.985pt x 574.145pt>
+<Pics/Para/172.500.961.00mtop.png, id=2825, 798.985pt x 574.145pt>
 File: Pics/Para/172.500.961.00mtop.png Graphic file (type png)
 
 <use Pics/Para/172.500.961.00mtop.png>
@@ -10743,7 +10740,7 @@ Package pdftex.def Info: Pics/Para/172.500.961.00mtop.png used on input line 13
 3.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.500.961.00mw.png, id=2824, 798.985pt x 574.145pt>
+<Pics/Para/172.500.961.00mw.png, id=2826, 798.985pt x 574.145pt>
 File: Pics/Para/172.500.961.00mw.png Graphic file (type png)
 
 <use Pics/Para/172.500.961.00mw.png>
@@ -10751,7 +10748,7 @@ Package pdftex.def Info: Pics/Para/172.500.961.00mw.png used on input line 134.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.500.961.00rbq.png, id=2825, 798.985pt x 574.145pt>
+<Pics/Para/172.500.961.00rbq.png, id=2827, 798.985pt x 574.145pt>
 File: Pics/Para/172.500.961.00rbq.png Graphic file (type png)
 
 <use Pics/Para/172.500.961.00rbq.png>
@@ -10759,7 +10756,7 @@ Package pdftex.def Info: Pics/Para/172.500.961.00rbq.png used on input line 135
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.500.981.00mtop.png, id=2826, 798.985pt x 574.145pt>
+<Pics/Para/172.500.981.00mtop.png, id=2828, 798.985pt x 574.145pt>
 File: Pics/Para/172.500.981.00mtop.png Graphic file (type png)
 
 <use Pics/Para/172.500.981.00mtop.png>
@@ -10767,7 +10764,7 @@ Package pdftex.def Info: Pics/Para/172.500.981.00mtop.png used on input line 13
 9.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.500.981.00mw.png, id=2827, 798.985pt x 574.145pt>
+<Pics/Para/172.500.981.00mw.png, id=2829, 798.985pt x 574.145pt>
 File: Pics/Para/172.500.981.00mw.png Graphic file (type png)
 
 <use Pics/Para/172.500.981.00mw.png>
@@ -10775,7 +10772,7 @@ Package pdftex.def Info: Pics/Para/172.500.981.00mw.png used on input line 140.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.500.981.00rbq.png, id=2828, 798.985pt x 574.145pt>
+<Pics/Para/172.500.981.00rbq.png, id=2830, 798.985pt x 574.145pt>
 File: Pics/Para/172.500.981.00rbq.png Graphic file (type png)
 
 <use Pics/Para/172.500.981.00rbq.png>
@@ -10783,7 +10780,7 @@ Package pdftex.def Info: Pics/Para/172.500.981.00rbq.png used on input line 141
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.000.96mtop.png, id=2829, 798.985pt x 574.145pt>
+<Pics/Para/172.501.000.96mtop.png, id=2831, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.000.96mtop.png Graphic file (type png)
 
 <use Pics/Para/172.501.000.96mtop.png>
@@ -10791,7 +10788,7 @@ Package pdftex.def Info: Pics/Para/172.501.000.96mtop.png used on input line 14
 5.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.000.96mw.png, id=2830, 798.985pt x 574.145pt>
+<Pics/Para/172.501.000.96mw.png, id=2832, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.000.96mw.png Graphic file (type png)
 
 <use Pics/Para/172.501.000.96mw.png>
@@ -10799,7 +10796,7 @@ Package pdftex.def Info: Pics/Para/172.501.000.96mw.png used on input line 146.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.000.96rbq.png, id=2831, 798.985pt x 574.145pt>
+<Pics/Para/172.501.000.96rbq.png, id=2833, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.000.96rbq.png Graphic file (type png)
 
 <use Pics/Para/172.501.000.96rbq.png>
@@ -10807,7 +10804,7 @@ Package pdftex.def Info: Pics/Para/172.501.000.96rbq.png used on input line 147
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.000.98mtop.png, id=2832, 798.985pt x 574.145pt>
+<Pics/Para/172.501.000.98mtop.png, id=2834, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.000.98mtop.png Graphic file (type png)
 
 <use Pics/Para/172.501.000.98mtop.png>
@@ -10815,7 +10812,7 @@ Package pdftex.def Info: Pics/Para/172.501.000.98mtop.png used on input line 16
 4.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.000.98mw.png, id=2833, 798.985pt x 574.145pt>
+<Pics/Para/172.501.000.98mw.png, id=2835, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.000.98mw.png Graphic file (type png)
 
 <use Pics/Para/172.501.000.98mw.png>
@@ -10823,7 +10820,7 @@ Package pdftex.def Info: Pics/Para/172.501.000.98mw.png used on input line 165.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.000.98rbq.png, id=2834, 798.985pt x 574.145pt>
+<Pics/Para/172.501.000.98rbq.png, id=2836, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.000.98rbq.png Graphic file (type png)
 
 <use Pics/Para/172.501.000.98rbq.png>
@@ -10831,7 +10828,7 @@ Package pdftex.def Info: Pics/Para/172.501.000.98rbq.png used on input line 166
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.001.02mtop.png, id=2835, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.02mtop.png, id=2837, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.02mtop.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.02mtop.png>
@@ -10839,7 +10836,7 @@ Package pdftex.def Info: Pics/Para/172.501.001.02mtop.png used on input line 17
 1.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.001.02mw.png, id=2836, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.02mw.png, id=2838, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.02mw.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.02mw.png>
@@ -10847,7 +10844,7 @@ Package pdftex.def Info: Pics/Para/172.501.001.02mw.png used on input line 172.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.001.02rbq.png, id=2837, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.02rbq.png, id=2839, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.02rbq.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.02rbq.png>
@@ -10855,7 +10852,7 @@ Package pdftex.def Info: Pics/Para/172.501.001.02rbq.png used on input line 173
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.001.04mtop.png, id=2838, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.04mtop.png, id=2840, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.04mtop.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.04mtop.png>
@@ -10863,7 +10860,7 @@ Package pdftex.def Info: Pics/Para/172.501.001.04mtop.png used on input line 17
 6.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.001.04mw.png, id=2839, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.04mw.png, id=2841, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.04mw.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.04mw.png>
@@ -10871,7 +10868,7 @@ Package pdftex.def Info: Pics/Para/172.501.001.04mw.png used on input line 177.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.001.04rbq.png, id=2840, 798.985pt x 574.145pt>
+<Pics/Para/172.501.001.04rbq.png, id=2842, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.001.04rbq.png Graphic file (type png)
 
 <use Pics/Para/172.501.001.04rbq.png>
@@ -10879,7 +10876,7 @@ Package pdftex.def Info: Pics/Para/172.501.001.04rbq.png used on input line 178
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.021.00mtop.png, id=2841, 798.985pt x 574.145pt>
+<Pics/Para/172.501.021.00mtop.png, id=2843, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.021.00mtop.png Graphic file (type png)
 
 <use Pics/Para/172.501.021.00mtop.png>
@@ -10887,7 +10884,7 @@ Package pdftex.def Info: Pics/Para/172.501.021.00mtop.png used on input line 19
 2.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.021.00mw.png, id=2842, 798.985pt x 574.145pt>
+<Pics/Para/172.501.021.00mw.png, id=2844, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.021.00mw.png Graphic file (type png)
 
 <use Pics/Para/172.501.021.00mw.png>
@@ -10895,7 +10892,7 @@ Package pdftex.def Info: Pics/Para/172.501.021.00mw.png used on input line 193.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.021.00rbq.png, id=2843, 798.985pt x 574.145pt>
+<Pics/Para/172.501.021.00rbq.png, id=2845, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.021.00rbq.png Graphic file (type png)
 
 <use Pics/Para/172.501.021.00rbq.png>
@@ -10903,7 +10900,7 @@ Package pdftex.def Info: Pics/Para/172.501.021.00rbq.png used on input line 194
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.041.00mtop.png, id=2844, 798.985pt x 574.145pt>
+<Pics/Para/172.501.041.00mtop.png, id=2846, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.041.00mtop.png Graphic file (type png)
 
 <use Pics/Para/172.501.041.00mtop.png>
@@ -10911,7 +10908,7 @@ Package pdftex.def Info: Pics/Para/172.501.041.00mtop.png used on input line 19
 8.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.041.00mw.png, id=2845, 798.985pt x 574.145pt>
+<Pics/Para/172.501.041.00mw.png, id=2847, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.041.00mw.png Graphic file (type png)
 
 <use Pics/Para/172.501.041.00mw.png>
@@ -10919,7 +10916,7 @@ Package pdftex.def Info: Pics/Para/172.501.041.00mw.png used on input line 199.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/172.501.041.00rbq.png, id=2846, 798.985pt x 574.145pt>
+<Pics/Para/172.501.041.00rbq.png, id=2848, 798.985pt x 574.145pt>
 File: Pics/Para/172.501.041.00rbq.png Graphic file (type png)
 
 <use Pics/Para/172.501.041.00rbq.png>
@@ -10927,7 +10924,7 @@ Package pdftex.def Info: Pics/Para/172.501.041.00rbq.png used on input line 200
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.500.961.00mtop.png, id=2847, 798.985pt x 574.145pt>
+<Pics/Para/173.500.961.00mtop.png, id=2849, 798.985pt x 574.145pt>
 File: Pics/Para/173.500.961.00mtop.png Graphic file (type png)
 
 <use Pics/Para/173.500.961.00mtop.png>
@@ -10935,7 +10932,7 @@ Package pdftex.def Info: Pics/Para/173.500.961.00mtop.png used on input line 20
 3.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.500.961.00mw.png, id=2848, 798.985pt x 574.145pt>
+<Pics/Para/173.500.961.00mw.png, id=2850, 798.985pt x 574.145pt>
 File: Pics/Para/173.500.961.00mw.png Graphic file (type png)
 
 <use Pics/Para/173.500.961.00mw.png>
@@ -10943,7 +10940,7 @@ Package pdftex.def Info: Pics/Para/173.500.961.00mw.png used on input line 204.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.500.961.00rbq.png, id=2849, 798.985pt x 574.145pt>
+<Pics/Para/173.500.961.00rbq.png, id=2851, 798.985pt x 574.145pt>
 File: Pics/Para/173.500.961.00rbq.png Graphic file (type png)
 
 <use Pics/Para/173.500.961.00rbq.png>
@@ -10951,7 +10948,7 @@ Package pdftex.def Info: Pics/Para/173.500.961.00rbq.png used on input line 205
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.500.981.00mtop.png, id=2850, 798.985pt x 574.145pt>
+<Pics/Para/173.500.981.00mtop.png, id=2852, 798.985pt x 574.145pt>
 File: Pics/Para/173.500.981.00mtop.png Graphic file (type png)
 
 <use Pics/Para/173.500.981.00mtop.png>
@@ -10959,7 +10956,7 @@ Package pdftex.def Info: Pics/Para/173.500.981.00mtop.png used on input line 21
 9.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.500.981.00mw.png, id=2851, 798.985pt x 574.145pt>
+<Pics/Para/173.500.981.00mw.png, id=2853, 798.985pt x 574.145pt>
 File: Pics/Para/173.500.981.00mw.png Graphic file (type png)
 
 <use Pics/Para/173.500.981.00mw.png>
@@ -10967,7 +10964,7 @@ Package pdftex.def Info: Pics/Para/173.500.981.00mw.png used on input line 220.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.500.981.00rbq.png, id=2852, 798.985pt x 574.145pt>
+<Pics/Para/173.500.981.00rbq.png, id=2854, 798.985pt x 574.145pt>
 File: Pics/Para/173.500.981.00rbq.png Graphic file (type png)
 
 <use Pics/Para/173.500.981.00rbq.png>
@@ -10975,7 +10972,7 @@ Package pdftex.def Info: Pics/Para/173.500.981.00rbq.png used on input line 221
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.000.96mtop.png, id=2853, 798.985pt x 574.145pt>
+<Pics/Para/173.501.000.96mtop.png, id=2855, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.000.96mtop.png Graphic file (type png)
 
 <use Pics/Para/173.501.000.96mtop.png>
@@ -10983,7 +10980,7 @@ Package pdftex.def Info: Pics/Para/173.501.000.96mtop.png used on input line 22
 6.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.000.96mw.png, id=2854, 798.985pt x 574.145pt>
+<Pics/Para/173.501.000.96mw.png, id=2856, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.000.96mw.png Graphic file (type png)
 
 <use Pics/Para/173.501.000.96mw.png>
@@ -10991,7 +10988,7 @@ Package pdftex.def Info: Pics/Para/173.501.000.96mw.png used on input line 227.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.000.96rbq.png, id=2855, 798.985pt x 574.145pt>
+<Pics/Para/173.501.000.96rbq.png, id=2857, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.000.96rbq.png Graphic file (type png)
 
 <use Pics/Para/173.501.000.96rbq.png>
@@ -10999,7 +10996,7 @@ Package pdftex.def Info: Pics/Para/173.501.000.96rbq.png used on input line 228
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.000.98mtop.png, id=2856, 798.985pt x 574.145pt>
+<Pics/Para/173.501.000.98mtop.png, id=2858, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.000.98mtop.png Graphic file (type png)
 
 <use Pics/Para/173.501.000.98mtop.png>
@@ -11007,7 +11004,7 @@ Package pdftex.def Info: Pics/Para/173.501.000.98mtop.png used on input line 23
 3.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.000.98mw.png, id=2857, 798.985pt x 574.145pt>
+<Pics/Para/173.501.000.98mw.png, id=2859, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.000.98mw.png Graphic file (type png)
 
 <use Pics/Para/173.501.000.98mw.png>
@@ -11015,7 +11012,7 @@ Package pdftex.def Info: Pics/Para/173.501.000.98mw.png used on input line 234.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.000.98rbq.png, id=2858, 798.985pt x 574.145pt>
+<Pics/Para/173.501.000.98rbq.png, id=2860, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.000.98rbq.png Graphic file (type png)
 
 <use Pics/Para/173.501.000.98rbq.png>
@@ -11023,7 +11020,7 @@ Package pdftex.def Info: Pics/Para/173.501.000.98rbq.png used on input line 235
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.00mtop.png, id=2859, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.00mtop.png, id=2861, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.00mtop.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.00mtop.png>
@@ -11031,7 +11028,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.00mtop.png used on input line 24
 4.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.00mw.png, id=2860, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.00mw.png, id=2862, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.00mw.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.00mw.png>
@@ -11039,7 +11036,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.00mw.png used on input line 245.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.00rbq.png, id=2861, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.00rbq.png, id=2863, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.00rbq.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.00rbq.png>
@@ -11047,7 +11044,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.00rbq.png used on input line 246
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.02mtop.png, id=2862, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.02mtop.png, id=2864, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.02mtop.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.02mtop.png>
@@ -11055,7 +11052,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.02mtop.png used on input line 24
 8.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.02mw.png, id=2863, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.02mw.png, id=2865, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.02mw.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.02mw.png>
@@ -11063,7 +11060,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.02mw.png used on input line 249.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.02rbq.png, id=2864, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.02rbq.png, id=2866, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.02rbq.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.02rbq.png>
@@ -11071,7 +11068,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.02rbq.png used on input line 250
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.04mtop.png, id=2865, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.04mtop.png, id=2867, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.04mtop.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.04mtop.png>
@@ -11079,7 +11076,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.04mtop.png used on input line 25
 2.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.04mw.png, id=2866, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.04mw.png, id=2868, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.04mw.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.04mw.png>
@@ -11087,7 +11084,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.04mw.png used on input line 253.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.001.04rbq.png, id=2867, 798.985pt x 574.145pt>
+<Pics/Para/173.501.001.04rbq.png, id=2869, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.001.04rbq.png Graphic file (type png)
 
 <use Pics/Para/173.501.001.04rbq.png>
@@ -11095,7 +11092,7 @@ Package pdftex.def Info: Pics/Para/173.501.001.04rbq.png used on input line 254
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.021.00mtop.png, id=2868, 798.985pt x 574.145pt>
+<Pics/Para/173.501.021.00mtop.png, id=2870, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.021.00mtop.png Graphic file (type png)
 
 <use Pics/Para/173.501.021.00mtop.png>
@@ -11103,7 +11100,7 @@ Package pdftex.def Info: Pics/Para/173.501.021.00mtop.png used on input line 26
 7.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.021.00mw.png, id=2869, 798.985pt x 574.145pt>
+<Pics/Para/173.501.021.00mw.png, id=2871, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.021.00mw.png Graphic file (type png)
 
 <use Pics/Para/173.501.021.00mw.png>
@@ -11111,7 +11108,7 @@ Package pdftex.def Info: Pics/Para/173.501.021.00mw.png used on input line 268.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.021.00rbq.png, id=2870, 798.985pt x 574.145pt>
+<Pics/Para/173.501.021.00rbq.png, id=2872, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.021.00rbq.png Graphic file (type png)
 
 <use Pics/Para/173.501.021.00rbq.png>
@@ -11119,7 +11116,7 @@ Package pdftex.def Info: Pics/Para/173.501.021.00rbq.png used on input line 269
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.041.00mtop.png, id=2871, 798.985pt x 574.145pt>
+<Pics/Para/173.501.041.00mtop.png, id=2873, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.041.00mtop.png Graphic file (type png)
 
 <use Pics/Para/173.501.041.00mtop.png>
@@ -11127,7 +11124,7 @@ Package pdftex.def Info: Pics/Para/173.501.041.00mtop.png used on input line 27
 3.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.041.00mw.png, id=2872, 798.985pt x 574.145pt>
+<Pics/Para/173.501.041.00mw.png, id=2874, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.041.00mw.png Graphic file (type png)
 
 <use Pics/Para/173.501.041.00mw.png>
@@ -11135,7 +11132,7 @@ Package pdftex.def Info: Pics/Para/173.501.041.00mw.png used on input line 274.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/173.501.041.00rbq.png, id=2873, 798.985pt x 574.145pt>
+<Pics/Para/173.501.041.00rbq.png, id=2875, 798.985pt x 574.145pt>
 File: Pics/Para/173.501.041.00rbq.png Graphic file (type png)
 
 <use Pics/Para/173.501.041.00rbq.png>
@@ -11143,7 +11140,7 @@ Package pdftex.def Info: Pics/Para/173.501.041.00rbq.png used on input line 275
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.000.961.00mtop.png, id=2874, 798.985pt x 574.145pt>
+<Pics/Para/175.000.961.00mtop.png, id=2876, 798.985pt x 574.145pt>
 File: Pics/Para/175.000.961.00mtop.png Graphic file (type png)
 
 <use Pics/Para/175.000.961.00mtop.png>
@@ -11151,7 +11148,7 @@ Package pdftex.def Info: Pics/Para/175.000.961.00mtop.png used on input line 28
 0.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.000.961.00mw.png, id=2875, 798.985pt x 574.145pt>
+<Pics/Para/175.000.961.00mw.png, id=2877, 798.985pt x 574.145pt>
 File: Pics/Para/175.000.961.00mw.png Graphic file (type png)
 
 <use Pics/Para/175.000.961.00mw.png>
@@ -11159,7 +11156,7 @@ Package pdftex.def Info: Pics/Para/175.000.961.00mw.png used on input line 281.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.000.961.00rbq.png, id=2876, 798.985pt x 574.145pt>
+<Pics/Para/175.000.961.00rbq.png, id=2878, 798.985pt x 574.145pt>
 File: Pics/Para/175.000.961.00rbq.png Graphic file (type png)
 
 <use Pics/Para/175.000.961.00rbq.png>
@@ -11167,7 +11164,7 @@ Package pdftex.def Info: Pics/Para/175.000.961.00rbq.png used on input line 282
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.000.981.00mtop.png, id=2877, 798.985pt x 574.145pt>
+<Pics/Para/175.000.981.00mtop.png, id=2879, 798.985pt x 574.145pt>
 File: Pics/Para/175.000.981.00mtop.png Graphic file (type png)
 
 <use Pics/Para/175.000.981.00mtop.png>
@@ -11175,7 +11172,7 @@ Package pdftex.def Info: Pics/Para/175.000.981.00mtop.png used on input line 29
 6.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.000.981.00mw.png, id=2878, 798.985pt x 574.145pt>
+<Pics/Para/175.000.981.00mw.png, id=2880, 798.985pt x 574.145pt>
 File: Pics/Para/175.000.981.00mw.png Graphic file (type png)
 
 <use Pics/Para/175.000.981.00mw.png>
@@ -11183,7 +11180,7 @@ Package pdftex.def Info: Pics/Para/175.000.981.00mw.png used on input line 297.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.000.981.00rbq.png, id=2879, 798.985pt x 574.145pt>
+<Pics/Para/175.000.981.00rbq.png, id=2881, 798.985pt x 574.145pt>
 File: Pics/Para/175.000.981.00rbq.png Graphic file (type png)
 
 <use Pics/Para/175.000.981.00rbq.png>
@@ -11191,7 +11188,7 @@ Package pdftex.def Info: Pics/Para/175.000.981.00rbq.png used on input line 298
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.000.96mtop.png, id=2880, 798.985pt x 574.145pt>
+<Pics/Para/175.001.000.96mtop.png, id=2882, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.000.96mtop.png Graphic file (type png)
 
 <use Pics/Para/175.001.000.96mtop.png>
@@ -11199,7 +11196,7 @@ Package pdftex.def Info: Pics/Para/175.001.000.96mtop.png used on input line 30
 3.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.000.96mw.png, id=2881, 798.985pt x 574.145pt>
+<Pics/Para/175.001.000.96mw.png, id=2883, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.000.96mw.png Graphic file (type png)
 
 <use Pics/Para/175.001.000.96mw.png>
@@ -11207,7 +11204,7 @@ Package pdftex.def Info: Pics/Para/175.001.000.96mw.png used on input line 304.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.000.96rbq.png, id=2882, 798.985pt x 574.145pt>
+<Pics/Para/175.001.000.96rbq.png, id=2884, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.000.96rbq.png Graphic file (type png)
 
 <use Pics/Para/175.001.000.96rbq.png>
@@ -11215,7 +11212,7 @@ Package pdftex.def Info: Pics/Para/175.001.000.96rbq.png used on input line 305
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.000.98mtop.png, id=2883, 798.985pt x 574.145pt>
+<Pics/Para/175.001.000.98mtop.png, id=2885, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.000.98mtop.png Graphic file (type png)
 
 <use Pics/Para/175.001.000.98mtop.png>
@@ -11223,7 +11220,7 @@ Package pdftex.def Info: Pics/Para/175.001.000.98mtop.png used on input line 30
 9.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.000.98mw.png, id=2884, 798.985pt x 574.145pt>
+<Pics/Para/175.001.000.98mw.png, id=2886, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.000.98mw.png Graphic file (type png)
 
 <use Pics/Para/175.001.000.98mw.png>
@@ -11231,7 +11228,7 @@ Package pdftex.def Info: Pics/Para/175.001.000.98mw.png used on input line 310.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.000.98rbq.png, id=2885, 798.985pt x 574.145pt>
+<Pics/Para/175.001.000.98rbq.png, id=2887, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.000.98rbq.png Graphic file (type png)
 
 <use Pics/Para/175.001.000.98rbq.png>
@@ -11239,7 +11236,7 @@ Package pdftex.def Info: Pics/Para/175.001.000.98rbq.png used on input line 311
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.00mtop.png, id=2886, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.00mtop.png, id=2888, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.00mtop.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.00mtop.png>
@@ -11247,7 +11244,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.00mtop.png used on input line 32
 2.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.00mw.png, id=2887, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.00mw.png, id=2889, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.00mw.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.00mw.png>
@@ -11255,7 +11252,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.00mw.png used on input line 323.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.00rbq.png, id=2888, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.00rbq.png, id=2890, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.00rbq.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.00rbq.png>
@@ -11263,7 +11260,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.00rbq.png used on input line 324
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.02mtop.png, id=2889, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.02mtop.png, id=2891, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.02mtop.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.02mtop.png>
@@ -11271,7 +11268,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.02mtop.png used on input line 32
 8.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.02mw.png, id=2890, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.02mw.png, id=2892, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.02mw.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.02mw.png>
@@ -11279,7 +11276,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.02mw.png used on input line 329.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.02rbq.png, id=2891, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.02rbq.png, id=2893, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.02rbq.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.02rbq.png>
@@ -11287,7 +11284,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.02rbq.png used on input line 330
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.04mtop.png, id=2892, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.04mtop.png, id=2894, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.04mtop.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.04mtop.png>
@@ -11295,7 +11292,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.04mtop.png used on input line 33
 3.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.04mw.png, id=2893, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.04mw.png, id=2895, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.04mw.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.04mw.png>
@@ -11303,7 +11300,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.04mw.png used on input line 334.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.001.04rbq.png, id=2894, 798.985pt x 574.145pt>
+<Pics/Para/175.001.001.04rbq.png, id=2896, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.001.04rbq.png Graphic file (type png)
 
 <use Pics/Para/175.001.001.04rbq.png>
@@ -11311,7 +11308,7 @@ Package pdftex.def Info: Pics/Para/175.001.001.04rbq.png used on input line 335
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.021.00mtop.png, id=2895, 798.985pt x 574.145pt>
+<Pics/Para/175.001.021.00mtop.png, id=2897, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.021.00mtop.png Graphic file (type png)
 
 <use Pics/Para/175.001.021.00mtop.png>
@@ -11319,7 +11316,7 @@ Package pdftex.def Info: Pics/Para/175.001.021.00mtop.png used on input line 34
 6.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.021.00mw.png, id=2896, 798.985pt x 574.145pt>
+<Pics/Para/175.001.021.00mw.png, id=2898, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.021.00mw.png Graphic file (type png)
 
 <use Pics/Para/175.001.021.00mw.png>
@@ -11327,7 +11324,7 @@ Package pdftex.def Info: Pics/Para/175.001.021.00mw.png used on input line 347.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.021.00rbq.png, id=2897, 798.985pt x 574.145pt>
+<Pics/Para/175.001.021.00rbq.png, id=2899, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.021.00rbq.png Graphic file (type png)
 
 <use Pics/Para/175.001.021.00rbq.png>
@@ -11335,7 +11332,7 @@ Package pdftex.def Info: Pics/Para/175.001.021.00rbq.png used on input line 348
 .
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.041.00mtop.png, id=2898, 798.985pt x 574.145pt>
+<Pics/Para/175.001.041.00mtop.png, id=2900, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.041.00mtop.png Graphic file (type png)
 
 <use Pics/Para/175.001.041.00mtop.png>
@@ -11343,7 +11340,7 @@ Package pdftex.def Info: Pics/Para/175.001.041.00mtop.png used on input line 35
 3.
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.041.00mw.png, id=2899, 798.985pt x 574.145pt>
+<Pics/Para/175.001.041.00mw.png, id=2901, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.041.00mw.png Graphic file (type png)
 
 <use Pics/Para/175.001.041.00mw.png>
@@ -11351,7 +11348,7 @@ Package pdftex.def Info: Pics/Para/175.001.041.00mw.png used on input line 354.
 
 (pdftex.def)             Requested size: 167.0846pt x 120.06589pt.
 
-<Pics/Para/175.001.041.00rbq.png, id=2900, 798.985pt x 574.145pt>
+<Pics/Para/175.001.041.00rbq.png, id=2902, 798.985pt x 574.145pt>
 File: Pics/Para/175.001.041.00rbq.png Graphic file (type png)
 
 <use Pics/Para/175.001.041.00rbq.png>
@@ -11637,7 +11634,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 324.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 324.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 324.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6F658EC432AAD7D53E469352C71E1986;3901.
+(rerunfilecheck)             Checksum: 673F80772DA116871A1F36388476CDE3;3887.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -11658,7 +11655,7 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 Here is how much of TeX's memory you used:
  59067 strings out of 493089
  1306755 string characters out of 6134842
- 1918749 words of memory out of 5000000
+ 1918753 words of memory out of 5000000
  60103 multiletter control sequences out of 15000+600000
  240814 words of font info for 815 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -11682,10 +11679,10 @@ texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on mythesis.pdf (119 pages, 17223334 bytes).
+Output written on mythesis.pdf (119 pages, 17223517 bytes).
 PDF statistics:
- 3345 PDF objects out of 3580 (max. 8388607)
- 2365 compressed objects within 24 object streams
+ 3347 PDF objects out of 3580 (max. 8388607)
+ 2367 compressed objects within 24 object streams
  449 named destinations out of 1000 (max. 500000)
  110591 words of extra memory for PDF output out of 128383 (max. 10000000)
 
