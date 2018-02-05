@@ -148,9 +148,9 @@ A $b$-tagging working point (WP) is chosen by constraining $w$ via specific cuts
 
 \subsection{Missing transverse  energy}\label{ET}
 
-The transfers energy ($E_T$)  is determined with the cell structure of the calorimeter system.  For a physical object, the transverse energy can be calculated with:
+The transverse energy ($E_T$)  is determined with the cell structure of the calorimeter system.  For a physical object, the transverse energy can be calculated with:
 \begin{equation}
-E_T = E sin(\theta).
+E_T = E \text{sin}(\theta).
 \end{equation}
 $E$ is the measured energy, which belongs to the corresponding calorimeter cells of the jet. The polar angle ($\Theta$)  provides the information  about the  direction of the jet with respect to the beam pipe. 
 
@@ -203,38 +203,45 @@ the resummation of next-to-next-to-leading logarithmic soft gluon terms~\cite{Ca
  
  In the following, the different background contributions for the lepton + jets channel will be discussed, before the applied event triggers and selection cuts are presented together with the control distributions of the observables.
  
+ \begin{figure}[h]
+ 	\centering
+ 	\includegraphics[width=1.0\linewidth]{background.png}
+ 	\caption{Leading-order diagrams of the main background processes, which affect the measurement of the top-quark mass in the lepton + jets channel.  The letters in brackets mark possible miss interpretations of gluons. In the case of the  second diagram, the differences of the $W$+jets and $Z$+jets are marked blue. } 
+ 	\label{fig:43}
+ \end{figure}
+ 
  
  \subsection{Single top background}
  
- In the phase space of the $t\bar{t} \rightarrow$lepton + jets decay, several background processes contribute to the measurement.  Those background events are able to pass certain selection criteria and can be misidentified as signal events.
+ In the phase space of the $t\bar{t} \rightarrow$lepton + jets decay, several background processes contribute to the measurement. The main background processes are displayed in ~\cref{fig:43}.  Those background events are able to pass certain selection criteria and can be misidentified as signal events.
  
- Single-top events are a major background process, due to the presence of the top-quarks. They can lead to a simultaneous event structure and  event kinematic as of the lepton + jets  decay channel. However, there is a noticeable mass dependence of single-top events, which is the reason why it has been added to the signal region in the previous analyses~\cite{ATLAS-CONF-2017-071, Aad:2015nba}. Nevertheless, in terms of this thesis, single top events are referred to as background, due to missing MC samples for the different mass points\footnote{Only the nominal sample for 172.5~GeV is available for single-top production.}. 
+ Single-top events, like ~\cref{fig:43} (a), are a major background process, due to the presence of the top-quarks. They can lead to a simultaneous event structure and  event kinematic as of the lepton + jets  decay channel. A reason for the mis-matching can for example be the mis-identification of a gluon as a $b$ quark.
+ However, there is a noticeable mass dependence of single-top events, which is the reason why it has been added to the signal region in the previous analyses~\cite{ATLAS-CONF-2017-071, Aad:2015nba}. Nevertheless, in terms of this thesis, single top events are referred to as background, due to missing MC samples for the different mass points\footnote{Only the nominal sample for 172.5~GeV is available for single-top production.}. 
  
  \subsection{Diboson background}
  The top-quark mass measurement is also affected by final states with two $W$-bosons, two $Z$-bosons or the combination of a $W$- and a $Z$-boson.  If one of the two bosons decays leptonically, while the other one decays into hadrons, this can lead to the mis-identification with the detector signature of the lepton + jets final state.  
  
 
  \subsection{$W$ + jets background}
-The main background source  is $W$ + jets events. This event type arises from $W$-boson production together with strongly interacting particles (quarks and gluons), which end up as additional jets. Particular events, where the $W$-boson decays leptonically, can lead to detector signatures, which can easily be mis-identified with $t\bar{t} \rightarrow$ lepton + jets events.
+The main background source  are $W$ + jets events (see~\cref{fig:43} (b)). This event type arises from $W$-boson production together with strongly interacting particles (quarks and gluons), which end up as additional jets. Particular events, where the $W$-boson decays leptonically, can lead to detector signatures, which can easily be mis-identified with $t\bar{t} \rightarrow$ lepton + jets events.
 
 
 
  \subsection{$Z$ + jets background} 
-In addition to the $W$ + jets background, there are also events with a leptonically decaying $Z$-boson which, together with hadronically decaying particles, have a similar detector signature as the  $t\bar{t} \rightarrow$ lepton + jets final state. As shown in the following, the $Z$ + jets background is about one magnitude smaller than the $W$ + jets background and can be easily suppressed by requesting exactly one charged lepton and $b$-jets.
+In addition to the $W$ + jets background, there are also events with a leptonically decaying $Z$-boson which, together with hadronically decaying particles, have a similar detector signature as the  $t\bar{t} \rightarrow$ lepton + jets final state. (see~\cref{fig:43} (b)). As shown in the following, the $Z$ + jets background is about one magnitude smaller than the $W$ + jets background and can be easily suppressed by requesting exactly one charged lepton and $b$-jets.
 
 
 
 \subsection{Multijet/non-prompt lepton background}
-QCD-multijet events are final states which do not contain any primary leptons. They only arise from hard-scattering processes of strongly interacting particles (quarks and gluons). However, some hadronic jets can be misidentified as electrons, due to the energy deposition in the Electromagnetic Calorimeter. One refers to these jets as fake-lepton background. Furthermore, weak hadron decays inside of an hadronic jet lead to the identification of further leptons, which might be able to pass the isolation criteria (non-prompt leptons).
+QCD-multijet events are final states which do not contain any primary leptons (see~\cref{fig:43} (c)). They only arise from hard-scattering processes of strongly interacting particles (quarks and gluons). However, some hadronic jets can be misidentified as electrons, due to the energy deposition in the Electromagnetic Calorimeter. One refers to these jets as fake-lepton background. Furthermore, weak hadron decays inside of an hadronic jet lead to the identification of further leptons, which might be able to pass the isolation criteria (non-prompt leptons).
 The consideration of the non-prompt/fake lepton background is very important, due to the fact that this contribution can be mis-identified with the charged isolated leptons arising from the $W$-boson decay of the $t\bar{t}$ final state.
 
-The background has not been estimated yet and will not be included in this thesis.
+The QCD-multijet  background has not been estimated yet and will not be included in this thesis.
  
  
 
  \subsection{Event triggering}
- In context of this measurement, events containing single leptons (electrons and muons) are selected using different single lepton triggers.
- For each case of the $t\bar{t} \rightarrow$ lepton + jets decay, several  trigger options for the single leptons are available, which do not take any further hadron information into account. The used trigger setup is given in~\cref{tab:trigr2}.
+
  
 
  \begin{center}
@@ -261,7 +268,9 @@ The background has not been estimated yet and will not be included in this thesi
  	\end{tabular}
  	
  \end{center}
- 
+\clearpage
+  In context of this measurement, events containing single leptons (electrons and muons) are selected using different single lepton triggers.
+ For each case of the $t\bar{t} \rightarrow$ lepton + jets decay, several  trigger options for the single leptons are available, which do not take any further hadron information into account. The used trigger setup is given in~\cref{tab:trigr2}.
  
  
  
