@@ -32,40 +32,40 @@
 \contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Same plots as for~\cref {klf100} of the global properties of the leptonic and hadronic top-quark, as well as of the top-quark pair, reconstructed with \textsc {KLFitter}. \relax }}{48}{figure.caption.34}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Comparison of signal $t\bar {t}$ templates for different simulated top-quark masses and scale factors. For each of the three observables, ($m_{\rm top}^{\rm reco}$, $m_{\rm W}^{\rm reco}$ and $R_{\rm bq}^{\rm reco}$) the sensitivities are displayed, by overlaying the nominal (red) sample with samples for different JSF, bJSF and $m_{\rm top}$ . The unvaried quantity is kept to the nominal value. \relax }}{52}{figure.caption.35}
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Linear parametrization $p_i$ of the parameters, obtained by the single template fits. Selected parameters are fitted against the different simulated values of $m_{\text {top}}$ and the scale factors. For the scale factors, only the differences $\Delta $ are displayed.\relax }}{54}{figure.caption.38}
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Signal templates for the observables of the nominal sample. In the combined fit of all templates, the $\chi ^2$ for each distribution is calculated. The presented results show the agreement of the functional forms for the nominal templates, obtained by the simultaneous minimization.\relax }}{56}{figure.caption.40}
-\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Pair-wise correlation for the observables.\relax }}{57}{figure.caption.41}
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Results of the 1D closure tests. On the right, $m_{\text {top}}^{\rm fit}$ is plotted vs five different $m_{\text {top}}^{\rm in}$, while JSF and bJSF are set to 1.00. The results are obtained with 250 pseudoexperiments. In addition, the corresponding pull-widths are shown. The dashed lines represent the ideal value. All error bars correspond to statistical uncertainties. \relax }}{59}{figure.caption.42}
-\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces The same results as in ~\cref {closure3} are displayed for the two-dimensional fit. The top line shows the closure fits for the top-quark mass and JSF. The bottom line displays the corresponding pull distributions. \relax }}{60}{figure.caption.43}
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces The same results as in ~\cref {closure3} are displayed for the three dimensional fit. The top line shows the closure fits for the top-quark mass, JSF and bJSF. The bottom line displays the corresponding pull distributions. \relax }}{62}{figure.caption.44}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Linear parametrization $p_i$ of the parameters, obtained by the single template fits. Selected parameters are fitted against the different simulated values of $m_{\text {top}}$ and the scale factors. For the scale factors, only the differences $\Delta $ are displayed.\relax }}{55}{figure.caption.38}
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Signal templates for the observables of the nominal sample. In the combined fit of all templates, the $\chi ^2$ for each distribution is calculated. The presented results show the agreement of the functional forms for the nominal templates, obtained by the simultaneous minimization.\relax }}{57}{figure.caption.40}
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Pair-wise correlation for the observables.\relax }}{58}{figure.caption.41}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Results of the 1D closure tests. On the right, $m_{\text {top}}^{\rm fit}$ is plotted vs five different $m_{\text {top}}^{\rm in}$, while JSF and bJSF are set to 1.00. The results are obtained with 250 pseudoexperiments. In addition, the corresponding pull-widths are shown. The dashed lines represent the ideal value. All error bars correspond to statistical uncertainties. \relax }}{60}{figure.caption.42}
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces The same results as in ~\cref {closure3} are displayed for the two-dimensional fit. The top line shows the closure fits for the top-quark mass and JSF. The bottom line displays the corresponding pull distributions. \relax }}{61}{figure.caption.43}
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces The same results as in ~\cref {closure3} are displayed for the three dimensional fit. The top line shows the closure fits for the top-quark mass, JSF and bJSF. The bottom line displays the corresponding pull distributions. \relax }}{63}{figure.caption.44}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Illustration of the systematic uncertainty evaluation. If possible, the systematic component is varied, like shown here for the jet energy flavour composition. For the determination of $m_{\text {top}}$ in the one dimensional fit, as well as for two dimensional measurement of $m_{\text {top}}$ and JSF, up and down variations are drawn and compared to the nominal sample. The different plots, show the results of the fits obtained with 250 pseudoexperiments. \relax }}{64}{figure.caption.45}
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Illustration of the systematic uncertainty evaluation. If possible, the systematic component is varied, like shown here for the jet energy flavour composition. For the determination of $m_{\text {top}}$ in the one dimensional fit, as well as for two dimensional measurement of $m_{\text {top}}$ and JSF, up and down variations are drawn and compared to the nominal sample. The different plots, show the results of the fits obtained with 250 pseudoexperiments. \relax }}{66}{figure.caption.45}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Workflow of the complete anlaysis.\relax }}{69}{figure.caption.46}
+\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Workflow of the complete anlaysis.\relax }}{71}{figure.caption.46}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces Same plots as for~\cref {klf100} of the global properties of the top-quark pair, the hadronic and leptonic $W$-boson, as well as of the hadorinc $b$-jet, reconstructed with \textsc {KLFitter}.\relax }}{81}{figure.caption.48}
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Same plots as for~\cref {klf100} of the global properties of the hadronic and leptonic $b$-jet, as well as of the first and second light jet, reconstructed with \textsc {KLFitter}. \relax }}{82}{figure.caption.49}
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces Same plots as for~\cref {klf100} of the global properties of the top-quark pair, the hadronic and leptonic $W$-boson, as well as of the hadorinc $b$-jet, reconstructed with \textsc {KLFitter}.\relax }}{83}{figure.caption.48}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Same plots as for~\cref {klf100} of the global properties of the hadronic and leptonic $b$-jet, as well as of the first and second light jet, reconstructed with \textsc {KLFitter}. \relax }}{84}{figure.caption.49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax B.1}{\ignorespaces Linear parametrization of the single fit parameters for $m_{top}^{reco}$. \relax }}{83}{figure.caption.50}
-\contentsline {figure}{\numberline {\relax B.2}{\ignorespaces Linear parametrization of the single fit parameters for $m_{top}^{reco}$. \relax }}{84}{figure.caption.51}
-\contentsline {figure}{\numberline {\relax B.3}{\ignorespaces Linear parametrization of the single fit parameters for $m_{top}^{reco}$. \relax }}{84}{figure.caption.52}
-\contentsline {figure}{\numberline {\relax B.4}{\ignorespaces Linear parametrization of the single fit parameters for $m_{W}^{reco}$. \relax }}{85}{figure.caption.53}
-\contentsline {figure}{\numberline {\relax B.5}{\ignorespaces Linear parametrization of the single fit parameters for $R_{bq}^{reco}$. \relax }}{85}{figure.caption.54}
-\contentsline {figure}{\numberline {\relax B.6}{\ignorespaces Linear parametrization of the single fit parameters for $R_{bq}^{reco}$. \relax }}{86}{figure.caption.55}
-\contentsline {figure}{\numberline {\relax B.7}{\ignorespaces Linear parametrization of the single fit parameters for $R_{bq}^{reco}$. \relax }}{86}{figure.caption.56}
-\contentsline {figure}{\numberline {\relax B.8}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{87}{figure.caption.57}
-\contentsline {figure}{\numberline {\relax B.9}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{88}{figure.caption.58}
-\contentsline {figure}{\numberline {\relax B.10}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{89}{figure.caption.59}
-\contentsline {figure}{\numberline {\relax B.11}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{90}{figure.caption.60}
-\contentsline {figure}{\numberline {\relax B.12}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{91}{figure.caption.61}
-\contentsline {figure}{\numberline {\relax B.13}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{92}{figure.caption.62}
-\contentsline {figure}{\numberline {\relax B.14}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{93}{figure.caption.63}
-\contentsline {figure}{\numberline {\relax B.15}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{94}{figure.caption.64}
-\contentsline {figure}{\numberline {\relax B.16}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{95}{figure.caption.65}
-\contentsline {figure}{\numberline {\relax B.17}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{96}{figure.caption.66}
-\contentsline {figure}{\numberline {\relax B.18}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{97}{figure.caption.67}
-\contentsline {figure}{\numberline {\relax B.19}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{98}{figure.caption.68}
-\contentsline {figure}{\numberline {\relax B.20}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{99}{figure.caption.69}
-\contentsline {figure}{\numberline {\relax B.21}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{100}{figure.caption.70}
-\contentsline {figure}{\numberline {\relax B.22}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{101}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax B.1}{\ignorespaces Linear parametrization of the single fit parameters for $m_{top}^{reco}$. \relax }}{85}{figure.caption.50}
+\contentsline {figure}{\numberline {\relax B.2}{\ignorespaces Linear parametrization of the single fit parameters for $m_{top}^{reco}$. \relax }}{86}{figure.caption.51}
+\contentsline {figure}{\numberline {\relax B.3}{\ignorespaces Linear parametrization of the single fit parameters for $m_{top}^{reco}$. \relax }}{86}{figure.caption.52}
+\contentsline {figure}{\numberline {\relax B.4}{\ignorespaces Linear parametrization of the single fit parameters for $m_{W}^{reco}$. \relax }}{87}{figure.caption.53}
+\contentsline {figure}{\numberline {\relax B.5}{\ignorespaces Linear parametrization of the single fit parameters for $R_{bq}^{reco}$. \relax }}{87}{figure.caption.54}
+\contentsline {figure}{\numberline {\relax B.6}{\ignorespaces Linear parametrization of the single fit parameters for $R_{bq}^{reco}$. \relax }}{88}{figure.caption.55}
+\contentsline {figure}{\numberline {\relax B.7}{\ignorespaces Linear parametrization of the single fit parameters for $R_{bq}^{reco}$. \relax }}{88}{figure.caption.56}
+\contentsline {figure}{\numberline {\relax B.8}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{89}{figure.caption.57}
+\contentsline {figure}{\numberline {\relax B.9}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{90}{figure.caption.58}
+\contentsline {figure}{\numberline {\relax B.10}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{91}{figure.caption.59}
+\contentsline {figure}{\numberline {\relax B.11}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{92}{figure.caption.60}
+\contentsline {figure}{\numberline {\relax B.12}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{93}{figure.caption.61}
+\contentsline {figure}{\numberline {\relax B.13}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{94}{figure.caption.62}
+\contentsline {figure}{\numberline {\relax B.14}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{95}{figure.caption.63}
+\contentsline {figure}{\numberline {\relax B.15}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{96}{figure.caption.64}
+\contentsline {figure}{\numberline {\relax B.16}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{97}{figure.caption.65}
+\contentsline {figure}{\numberline {\relax B.17}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{98}{figure.caption.66}
+\contentsline {figure}{\numberline {\relax B.18}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{99}{figure.caption.67}
+\contentsline {figure}{\numberline {\relax B.19}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{100}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax B.20}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{101}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax B.21}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{102}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax B.22}{\ignorespaces Control plots of the simultaneous template parametrization.\relax }}{103}{figure.caption.71}
