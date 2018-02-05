@@ -69,15 +69,15 @@ In the following the different steps of the template parametrization are introdu
 \subsubsection{The template parametrization}
 
 
-The parametrization of the estimator distributions, consists of several sub-steps. Firstly, the actual parametrization, which is used to obtain the probability densities, is performed. The procedure is briefly as follows: 
+The parametrization of the estimator distributions consists of several sub-steps. Firstly, the actual parametrization, which is used to obtain the probability densities, is performed. The procedure is briefly as follows: 
 \begin{itemize}
 	\item First of all, each single distribution is fitted with the analytical functions described below to obtain a set of parameters ($p_i$ with $i$ =0,1,...).
-	\item The fitted parameters are parametrized linear as functions of $m_{\text{top}}$, JSF and bJSF. 
+	\item The fitted parameters are parametrized as linear functions of $m_{\text{top}}$, JSF and bJSF. 
 	\item With parameters from the two steps above, as initial values, a combined fit is performed to obtain the final parametrization of the templates.
 \end{itemize}   
 
  
- In case of this thesis,  only templates of signal events are used to perform a first test of the method. However, the major changes, which have to be considered for the inclusion of the background samples are also taken into account in following.  
+ In the case of this thesis,  only templates of signal events are used to perform a first test of the method. However, the major changes which have to be considered for the inclusion of the background samples are also taken into account in following.  
 
 
 \subsubsection{The single fits}  
@@ -85,7 +85,7 @@ The parametrization of the estimator distributions, consists of several sub-step
 
  At the beginning of the parametrization process, the best possible initial conditions are searched for the  combined fit of the templates. Furthermore, one is also interested in the dependencies between the three estimators ($m_{\text{top}}^{\rm reco}$, $m_{\text{W}}^{\rm reco}$ and $R_{\text{bq}}^{\rm reco}$) and the three observables, which are of interest ($m_{\text{top}}$, JSF and bJSF). Therefore, two interpolation steps are performed. 
 
- First of all, each single \rm reconstructed template is fitted with a  analytical function. For  $m_{\text{top}}^{\rm reco}$  and  $m_{\text{W}}^{\rm reco}$, this is the sum of a Gaussian, a normal Landau function and a mirrored Landau function.  $R_{\text{bq}}^{\rm reco}$ is fitted with the sum of two gaussians and one Landau distribution. 
+ First of all, each single \rm reconstructed template is fitted with an  analytical function. For  $m_{\text{top}}^{\rm reco}$  and  $m_{\text{W}}^{\rm reco}$, this is the sum of a Gaussian, a normal Landau function and a mirrored Landau function.  $R_{\text{bq}}^{\rm reco}$ is fitted with the sum of two gaussians and one Landau distribution. 
 Since $m_{W}^{\rm reco}$ does not show any significant sensitivities on $m_{\text{top}}$ and bJSF, only the samples with different JSF are parametrized. 
 In the analysis published in~\cite{ATLAS-CONF-2017-071}, the $m_{\text{W}}^{\rm reco}$ distribution was parametrized  by the sum of two Gaussians. In this thesis however it has been found that the sum of a Gaussian, a Landau and a mirrored Landau distribution describes the observable better.
 
@@ -93,14 +93,14 @@ In general one can think about using different functions for the parametrization
 Despite this possibility, main goal for this theses has been to be as consistent as possible with the previous measurements in order to make it easy to results.  
 
  
- From the fist parametrization steps nine parameters ($p_i$) are obtained for each fitted sample of all three distributions ($m_{\text{top}}^{\rm reco}$, $m_{\text{W}}^{\rm reco}$ and $R_{\text{bq}}^{\rm reco}$). The  parameters  represent the amplitude, the mean and the standard deviation of the fit functions. The detailed assignment of the functions can be find in~\cref{tab:parameters}. All parameters of the different sets with same index $i$  are plotted against the simulated $m_{\rm top}$, JSF and bJSF of the corresponding sample. The plots are parametrized with linear functions.  Each parameter ($p_i$) can than be written in the following form:
+ From the first parametrization steps nine parameters ($p_i$) are obtained for each fitted sample of all three distributions ($m_{\text{top}}^{\rm reco}$, $m_{\text{W}}^{\rm reco}$ and $R_{\text{bq}}^{\rm reco}$). The  parameters  represent the amplitude, the mean and the standard deviation of the fit functions. The detailed assignment of the functions can be found in~\cref{tab:parameters}. All parameters of the different sets with same index $i$  are plotted against the simulated $m_{\rm top}$, JSF and bJSF of the corresponding sample. The plots are parametrized with linear functions.  Each parameter ($p_i$) can then be written in the following form:
 \begin{eqnarray}
 &&p_i = a_{\rm 0i} + a_{\rm 1i} m_{\text{top}}, \nonumber \\
 && p_i = b_{\rm 0i} + b_{\rm 1i}(\text{JSF} - 1.00) \hspace{0.5cm}     \text{and}      \nonumber \\   
 && p_i = c_{\rm 0i} + c_{\rm 1i}(\text{bJSF - 1.00}). \nonumber    \\
 \end{eqnarray}
 The parameters are described by the slope and the offset of the linear functions. All parameters which are determined in these two steps  are used  as initial parameters  for the combined template parametrization.
-\clearpage
+
 \begin{center}
 	\captionof{table}{Assingment of the fit paramertes and the analytical functions. $A$ denotes the amplitude of the function, $\mu$ the mean and $\sigma$ the standard deviation.}\label{tab:parameters}
 	
@@ -130,9 +130,9 @@ The parameters are described by the slope and the offset of the linear functions
 \input{Linear}
 
 
- In~\cref{fig:linear1} examples of the linear parametrization of the fitted parameters, which belong to the single template fit, are shown. The parameters of the different individual $m_{\text{top}}^{\rm reco}$ template fits are plotted against the simulated top-quark mass, and the different JSF and bJSF.  In analogy, there are linear parametrizations of the same kind for  $R_{\text{bq}}^{\rm reco}$, while for $m_{\text{W}}^{\rm reco}$ there is only a linear fit in terms of the jet energy scale JES. The linear dependencies between the parameters of the estimator fits and the observables are essential for the analysis. This will become more clear below with the introduction of the simultaneous parametrization. Only if the distributions are well described and the linearity of each parameter has been achieved, the results of the single fits can be used to perform the simultaneous fit to the estimator distribution. 
+ In~\cref{fig:linear1} examples of the linear parametrization of the fitted parameters, which belong to the single template fit, are shown. The parameters of the different individual $m_{\text{top}}^{\rm reco}$ template fits are plotted against the simulated top-quark mass, and the different JSF and bJSF.  In analogy, there are linear parametrizations of the same kind for  $R_{\text{bq}}^{\rm reco}$, while for $m_{\text{W}}^{\rm reco}$ there is only a linear fit in terms of the jet energy scale JES. The linear dependencies between the parameters of the estimator fits and the observables are essential for the analysis. This will become more clearly below with the introduction of the simultaneous parametrization. Only if the distributions are well described and the linearity of each parameter has been achieved, the results of the single fits can be used to perform the simultaneous fit to the estimator distribution. 
 
- The complete linear fit of all  parameters and the corresponding plots can be find in~\cref{sec:apptem}. In order to achieve a satisfying result, some parameters are fixed, this can be seen by the fact that the linear fit results in a constant straight line.
+ The complete linear fit of all  parameters and the corresponding plots can be found in~\cref{sec:apptem}. In order to achieve a satisfying result, some parameters are fixed, this can be seen by the fact that the linear fit results in a constant straight line.
 
 
 
@@ -159,10 +159,10 @@ In the next step, the $\chi^2$ of the single distributions are summed up. The re
 Here  the sum runs over all samples of one estimator  which are denoted by the tuples $k$, as in~\cref{chi1}. 
 The total $\chi^{2}$ are finally minimized with the \textsc{MINUIT} framework~\cite{James:2004xla} and one ends up with 36 parameters in total for each of the three distributions.
 
-Furthermore, the template fit for each distribution is plotted, together with the corresponding fit functions as shown e.g in~\cref{fig:mtoptemp1,fig:mtoptemp2,fig:mtoptemp3}. It is important to keep in mind, that the displayed parametrizations are not obtained via a single fit of each distribution. Instead the results show the parametrization of the individual distributions under the simultaneous fit in $m_{\text{top}}$, JSF and bJSF. In this case, the parameters of the different templates are correlated. Further parametrized templates are shown in~\cref{sec:apptem}. The individual templates show, that the chosen fit functions describe the distributions well, which is in good agreement with the observations from the previous measurements.
+Furthermore, the template fit for each distribution is plotted, together with the corresponding fit functions as shown e.g in~\cref{fig:mtoptemp1,fig:mtoptemp2,fig:mtoptemp3}. It is important to keep in mind that the displayed parametrizations are not obtained via a single fit of each distribution. Instead the results show the parametrization of the individual distributions under the simultaneous fit in $m_{\text{top}}$, JSF and bJSF. In this case, the parameters of the different templates are correlated. Further parametrized templates are shown in~\cref{sec:apptem}. The individual templates show that the chosen fit functions describe the distributions well, which is in good agreement with the observations from the previous measurements.
 
 For each of the three combined fits the knowledge of the dependencies on $m_{\text{top}}$, JSF and bJSF is essential, since the simultaneous parametrization is performed with~\cref{eq:lin}, under the assumption that all  are linear. 
-These assumptions have been explicitly proofed by the previous analyses~\cite{Aad:2015nba,ATLAS-CONF-2017-071}  and also by theoretical studies~\cite{Heinrich:2017bqp}. In addition to the linear fits, which are performed her, one can also argue that the linearity can be shown by the simultaneous fit itself.  If the linearity assumption is not true, one would expect to see disagreements in the description  templates by the analytical functions, e.g. for different scale factors. Furthermore, the consistency of the complete analysis and therefore also for the parametrization is here checked via closure tests (see~\cref{ct}).
+These assumptions have been explicitly proofed by the previous analyses~\cite{Aad:2015nba,ATLAS-CONF-2017-071}  and also by theoretical studies~\cite{Heinrich:2017bqp}. In addition to the linear fits, which are performed here, one can also argue that the linearity can be shown by the simultaneous fit itself.  If the linearity assumption is not true, one would expect to see disagreements in the description  templates by the analytical functions, e.g. for different scale factors. Furthermore, the consistency of the complete analysis and therefore also for the parametrization is here checked via closure tests (see~\cref{ct}).
 
 
 \input{Temp2}
@@ -185,7 +185,7 @@ for all events $i = 1,..,N$, to obtain simultaneously the top-quark mass and the
  \begin{equation}
  	P(x_1, x_2) = \frac{1}{2\pi \sigma_1 \sigma_2 \sqrt{1-\rho^2}}  e^{-\frac{1}{2(1-\rho^2)} [\frac{x_1^2}{\sigma_1^2} + \frac{x_2^2}{\sigma_2^2} - \frac{2\rho x_1 x_2}{\sigma_1 \sigma_2}]}.
  \end{equation}
-This is a two dimensional Gaussian, where the correlation between the variables are taken into account by the correlation factor $\rho$. 
+This is a two dimensional Gaussian, where the correlation between the variables is taken into account by the correlation factor $\rho$. 
 Mathematically, the correlation coefficient is defined as:
 \begin{equation}
 \rho = \frac{E[(x_1-E[x_1])(x_2-E[x_2])]}{\sigma_{x_1}\sigma_{x_2}}.
@@ -222,7 +222,7 @@ The probability density function of the $m_{\text{W}}}^{\rm reco}$ distribution 
 $m_{\text{top}$ and JSF or only of $m_{\text{top}$.
 
 
-For the previous top-quark mass measurements in the lepton + jets channel, also the background templates are parametrized and taken into account by additional probability functions. In addition to $m_{\text{top}}$, JSF and bJSF,  also the background fraction $f_{bkg}$ is determined with the maximum likelihood fit.  In that case, the corresponding probability density functions take the following from: 
+For the previous top-quark mass measurements in the lepton + jets channel, also the background templates are parametrized and taken into account by additional probability functions. In addition to $m_{\text{top}}$, JSF and bJSF,  also the background fraction $f_{bkg}$ is determined with the maximum likelihood fit.  In that case, the corresponding probability density functions take the following form: 
 
 \begin{eqnarray}
 	P_{\rm top}(\mtri\,\vert\,\mt, \JSF, \bJSF, \fbkg) &=& 
@@ -247,7 +247,7 @@ For the previous top-quark mass measurements in the lepton + jets channel, also 
 \section{Closure tests}\label{ct}
 The Method performance and the consistency of the estimated properties are tested via closure tests. 
 Ensembles for each parameter set (m$_{\text{top}}$, JSF, bJSF) are drawn from pseudodata, generated by randomly chosen events from the available Monte Carlo simulation. Each of the generated ensembles corresponds to the integrated luminosity of the data.  
- Bootstrapping~\cite{efron1992bootstrap} is applied to resample the events after their selection. Therefore, one event can appear in several ensembles, which makes it necessary to take care about unwanted correlations among the different ensembles by assuring that there is enough Monte Carlo statistics or, like for the previous analyses, apply an oversampling correction~\cite{barlow2000application}. 
+ Bootstrapping~\cite{efron1992bootstrap} is applied to resample the events after their selection. Therefore, one event can appear in several ensembles, which makes it necessary to take care of unwanted correlations among the different ensembles by ensuring that there is enough Monte Carlo statistics or, like for the previous analyses, apply an oversampling correction~\cite{barlow2000application}. 
 However, since in this thesis the whole closure test procedure is performed for the first time with the new analyses framework, the oversampling correction is not applied yet.  
 
 With the pseudodata the  unbinned maximum likelihood fit is performed to determine the top-quark mass and the jet energy scale factors. The whole procedure, 
@@ -258,7 +258,7 @@ The tests are performed with variing either $m_{\text{top}}$, JSF or bJSF, and k
 For the three-dimensional fit all three variables are varied, in two dimensions, only $m_{\text{top}}^{\rm in}$ and JSF$^{\rm in}$ are considered and in the one dimensional fit only  $m_{\text{top}}^{\rm in}$ is varied. 
 
   
- Closure tests are performed for each dimension. The difference between the input and the output value of the three variables, i.e.  $m_{\text{top}}^{\rm fit}-m_{\text{top}}^{\rm in}$  (analogous for JSF and bJSF) , are  plotted vs the different input values of $m_{\text{top}}^{\rm in}$, JSF$^{\rm in}$ and bJSF$^{\rm in}$. Moreover,  a linear fit is performed, which takes the statistical uncertainties per parameter into account. The slope of the linear fit is forced to be zero. If the offset of the linear fit is consistent with zero, the result is unbiased.
+ Closure tests are performed for each dimension. The difference between the input and the output value of the three variables, i.e.  $m_{\text{top}}^{\rm fit}-m_{\text{top}}^{\rm in}$  (analogous for JSF and bJSF) , are  plotted versus the different input values of $m_{\text{top}}^{\rm in}$, JSF$^{\rm in}$ and bJSF$^{\rm in}$. Moreover,  a linear fit is performed, which takes the statistical uncertainties per parameter into account. The slope of the linear fit is forced to be zero. If the offset of the linear fit is consistent with zero, the result is unbiased.
  
  \begin{figure}[h] % "[t!]" placement specifier just for this example
  	\centering 
@@ -282,7 +282,7 @@ For the three-dimensional fit all three variables are varied, in two dimensions,
  \begin{equation}
  m_{\text{top pull}} = \frac{m_{\text{top}}^{\rm in} - m_{\text{top}}^{\rm fit}}{\delta_{m_{\text{top}}}^{\rm fit}}.
  \end{equation}
- The equation can easily be adopted for the JSF and the bJSF by replacing the corresponding quantities. The pull distribution is evaluated for each variation of the three input variables. If the uncertainties $\delta^{\rm fit}$ are correctly estimated, the width of the pull distributions should be close to unity. Therefore, the  pull-width of each distribution is plotted as a function of the input values ($m_{\text{top}}^{\rm in}$, JSF$^{\rm in}$ and bJSF$^{\rm in}$). A straight line fit provides  the quality of the error estimations. If the uncertainties are underestimated, i.e. the average pull width is to small, the fitted line has a positive offset. Hence, if a negative offset is observed  the  average pull-width is larger than one and  the uncertainties are overestimated.
+ The equation can easily be adapted for the JSF and the bJSF by replacing the corresponding quantities. The pull distribution is evaluated for each variation of the three input variables. If the uncertainties $\delta^{\rm fit}$ are correctly estimated, the width of the pull distributions should be close to unity. Therefore, the  pull-width of each distribution is plotted as a function of the input values ($m_{\text{top}}^{\rm in}$, JSF$^{\rm in}$ and bJSF$^{\rm in}$). A straight line fit provides  the quality of the error estimations. If the uncertainties are underestimated, i.e. the average pull width is too small, the fitted line has a positive offset. Hence, if a negative offset is observed  the  average pull-width is larger than one and  the uncertainties are overestimated.
 
 
 
@@ -293,7 +293,7 @@ For the three-dimensional fit all three variables are varied, in two dimensions,
 
 
 The results of the one dimensional closure test can be seen, together with the corresponding pull-width plot (right), in~\cref{closure3}. For the linearity test on the left, only $m_{\text{top}}$ is fitted, while both scale factors are set to 1.00.  The result of the linear  fit on the left, demonstrates that the offset is not consistent with zero, but very small. The corresponding pull-width fit, however, shows a noticeable offset from unity towards larger values. Thus, the average pull-width for the different mass points is larger than one and the uncertainties are underestimated.
-In~\cref{closure2} the results for the two-dimensional fit are presented. In the top line, the closure testes are displayed for the fit of $m_{\text{top}}$ and JSF. bJSF is kept at 1.00. The second line displays the pull-widths. For the two-dimensional fit, a similar result as in one dimension is obtained. While the linearity tests of $m_{\text{top}}$ and JSF show that the offsets are not consistent with zero, but very small.  The pull-widths show that the uncertainties are underestimated.
+In~\cref{closure2} the results for the two-dimensional fit are presented. In the top line, the closure tests are displayed for the fit of $m_{\text{top}}$ and JSF. bJSF is kept at 1.00. The second line displays the pull-widths. For the two-dimensional fit, a similar result as in one dimension is obtained. While the linearity tests of $m_{\text{top}}$ and JSF show that the offsets are not consistent with zero, but very small.  The pull-widths show that the uncertainties are underestimated.
 
 \begin{figure} [h]% "[t!]" placement specifier just for this example
 	\centering 
@@ -326,7 +326,7 @@ In~\cref{closure2} the results for the two-dimensional fit are presented. In the
 \end{figure}	
 
 
- The results of the closure tests and the pull-widths for the three-dimensional fit of $m_{\text{top}}$, JSF and bJSF are presented in~\cref{closure1}. In contrast to the one and two-dimensional closure test, the consistency can not be seen for three dimensions, since the offset in the corresponding plots for $m_{\text{top}}$ and bJSF show that there is  a bias. Furthermore, the offsets observed for pull-widths show, like for the one and two-dimensional case, that the corresponding uncertainties are underestimated.
+ The results of the closure tests and the pull-widths for the three-dimensional fit of $m_{\text{top}}$, JSF and bJSF are presented in~\cref{closure1}. In contrast to the one and two-dimensional closure test, the consistency can not be seen for three dimensions, since the offset in the corresponding plots for $m_{\text{top}}$ and bJSF shows that there is  a bias. Furthermore, the offsets observed for pull-widths show, like for the one and two-dimensional case, that the corresponding uncertainties are underestimated.
 
    
   The reason for the observed bias in three dimensions might arise due to an insufficient description of the \rm reconstructed distributions by the chosen  parametrization of the templates. In the first runs of the closure test, the linearity tests also failed for the one and two-dimensional fit. This issue could be solved by optimizing the  initial parameters of the simultaneous template parametrization. Therefore, the  further optimization of the simultaneous fit might improve the result of the 3D closure test as well.  In case of the general underestimation of the uncertainties, which is observed for all three dimensions, the corresponding uncertainties have to be studied explicitly. 
