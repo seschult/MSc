@@ -41,16 +41,19 @@
 \BOOKMARK [2][]{subsection.5.1.1}{Analysis specific quantities}{section.5.1}% 41
 \BOOKMARK [2][]{subsection.5.1.2}{Event yields}{section.5.1}% 42
 \BOOKMARK [0][]{chapter.6}{Measurement of top-quark mass}{}% 43
-\BOOKMARK [1][]{section.6.1}{3D-template method}{chapter.6}% 44
-\BOOKMARK [1][]{section.6.2}{The unbinned maximum likelihood fit}{chapter.6}% 45
-\BOOKMARK [1][]{section.6.3}{Closure tests}{chapter.6}% 46
-\BOOKMARK [0][]{chapter.7}{Uncertainty evaluation}{}% 47
-\BOOKMARK [1][]{section.7.1}{Evaluation of the systematics}{chapter.7}% 48
-\BOOKMARK [1][]{section.7.2}{Modelling of the systematics}{chapter.7}% 49
-\BOOKMARK [1][]{section.7.3}{Obtained systematics}{chapter.7}% 50
-\BOOKMARK [0][]{chapter.8}{Summary and outlook}{}% 51
-\BOOKMARK [0][]{chapter*.48}{Bibliography}{}% 52
-\BOOKMARK [0][]{appendix.A}{KLFitter reconstruction}{}% 53
-\BOOKMARK [0][]{appendix.B}{Template parametrization}{}% 54
-\BOOKMARK [0][]{appendix*.73}{List of Figures}{}% 55
-\BOOKMARK [0][]{appendix*.74}{List of Tables}{}% 56
+\BOOKMARK [1][]{section.6.1}{The multidimensional template method}{chapter.6}% 44
+\BOOKMARK [2][]{subsection.6.1.1}{The 2D template method}{section.6.1}% 45
+\BOOKMARK [2][]{subsection.6.1.2}{The 3D template method}{section.6.1}% 46
+\BOOKMARK [1][]{section.6.2}{The template parametrization}{chapter.6}% 47
+\BOOKMARK [1][]{section.6.3}{The unbinned maximum likelihood fit}{chapter.6}% 48
+\BOOKMARK [1][]{section.6.4}{Closure tests}{chapter.6}% 49
+\BOOKMARK [0][]{chapter.7}{Uncertainty evaluation}{}% 50
+\BOOKMARK [1][]{section.7.1}{Evaluation of the systematics}{chapter.7}% 51
+\BOOKMARK [1][]{section.7.2}{Modelling of the systematics}{chapter.7}% 52
+\BOOKMARK [1][]{section.7.3}{Obtained systematics}{chapter.7}% 53
+\BOOKMARK [0][]{chapter.8}{Summary and outlook}{}% 54
+\BOOKMARK [0][]{chapter*.47}{Bibliography}{}% 55
+\BOOKMARK [0][]{appendix.A}{KLFitter reconstruction}{}% 56
+\BOOKMARK [0][]{appendix.B}{Template parametrization}{}% 57
+\BOOKMARK [0][]{appendix*.72}{List of Figures}{}% 58
+\BOOKMARK [0][]{appendix*.73}{List of Tables}{}% 59
