@@ -34,8 +34,8 @@
 \contentsline {subsection}{\numberline {4.1.4}Jets}{31}{subsection.4.1.4}
 \contentsline {subsubsection}{\nonumberline Jet reconstruction}{32}{section*.24}
 \contentsline {subsubsection}{\nonumberline Jet energy scales}{32}{section*.25}
-\contentsline {subsection}{\numberline {4.1.5}Tagging of $b$-Jets}{33}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Missing transverse energy}{34}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.5}Tagging of $b$-Jets}{34}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Missing transverse energy}{35}{subsection.4.1.6}
 \contentsline {section}{\numberline {4.2}Data and Monte Carlo samples}{35}{section.4.2}
 \contentsline {section}{\numberline {4.3}Event preselection and background contributions}{36}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Single top background}{36}{subsection.4.3.1}
@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {4.3.3}$W$ + jets background}{37}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}$Z$ + jets background}{37}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Multijet/non-prompt lepton background}{37}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Event triggering}{37}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}Event triggering}{38}{subsection.4.3.6}
 \contentsline {subsection}{\numberline {4.3.7}Preselection criteria}{38}{subsection.4.3.7}
 \contentsline {chapter}{\numberline {5}Event reconstruction}{39}{chapter.5}
 \contentsline {section}{\numberline {5.1}Reconstruction of the $t\bar {t}$ final-state}{39}{section.5.1}

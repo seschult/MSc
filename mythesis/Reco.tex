@@ -21,9 +21,10 @@ The input variables for the kinematic likelihood fit are the energy of the charg
 If the event contains more than four jets, the reconstruction efficiency can be increased by allowing more jets as input to  \textsc{KLFitter}. As shown in~\cite{ATLAS-CONF-2017-071}, using up to six jets is beneficial for the event reconstruction. Furthermore, the so-called veto mode is applied to improve the reconstruction efficiency and to reduce the number of possible permutations. This mode does not allow to assign a $b$-jet as a light jet and vice versa. 
 
 The kinematic likelihood function is given by eq.~(\ref{eq:Likeklf}) and consists of products of Breit-Wigner distributions ($BW$) and transfer functions ($T$).
-The $BW$ distributions are based on a leading-order picture where all jets are matched with the corresponding partons and  the pole masses of the top-quarks~\cite{Erdmann:2013rxa}. 
-Therefore, the $BW$ distributions are calculated for the input momenta of the quarks and leptons with the corresponding invariant masses and the transverse momentum of the neutrino. The first expression in the $BW$ terms correspond to the different invariant masses of the system and represent the abscissa of the distribution. The used invariant masses are the two jet mass of the light jets ($m(q_1q_2)$) , the  mass of the lepton pair ($m(l \nu)$), the mass of the hadronically decaying top quark ($m(q_1q_2 b_{\rm had})$) and the mass of the leptonically decaying top quark ($m(q_1q_2 b_{\rm lep})$).
-A straight line in the $BW$ brackets separates the variables from the parameters which determine the functional form of the distributions. These parameters are the location parameter of the distribution, where the mass of the $W$-boson and of the top quark are considered, as well as the corresponding shape parameter (width) of the distribution, which are denoted with $\Gamma$. Here, the mass parameter of the $W$-boson is set to the official particle data group  result of 80.39 $\pm$ 0.015~GeV~\cite{Olive:2016xmw}. The top-quark mass  is determined as a free parameter by the kinematic likelihood fit and therefore called reconstructed top-quark mass $m_{\text{top}}^{\rm reco}$.
+The $BW$ distributions are based on a leading-order picture where all jets are matched with the corresponding partons and  the pole mass of the top-quark~\cite{Erdmann:2013rxa}. 
+Therefore, the $BW$ distributions are calculated for the input momenta of the quarks and leptons with the corresponding invariant masses and the transverse momentum of the neutrino. The first expression in the $BW$ function corresponds to an invariant mass of the system and represents the abscissa of the distribution. The used invariant masses belong to the two light jets ($m(q_1q_2)$),  the lepton pair ($m(l \nu)$), the hadronically decaying top quark ($m(q_1q_2 b_{\rm had})$) and the  leptonically decaying top quark ($m(q_1q_2 b_{\rm lep})$).
+The straight line in the $BW$ brackets separates the variables from the parameters which determine the shape of the distributions. These parameters are the location parameter, which considers the mass of the $W$-boson and of the top quark and the width of the distribution (\gamma).
+ The mass parameter of the $W$-boson is set to the official particle data group  result of 80.39 $\pm$ 0.015~GeV~\cite{Olive:2016xmw} and the top-quark mass  is determined as a free parameter by the kinematic likelihood fit. Therefore, it is called reconstructed top-quark mass ($m_{\text{top}}^{\rm reco}$).
 
 \begin{eqnarray}
 \label{eq:Likeklf}
@@ -43,21 +44,21 @@ T(p_{T_{\mu}}|\hat{p}_{T_{\mu}}) \hspace{0.5cm} \text{ $\mu$ + jets}\\
 
 
 
-The transfer functions represent the detector response and further disturbances, by describing the resolution of the reconstructed energies. Therefore,  the jet energies $E_{\rm jet_i}$ ($i$ = 1,2,3,4)  are taken into account. In the likelihood expressions, like $T(E_{\rm jet_1}|\hat{E}_{b_{\rm had}})$, the fist term in the brackets represent the variable of the transfer function, while the second expression denotes the energy or the transverse momentum of the associated physical patron-level quantity (denoted by a hat), which are taken into account as additional information. Furthermore, there are transfer functions, which include the missing transverse energy by using  the corresponding components of the transverse momentum, e.g. $T(E_{x}^{\rm miss}|\hat{p}_{x,\nu})$. As shown in e.q.~(\ref{eq:Likeklf}), different functions for muon and electron events are used. While for electrons the energy is taken into account, for muons the transverse momentum is considered.
+The transfer functions represent the detector response by describing the resolution of the reconstructed energies. Therefore, the jet energies $E_{\rm jet_i}$ ($i$ = 1,2,3,4)  are taken into account. The fist term in the brackets of the transfer functions represents the variable, while the second expression denotes the energy or the transverse momentum of  physical patron-level quantities\footnote{The hat denotes parton-level quantites.}, which are taken into account as additional information. Furthermore, there are transfer functions which include the missing transverse energy by using the corresponding components of the transverse momentum, e.g. $T(E_{x}^{\rm miss}|\hat{p}_{x,\nu})$. As shown in e.q.~(\ref{eq:Likeklf}), different functions for muon and electron events are used. While for electrons the energy is taken into account, for muons the transverse momentum is considered.
 
  Due to the changes which arise with the increasing center-of-mass energy, e.g. the different background evolution in $\sqrt{s}$, the transfer functions have to be obtained specifically for the conditions of the measurement. However, within the time scale of this thesis, the corresponding transfer functions for $\sqrt{s}=$13~TeV were not available. Therefore, the same transfer functions as for the 8~TeV measurement are used~\cite{ATLAS-CONF-2017-071}. The  transfer functions have a double Gaussian form and are parametrized with the five parameters ($p_i$):
 \begin{equation}\label{transfer}
 T(\Delta E) = \frac{1}{\sqrt{2\pi}(p_2 + p_3p_5)}
 \begin{pmatrix}
-e^{\frac{(\Delta E- p_1)^2}{2p_2^2}} + p_3e^{\frac{(\Delta E- p_4)^2}{2p_5^2}} 
+e^{\frac{(\Delta E- p_1)^2}{2p_2^2}} + p_3e^{\frac{(\Delta E- p_4)^2}{2p_5^2}}.
 \end{pmatrix}
 \end{equation} 
-The motivation for the double Gaussian is  the energy resolution of the detector, which can be described by the displayed functional form. 
-It describes the spectrum of the relative difference of the parton-level energy $E_{\rm Truth}$ and the reconstructed energy $E_{\rm reco}$:
+With this functional form a good description of the energy resolution of the detector has been achieved. 
+It describes the spectrum of the relative difference of the parton-level energy $\hat{E}_{\rm truth}$ and the reconstructed energy $\hat{E}_{\rm reco}$:
 \begin{equation}
-\Delta E = \frac{E_{\rm Truth}-E_{\rm reco}}{E_{\rm Truth}}.
+\Delta E = \frac{\hat{E}_{\rm truth}-E_{\rm reco}}{E_{\rm truth}}.
 \end{equation}
-The last term of the likelihood is a $b$-tagging weighting factor $W_{\rm btag}$, which is one if the $b$-tagged jets and the untagged jets are in the correct position, and zero otherwise. 
+The last term of the kinematic likelihood function is a $b$-tagging weighting factor $W_{\rm btag}$, which is one if the $b$-tagged jets and the untagged jets are in the correct position and zero otherwise. 
 
 
 
@@ -70,17 +71,21 @@ The last term of the likelihood is a $b$-tagging weighting factor $W_{\rm btag}$
 
 \subsection{Analysis specific quantities}
 
-This analysis is based on the template methode (see~\cref{Relevanz}), which is a common analysis technique in high energy physics. Due to the nature of the uncertainties which affect the measurement of the top-quark mass is determined together with two scale factors, which are sensitive to the energy calibration of the jets.  
-These are the so-called jet energy scale factor (JSF) and the  $b$-to-light jet energy scale factor (bJSF). A detailed definition of the two scale factors, as well as of the motivation for the multidimensional template fit is given in~\cref{sec:Temp1}.
-Three estimators have been introduced, which provide the sensitive to top-quark mass and the energy scale factors. In this subsection, these estimators are introduced, since they are based on the event reconstruction.
+This analysis is based on the template methode (see~\cref{Relevanz}), which is a common analysis technique in high energy physics. Due to the nature of the uncertainties which affect the measurement, the top-quark mass is determined together with two jet scale factors, which are sensitive to the energy calibration of the jets.  
+These two scale factors are the so-called jet energy scale factor (JSF) and the  $b$-to-light jet energy scale factor (bJSF), which considers the specific requirements of the $b$-jet calibration (see~\cref{JES} ). 
+ A detailed definition of the two scale factors and a motivation for the simultaneous determination of the top-quark mass and the jet scale factors is given in~\cref{sec:Temp1} below.
+ 
+However, in order to determine these three variables, appropriated estimators have to be introduced, which provide the sensitivities to the  top-quark mass and the energy scale factors.
+For this measurement, these three estimators are obtained with the event reconstruction. Hence,  in this subsection, these estimators are introduced in more detail. 
 
- The first estimator is the reconstructed top-quark mass $m_{\text{top}}^{\rm reco}$, which  is a free parameter in \textsc{KLFitter} and takes the implicit constraint in the fit to the known $W$-boson mass into account. It is sensitive to the top-quark mass and both scale factors.
- Secondly, there  is the reconstructed $W$-boson mass ($m_\text{W}^{\rm reco}$), which is the invariant mass of the hadronically decaying top-quark. While $m_{\text{top}}^{\rm reco}$ is determined by the kinematic likelihood fit, $m_\text{W}^{\rm reco}$ is calculated from the original four-vectors of the chosen jet permutation and is sensitive to the JSF.
- A third estimator  ($R_{\text{bq}}^{\rm reco}$) is introduced to provide the sensitivity to the bJSF and its definition depends on the number of $b$-tagged jets. Nevertheless, both definitions are calculated, as $m_\text{W}^{\rm reco}$, from the original four-vectors of the chosen jet permutation. 
-  If only one $b$-tagged jet is required, $R_{\text{bq}}^{\rm reco}$ is defined via the transverse momentum of the $b$-tagged jet divided by the averaged scalar sum of the transverse momenta of the two untagged jets which are associated to the hadronic $W$-boson decay (see~\cref{rbq}).
- For events with two $b$-tagged jets, $R_{\text{bq}}^{\rm reco}$ is defined as the ratio of the scalar sum of the transverse momenta of the $b$-tagged jet of the leptonic decaying top quark and the $b$-tagged jet of the hadronic decaying top quark and the scalar sum of the transverse momenta of the two untagged jets from the hadronic $W$-boson decay (see~\cref{rbq2}).
-
-\begin{equation}\label{rbq}
+ The first estimator is the reconstructed top-quark mass $m_{\text{top}}^{\rm reco}$. It is a free parameter in event reconstruction with  \textsc{KLFitter} and takes the implicit constrain  to the known $W$-boson mass into account. Furthermore, it is sensitive to the top-quark mass and both scale factors.
+ 
+ The second estimator is the reconstructed $W$-boson mass ($m_\text{W}^{\rm reco}$), which is the invariant mass of the hadronically decaying top-quark. While $m_{\text{top}}^{\rm reco}$ is determined by the kinematic likelihood fit, $m_\text{W}^{\rm reco}$ is calculated from the original four-vectors of the chosen jet permutation and is sensitive to the JSF.
+ 
+ A third estimator  ($R_{\text{bq}}^{\rm reco}$) is introduced to provide the sensitivity to bJSF. It is calculated, like  $m_\text{W}^{\rm reco}$,  from the original four-vectors of the chosen jet permutation and has two different definitions, which depend on the number of $b$-tagged jets. 
+  If only one $b$-tagged jet is required, $R_{\text{bq}}^{\rm reco}$ is defined via the transverse momentum of this $b$-tagged jet, divided by the scalar sum of the transverse momenta of the two untagged jets which are associated to the hadronically decaying $W$-boson (see~\cref{rbq}).
+ For events with two $b$-tagged jets, $R_{\text{bq}}^{\rm reco}$ is defined as the ratio of the scalar sum of the transverse momenta of the two $b$-tagged jets and the scalar sum of the transverse momenta of the two untagged jets from the hadronic $W$-boson decay (see~\cref{rbq2}). The $b$-tagged transverse momenta in the later definition consider the $p_T$ of the jets, which are associated to the $b$-quarks from the leptoincally decaying and the hadronically decaying top-quark. 
+  \begin{equation}\label{rbq}
 R^{\rm reco,1b}_{\rm bq} = \frac{2 p_T^{\rm b_{\rm tag}}}{(p_T^{\rm W_{\rm jet_1}}+p_T^{\rm W_{\rm jet_2}})}
 \hspace{0.5cm}
 \text{and}
@@ -101,16 +106,14 @@ Furthermore, all three reconstructed variables are constrained by cuts, which ar
 In~\cref{tab:T41} the event yields, obtained with the above introduced selection criteria are shown for events with at least four jets, where at least two of the jets have to be tagged as $b$-jets. The total number of data events is shown, as well as the corresponding signal and background contributions. Furthermore, the event yields for events with four jets and at least one $b$-tagged jet, are displayed. 
 For the data-simulation comparison the top-quark mass is assumed to be 172.5~GeV. If not mentioned otherwise, all results just include statistical uncertainties. There are no uncertainties assumed for displayed values of the data. 
 
-\vspace{0.5cm}
-\input{Yields}
-\vspace{1.0cm}
-
 In~\cref{tab:T41}, the shown single top events are treated as an additional background process.
 The main background stems from $W$ + jets events. For the sample with at least two $b$-tags it is  2~\% of the total background and for the sample with one $b$-tag it is 9~\%. However, the QCD-multijet background has not been estimated yet and might lead to noticeable contributions for the future analysis. The other background sources, e.g.  diboson  and $Z$ + jet events, play only a minor role. 
 The choice of the selection cuts on events with at least two $b$-tagged jets, can be explained by the nature of the top-quark pair decay, which almost always produces two $b$-quarks.  As shown here, as well as by the previous measurements, the main background sources can be reduced impressively by the cuts on the number of tagged jets. In the  case of this analysis, the total background gets reduced from  15~\% to 6~\% for events with two  $b$-tags. While this remarkable reduction leads to a noticeable decrease of the background, the predicted number of events remain consistent with the observed number in data. Based on these experiences, the selection cuts on events with at least four jets, where at least two have to be tagged as $b$-jets are used for this analysis.
 
 Despite the fact that the three measurements at 7, 8 and 13~TeV are sharing the same main background sources, the relative contributions are different for each center-of-mass energy. This can be explained by the fact that the cross-sections of the different backgrounds depend differently on the increasing center-of-mass energy.
-
+\vspace{0.5cm}
+\input{Yields}
+\vspace{1.0cm}
 
 \subsubsection{Global quantities of the preselection}
 
