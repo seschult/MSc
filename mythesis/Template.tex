@@ -176,9 +176,10 @@ These assumptions have been explicitly proofed by the previous analyses~\cite{Aa
 
 
 \section{The unbinned maximum likelihood fit}
+
 In the following, the functions obtained in the template parametrisation are used in the unbinned maximum likelihood fit
 for all events $i = 1,..,N$, to obtain simultaneously the top-quark mass and the two jet energy scale factors. 
-
+ \input{PlotCorr}
  The main assumption for the construction of the likelihood function is that the correlations between the three observables are small. In this case the probability  functions can be factorized. This allows to use the product of single probability distributions, while otherwise a multidimensional probability function would have to be taken into account.
 
 
@@ -189,26 +190,25 @@ for all events $i = 1,..,N$, to obtain simultaneously the top-quark mass and the
  \end{equation}
 This is a two dimensional Gaussian, where the correlation between the variables is taken into account by the correlation factor $\rho$. 
 Mathematically, the correlation coefficient is defined as:
-\begin{equation}
+\begin{equation}\label{e2}
 \rho = \frac{E[(x_1-E[x_1])(x_2-E[x_2])]}{\sigma_{x_1}\sigma_{x_2}}.
 \end{equation}
-$E[x_1]$ stands for the expectation value of the variable $x_1$  and $\sigma_{x_1}$ for the corresponding standard deviation.
-
-In case of small correlations between the two variables, which results in small values for $\rho$, the last term of the distribution can be neglected and the multiplication factor of the exponent becomes -1/2. Thus the probability density can be split into to the product of two single Gaussian distributions, which reduces the complexity of the functional from. 
+$E[x_1]$ stands for the expectation value of the variable $x_1$  and $\sigma_{x_1}$ for the corresponding standard deviation. In the case of small correlations between the two variables, which results in small values for $\rho$, the last term of the distribution can be neglected and the multiplication factor of the exponent becomes -1/2. Thus the probability density can be split into to the product of two single Gaussian distributions which reduces the complexity of the functional from. 
 
 
 
 
 
- \input{PlotCorr}
 
- 
- For the determination of the correlation coefficients here,  the entries of the three estimators are plotted against each other  (see~\cref{fig:1a,fig:1b}). $\rho$ is evaluated by counting the entries of this two dimensional plots. As a result one gets the three correlation factors: 
+
+
+ The functions which are used here are much more complex than a two dimensional Gaussian. 
+ For the determination of the correlation coefficients here,  the entries of the three estimators are plotted against each other  (see~\cref{fig:1a,fig:1b}). $\rho$ is evaluated by counting the entries of the two dimensional plots and taking~\cref{e2} into account. As a result one gets the three correlation factors: 
 \begin{eqnarray*}
 \rho (m_{\text{top}}^{\rm reco} - m_\text{W}^{\rm reco}) = -0.02,\hspace{0.3cm}\rho (m_{\text{top}}^{\rm reco} - R_{\text{bq}}^{\rm reco}) =0.05 \hspace{0.3cm} \text{and} \hspace{0.3cm}
 \rho (m_{\text{W}}^{\rm reco} - R_{\text{bq}}^{\rm reco}) = -0.10.\nonumber \\ 
 \end{eqnarray*}
-Compared to the correlation values which are obtained for the previous measurements, the obtained results are of the same order. Therefore, the here presented correlations are assumed to be  sufficiently small, which allows the application of the factorization theorem. 
+Compared to the values of the previous measurements, all $\rho$ results obtained here are of the same order as the previous ones. Since the previous measurements were successfully performed, the correlations, which are presented here, are assumed to be  sufficiently small.
 
  The final likelihood function is:
 \begin{eqnarray}
