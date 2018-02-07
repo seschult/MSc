@@ -1115,32 +1115,6 @@
       \verb 1609.03920
       \endverb
     \endentry
-    \entry{Czakon:2011xx}{article}{}
-      \name{author}{2}{}{%
-        {{hash=916badb9a932cf841b35aacf604e4a63}{Czakon}{C\bibinitperiod}{Michal}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=9d6255119770b838c0558add8ff1a9ad}{Mitov}{M\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{a64ed51095ee7242d27c2267f3226929}
-      \strng{fullhash}{a64ed51095ee7242d27c2267f3226929}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Comput. Phys. Commun.}
-      \field{title}{{Top++: A Program for the Calculation of the Top-Pair Cross-Section at Hadron Colliders}}
-      \field{volume}{185}
-      \field{year}{2014}
-      \field{pages}{2930}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.cpc.2014.06.021
-      \endverb
-      \verb{eprint}
-      \verb 1112.5675
-      \endverb
-    \endentry
     \entry{Cacciari:2011hy}{article}{}
       \name{author}{5}{}{%
         {{hash=d38166452f9df43fc09b4da37680b482}{Cacciari}{C\bibinitperiod}{Matteo}{M\bibinitperiod}{}{}{}{}}%
@@ -1276,6 +1250,32 @@
       \endverb
       \verb{eprint}
       \verb 1303.6254
+      \endverb
+    \endentry
+    \entry{Czakon:2011xx}{article}{}
+      \name{author}{2}{}{%
+        {{hash=916badb9a932cf841b35aacf604e4a63}{Czakon}{C\bibinitperiod}{Michal}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d6255119770b838c0558add8ff1a9ad}{Mitov}{M\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a64ed51095ee7242d27c2267f3226929}
+      \strng{fullhash}{a64ed51095ee7242d27c2267f3226929}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Comput. Phys. Commun.}
+      \field{title}{{Top++: A Program for the Calculation of the Top-Pair Cross-Section at Hadron Colliders}}
+      \field{volume}{185}
+      \field{year}{2014}
+      \field{pages}{2930}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2014.06.021
+      \endverb
+      \verb{eprint}
+      \verb 1112.5675
       \endverb
     \endentry
     \entry{Gao:2013xoa}{article}{}
@@ -1641,27 +1641,6 @@
       \verb https://cds.cern.ch/record/2015211
       \endverb
     \endentry
-    \entry{Agostinelli:2002hh}{article}{}
-      \true{moreauthor}
-      \name{author}{1}{}{%
-        {{hash=1fa1785986425bed4463a184d407c5f5}{Agostinelli}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{aa9af5bf616b1437509f374c63638866}
-      \strng{fullhash}{aa9af5bf616b1437509f374c63638866}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nucl. Instrum. Meth.}
-      \field{title}{{GEANT4: A Simulation toolkit}}
-      \field{volume}{A506}
-      \field{year}{2003}
-      \field{pages}{250\bibrangedash 303}
-      \range{pages}{54}
-      \verb{doi}
-      \verb 10.1016/S0168-9002(03)01368-8
-      \endverb
-    \endentry
     \entry{Aad:2010ah}{article}{}
       \name{author}{1}{}{%
         {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%
@@ -1685,6 +1664,27 @@
       \endverb
       \verb{eprint}
       \verb 1005.4568
+      \endverb
+    \endentry
+    \entry{Agostinelli:2002hh}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=1fa1785986425bed4463a184d407c5f5}{Agostinelli}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aa9af5bf616b1437509f374c63638866}
+      \strng{fullhash}{aa9af5bf616b1437509f374c63638866}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucl. Instrum. Meth.}
+      \field{title}{{GEANT4: A Simulation toolkit}}
+      \field{volume}{A506}
+      \field{year}{2003}
+      \field{pages}{250\bibrangedash 303}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1016/S0168-9002(03)01368-8
       \endverb
     \endentry
     \entry{Aad:2014fxa}{article}{}
@@ -1999,6 +1999,57 @@
       \endverb
       \verb{eprint}
       \verb 1510.03823
+      \endverb
+    \endentry
+    \entry{Aad:2014bia}{article}{}
+      \name{author}{1}{}{%
+        {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{78f861e7e6bbd24197fb314a61ebae4a}
+      \strng{fullhash}{78f861e7e6bbd24197fb314a61ebae4a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J.}
+      \field{title}{{Jet energy measurement and its systematic uncertainty in proton-proton collisions at $\sqrt{s}=7$ TeV with the ATLAS detector}}
+      \field{volume}{C75}
+      \field{year}{2015}
+      \field{pages}{17}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-014-3190-y
+      \endverb
+      \verb{eprint}
+      \verb 1406.0076
+      \endverb
+    \endentry
+    \entry{Aad:2011he}{article}{}
+      \name{author}{1}{}{%
+        {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{78f861e7e6bbd24197fb314a61ebae4a}
+      \strng{fullhash}{78f861e7e6bbd24197fb314a61ebae4a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J.}
+      \field{number}{3}
+      \field{title}{{Jet energy measurement with the ATLAS detector in proton-proton collisions at $\sqrt{s}=7$ TeV}}
+      \field{volume}{C73}
+      \field{year}{2013}
+      \field{pages}{2304}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-013-2304-2
+      \endverb
+      \verb{eprint}
+      \verb 1112.6426
       \endverb
     \endentry
     \entry{ATLAS:2010rza}{article}{}
@@ -2725,6 +2776,56 @@
       \verb 1312.5595
       \endverb
     \endentry
+    \entry{Aaltonen:2011dr}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7a1882df07008ab01c868a303eded685}{{CDF\bibnamedelimb Collaboration,\bibnamedelimb }}{C\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{7a1882df07008ab01c868a303eded685}
+      \strng{fullhash}{7a1882df07008ab01c868a303eded685}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{Top quark mass measurement using the template method at CDF}}
+      \field{volume}{D83}
+      \field{year}{2011}
+      \field{pages}{111101}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.83.111101
+      \endverb
+      \verb{eprint}
+      \verb 1105.0192
+      \endverb
+    \endentry
+    \entry{ATLAS:2012aj}{article}{}
+      \name{author}{1}{}{%
+        {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{78f861e7e6bbd24197fb314a61ebae4a}
+      \strng{fullhash}{78f861e7e6bbd24197fb314a61ebae4a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J.}
+      \field{title}{{Measurement of the top quark mass with the template method in the $t \bar{t}$ -> lepton + jets channel using ATLAS data}}
+      \field{volume}{C72}
+      \field{year}{2012}
+      \field{pages}{2046}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-012-2046-6
+      \endverb
+      \verb{eprint}
+      \verb 1203.5755
+      \endverb
+    \endentry
     \entry{James:2004xla}{article}{}
       \name{author}{2}{}{%
         {{hash=4c1290ff95395749ba18ecc23c19a2a0}{James}{J\bibinitperiod}{Fred}{F\bibinitperiod}{}{}{}{}}%
@@ -2822,32 +2923,6 @@
       \verb https://cds.cern.ch/record/2037613
       \endverb
     \endentry
-    \entry{Aad:2011he}{article}{}
-      \name{author}{1}{}{%
-        {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \strng{namehash}{78f861e7e6bbd24197fb314a61ebae4a}
-      \strng{fullhash}{78f861e7e6bbd24197fb314a61ebae4a}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ex}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Eur. Phys. J.}
-      \field{number}{3}
-      \field{title}{{Jet energy measurement with the ATLAS detector in proton-proton collisions at $\sqrt{s}=7$ TeV}}
-      \field{volume}{C73}
-      \field{year}{2013}
-      \field{pages}{2304}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1140/epjc/s10052-013-2304-2
-      \endverb
-      \verb{eprint}
-      \verb 1112.6426
-      \endverb
-    \endentry
     \entry{Aad:2012ag}{article}{}
       \name{author}{1}{}{%
         {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%
@@ -2898,31 +2973,6 @@
       \endverb
       \verb{eprint}
       \verb 1203.1302
-      \endverb
-    \endentry
-    \entry{Aad:2014bia}{article}{}
-      \name{author}{1}{}{%
-        {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \strng{namehash}{78f861e7e6bbd24197fb314a61ebae4a}
-      \strng{fullhash}{78f861e7e6bbd24197fb314a61ebae4a}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ex}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Eur. Phys. J.}
-      \field{title}{{Jet energy measurement and its systematic uncertainty in proton-proton collisions at $\sqrt{s}=7$ TeV with the ATLAS detector}}
-      \field{volume}{C75}
-      \field{year}{2015}
-      \field{pages}{17}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1140/epjc/s10052-014-3190-y
-      \endverb
-      \verb{eprint}
-      \verb 1406.0076
       \endverb
     \endentry
     \entry{ATLAS-CONF-2014-046}{report}{}

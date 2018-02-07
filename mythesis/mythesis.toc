@@ -37,36 +37,37 @@
 \contentsline {subsection}{\numberline {4.1.5}Tagging of $b$-Jets}{34}{subsection.4.1.5}
 \contentsline {subsection}{\numberline {4.1.6}Missing transverse energy}{35}{subsection.4.1.6}
 \contentsline {section}{\numberline {4.2}Data and Monte Carlo samples}{35}{section.4.2}
-\contentsline {section}{\numberline {4.3}Event preselection and background contributions}{36}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Single top background}{36}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Diboson background}{37}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}$W$ + jets background}{37}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}$Z$ + jets background}{37}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Multijet/non-prompt lepton background}{37}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Event triggering}{38}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Preselection criteria}{38}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.3}Background contributions and event preselection}{36}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Lepton +jets background}{36}{subsection.4.3.1}
+\contentsline {subsubsection}{\nonumberline Single top background}{37}{section*.28}
+\contentsline {subsubsection}{\nonumberline Diboson background}{37}{section*.29}
+\contentsline {subsubsection}{\nonumberline $W$ + jets background}{37}{section*.30}
+\contentsline {subsubsection}{\nonumberline $Z$ + jets background}{37}{section*.31}
+\contentsline {subsubsection}{\nonumberline Multijet/non-prompt lepton background}{37}{section*.32}
+\contentsline {subsection}{\numberline {4.3.2}Event triggering}{38}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Preselection criteria}{38}{subsection.4.3.3}
 \contentsline {chapter}{\numberline {5}Event reconstruction}{39}{chapter.5}
 \contentsline {section}{\numberline {5.1}Reconstruction of the $t\bar {t}$ final-state}{39}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Analysis specific quantities}{41}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Event yields}{42}{subsection.5.1.2}
-\contentsline {subsubsection}{\nonumberline Global quantities of the preselection}{43}{section*.29}
-\contentsline {subsubsection}{\nonumberline Global reconstructed quantities}{46}{section*.33}
+\contentsline {subsubsection}{\nonumberline Global quantities of the preselection}{43}{section*.34}
+\contentsline {subsubsection}{\nonumberline Global reconstructed quantities}{46}{section*.38}
 \contentsline {chapter}{\numberline {6}Measurement of top-quark mass}{49}{chapter.6}
 \contentsline {section}{\numberline {6.1}The multidimensional template method}{49}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}The 2D template method}{49}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}The 3D template method}{50}{subsection.6.1.2}
 \contentsline {section}{\numberline {6.2}The template parametrization}{53}{section.6.2}
-\contentsline {subsubsection}{\nonumberline The single fits}{53}{section*.37}
-\contentsline {subsubsection}{\nonumberline Simultaneous template parametrization}{54}{section*.39}
-\contentsline {section}{\numberline {6.3}The unbinned maximum likelihood fit}{57}{section.6.3}
-\contentsline {section}{\numberline {6.4}Closure tests}{59}{section.6.4}
+\contentsline {subsubsection}{\nonumberline The single fits}{53}{section*.42}
+\contentsline {subsubsection}{\nonumberline Simultaneous template parametrization}{55}{section*.44}
+\contentsline {section}{\numberline {6.3}The unbinned maximum likelihood fit}{56}{section.6.3}
+\contentsline {section}{\numberline {6.4}Closure tests}{58}{section.6.4}
 \contentsline {chapter}{\numberline {7}Uncertainty evaluation}{63}{chapter.7}
 \contentsline {section}{\numberline {7.1}Evaluation of the systematics}{63}{section.7.1}
 \contentsline {section}{\numberline {7.2}Modelling of the systematics}{64}{section.7.2}
 \contentsline {section}{\numberline {7.3}Obtained systematics}{65}{section.7.3}
 \contentsline {chapter}{\numberline {8}Summary and outlook}{69}{chapter.8}
-\contentsline {chapter}{\nonumberline Bibliography}{71}{chapter*.47}
+\contentsline {chapter}{\nonumberline Bibliography}{71}{chapter*.52}
 \contentsline {chapter}{\numberline {A}KLFitter reconstruction}{81}{appendix.A}
 \contentsline {chapter}{\numberline {B}Template parametrization}{83}{appendix.B}
-\contentsline {chapter}{\nonumberline List of Figures}{103}{appendix*.72}
-\contentsline {chapter}{\nonumberline List of Tables}{107}{appendix*.73}
+\contentsline {chapter}{\nonumberline List of Figures}{103}{appendix*.77}
+\contentsline {chapter}{\nonumberline List of Tables}{107}{appendix*.78}
