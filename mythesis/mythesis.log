@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.18)  7 FEB 2018 02:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.18)  7 FEB 2018 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3181,3 +3181,1617 @@ gnore it. Perhaps you misspelled it.
 See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
+                                                  
+l.113 ...5pt}\selectfont  Higgs}            {}{}{}
+                                                  };
+(That was another \errmessage.)
+
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 154.
+) [3
+
+
+
+
+] (./TabFreeParameter.tex
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (12.08891pt too wide) in paragraph at lines 11--11
+ []|\T1/txr/m/n/10.95 (-20) Fermions| 
+ []
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.11 ...              &       &  Q / [e]    &    I
+                                                  $_3$  &
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.11 ...       &       &  Q / [e]    &    I$_3$  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 			\begin{center}				 	\begin{pmatrix}
+                                            $u$ \\ $$d \end{pmatrix}  \end{c...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ... 	\begin{pmatrix} $u$ \\ $$d \end{pmatrix}
+                                                    \end{center}    &    \be...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...}  \end{center}    &    \begin{tabular}{1}
+                                                   \small 2.2^{+~0.6}_{-~0.4...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...er}    &    \begin{tabular}{1} \small 2.2^
+                                                  {+~0.6}_{-~0.4} & \small 4...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...n{tabular}{1} \small 2.2^{+~0.6}_{-~0.4} &
+                                                   \small 4.7^{+~0.5}_{-~0.4...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ...n{tabular}{1} \small 2.2^{+~0.6}_{-~0.4} &
+                                                   \small 4.7^{+~0.5}_{-~0.4...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...} \small 2.2^{+~0.6}_{-~0.4} & \small 4.7^
+                                                  {+~0.5}_{-~0.4}  \end{tabu...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ... \small 4.7^{+~0.5}_{-~0.4}  \end{tabular}
+                                                   &   	\begin{pmatrix} $c$ ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...-~0.4}  \end{tabular} &   	\begin{pmatrix}
+                                                   $c$ \\ $s$ \end{pmatrix} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ... 	\begin{pmatrix} $c$ \\ $s$ \end{pmatrix}
+                                                   &  \begin{tabular}{1}\sma...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...\\ $s$ \end{pmatrix} &  \begin{tabular}{1}
+                                                  \small 1.27(0.03)\cdot~10^...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...  \begin{tabular}{1}\small 1.27(0.03)\cdot
+                                                  ~10^3 & \small 96^{+~8}_{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...n{tabular}{1}\small 1.27(0.03)\cdot~10^3 &
+                                                   \small 96^{+~8}_{-~4}   \...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ...n{tabular}{1}\small 1.27(0.03)\cdot~10^3 &
+                                                   \small 96^{+~8}_{-~4}   \...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...1}\small 1.27(0.03)\cdot~10^3 & \small 96^
+                                                  {+~8}_{-~4}   \end{tabular...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...^3 & \small 96^{+~8}_{-~4}   \end{tabular}
+                                                   & \begin{pmatrix} $t$ \\ ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (7.21858pt too wide) in paragraph at lines 13--13
+ []|[]| 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...8}_{-~4}   \end{tabular} & \begin{pmatrix}
+                                                   $t$ \\ $b$ \end{pmatrix} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...& \begin{pmatrix} $t$ \\ $b$ \end{pmatrix}
+                                                    &  \begin{tabular}{1} \s...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...\ $b$ \end{pmatrix}  &  \begin{tabular}{1}
+                                                   \small 173.1(0.6)\cdot~10...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ... \begin{tabular}{1} \small 173.1(0.6)\cdot
+                                                  ~10^3  & \small 4.18^{+~0....
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...tabular}{1} \small 173.1(0.6)\cdot~10^3  &
+                                                   \small 4.18^{+~0.04}_{-~0...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ...tabular}{1} \small 173.1(0.6)\cdot~10^3  &
+                                                   \small 4.18^{+~0.04}_{-~0...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...small 173.1(0.6)\cdot~10^3  & \small 4.18^
+                                                  {+~0.04}_{-~0.03}~\cdot 10...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...+~0.04}_{-~0.03}~\cdot 10^3  \end{tabular}
+                                                   & &\begin{tabular}{1}+2/3...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1.52812pt too wide) in paragraph at lines 13--13
+ []|[]| 
+ []
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... 10^3  \end{tabular} & &\begin{tabular}{1}
+                                                  +2/3 & -1/3 \end{tabular} ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ... \end{tabular} & &\begin{tabular}{1}+2/3 &
+                                                   -1/3 \end{tabular} & \beg...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (4.45076pt too wide) in paragraph at lines 13--13
+ []|[]| 
+ []
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.13 ...2/3 & -1/3 \end{tabular} & \begin{tabular}
+                                                  {1}+1/2 & -1/2 \end{tabula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... & -1/3 \end{tabular} & \begin{tabular}{1}
+                                                  +1/2 & -1/2 \end{tabular}   &
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ...3 \end{tabular} & \begin{tabular}{1}+1/2 &
+                                                   -1/2 \end{tabular}   &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (12.98666pt too wide) in paragraph at lines 13--13
+[]|[]| 
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ...n{tabular}{1}+1/2 & -1/2 \end{tabular}   &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 			\begin{center}				 	\begin{pmatrix}
+                                            $e$ \\ $\nu_e$ \end{pmatrix}  \e...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...n{center}				 	\begin{pmatrix} $e$ \\ $\nu
+                                                  _e$ \end{pmatrix}  \end{ce...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...egin{pmatrix} $e$ \\ $\nu_e$ \end{pmatrix}
+                                                    \end{center}    &    \be...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...egin{pmatrix} $e$ \\ $\nu_e$ \end{pmatrix}
+                                                    \end{center}    &    \be...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...}  \end{center}    &    \begin{tabular}{1}
+                                                   \small 0.5109989461(31) &...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ...egin{tabular}{1} \small 0.5109989461(31) &
+                                                   \small<~2\cdot10^{-6} \en...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...} \small 0.5109989461(31) & \small<~2\cdot
+                                                  10^{-6} \end{tabular} &   ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...(31) & \small<~2\cdot10^{-6} \end{tabular}
+                                                   &   	\begin{pmatrix} $\mu...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (12.18268pt too wide) in paragraph at lines 14--14
+ []|[]| 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...10^{-6} \end{tabular} &   	\begin{pmatrix}
+                                                   $\mu$ \\ $\nu_{\mu}$\end{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...6} \end{tabular} &   	\begin{pmatrix} $\mu
+                                                  $ \\ $\nu_{\mu}$\end{pmatr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...nd{tabular} &   	\begin{pmatrix} $\mu$ \\ 
+                                                  $\nu_{\mu}$\end{pmatrix} &...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...abular} &   	\begin{pmatrix} $\mu$ \\ $\nu
+                                                  _{\mu}$\end{pmatrix} &  \b...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...pmatrix} $\mu$ \\ $\nu_{\mu}$\end{pmatrix}
+                                                   &  \begin{tabular}{1}\sma...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...pmatrix} $\mu$ \\ $\nu_{\mu}$\end{pmatrix}
+                                                   &  \begin{tabular}{1}\sma...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (3.9564pt too wide) in paragraph at lines 14--14
+ []|$[]$| 
+ []
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ..._{\mu}$\end{pmatrix} &  \begin{tabular}{1}
+                                                  \small 105.6583745(24) &\s...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ...\begin{tabular}{1}\small 105.6583745(24) &
+                                                  \small <~0.19\cdot10^{-6}~...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...\small 105.6583745(24) &\small <~0.19\cdot
+                                                  10^{-6}~\end{tabular} & \b...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...) &\small <~0.19\cdot10^{-6}~\end{tabular}
+                                                   & \begin{pmatrix} $\tau$ ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (15.71858pt too wide) in paragraph at lines 14--14
+ []|[]| 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...dot10^{-6}~\end{tabular} & \begin{pmatrix}
+                                                   $\tau$ \\ $\nu_{\tau}$ \e...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...{-6}~\end{tabular} & \begin{pmatrix} $\tau
+                                                  $ \\ $\nu_{\tau}$ \end{pma...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...\end{tabular} & \begin{pmatrix} $\tau$ \\ 
+                                                  $\nu_{\tau}$ \end{pmatrix}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...{tabular} & \begin{pmatrix} $\tau$ \\ $\nu
+                                                  _{\tau}$ \end{pmatrix}  & ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...trix} $\tau$ \\ $\nu_{\tau}$ \end{pmatrix}
+                                                    &  \begin{tabular}{1} \s...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...trix} $\tau$ \\ $\nu_{\tau}$ \end{pmatrix}
+                                                    &  \begin{tabular}{1} \s...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...tau}$ \end{pmatrix}  &  \begin{tabular}{1}
+                                                   \small 1776.86(0.12) & \s...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ... \begin{tabular}{1} \small 1776.86(0.12) &
+                                                   \small <~18.2\cdot10^{-6}...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ... \small 1776.86(0.12) & \small <~18.2\cdot
+                                                  10^{-6} \end{tabular} & \b...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ... & \small <~18.2\cdot10^{-6} \end{tabular}
+                                                   & \begin{tabular}{1}  &  ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...10^{-6} \end{tabular} & \begin{tabular}{1}
+                                                    &  \end{tabular} & \begi...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ...{-6} \end{tabular} & \begin{tabular}{1}  &
+                                                    \end{tabular} & \begin{t...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (9.15456pt too wide) in paragraph at lines 14--14
+ []|[]| 
+ []
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...{1}  &  \end{tabular} & \begin{tabular}{1}
+                                                  -1 & 0 \end{tabular}  & \b...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ... &  \end{tabular} & \begin{tabular}{1}-1 &
+                                                   0 \end{tabular}  & \begin...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.14 ...{1}-1 & 0 \end{tabular}  & \begin{tabular}
+                                                  {1} -1/2 &+1/2 \end{tabula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...-1 & 0 \end{tabular}  & \begin{tabular}{1}
+                                                   -1/2 &+1/2 \end{tabular}  &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ...\end{tabular}  & \begin{tabular}{1} -1/2 &
+                                                  +1/2 \end{tabular}  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (12.98666pt too wide) in paragraph at lines 14--14
+[]|[]| 
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ...in{tabular}{1} -1/2 &+1/2 \end{tabular}  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (3.15pt too wide) in paragraph at lines 17--17
+ []|\T1/txr/m/n/10.95 (-20) Bosons| 
+ []
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.17  Bosons & & &m / [MeV]&  &Spin& & Q / [e]&C
+                                                olour&
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.89383pt too wide) in paragraph at lines 17--17
+[]|\T1/txr/m/n/10.95 (-20) Colour| 
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.17 ... & & &m / [MeV]&  &Spin& & Q / [e]&Colour&
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 W^
+       {\pm} & & & 80.385(0.015)\cdot 10^3& &1 & & $\pm$1&no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.19 W^{\pm} &
+               & & 80.385(0.015)\cdot 10^3& &1 & & $\pm$1&no&
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.19 W^{\pm} &
+               & & 80.385(0.015)\cdot 10^3& &1 & & $\pm$1&no&
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 W^{\pm} &
+               & & 80.385(0.015)\cdot 10^3& &1 & & $\pm$1&no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 W^{\pm} & & & 80.385(0.015)\cdot
+                                      10^3& &1 & & $\pm$1&no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.19 W^{\pm} & & & 80.385(0.015)\cdot 10^3&
+                                            &1 & & $\pm$1&no&
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.19 W^{\pm} & & & 80.385(0.015)\cdot 10^3&
+                                            &1 & & $\pm$1&no&
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (13.32883pt too wide) in paragraph at lines 19--19
+ []|\T1/txr/m/n/10.95 (-20) 80.385(0.015)$\OMS/txsy/m/n/10.95 ^^A\OT1/txr/m/n/1
+0.95 (-20) 10[]| $ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 W^{\pm} & & & 80.385(0.015)\cdot 10^3&
+                                            &1 & & $\pm$1&no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.19 ...& 80.385(0.015)\cdot 10^3& &1 & & $\pm$1&n
+                                                  o&
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.19 ...80.385(0.015)\cdot 10^3& &1 & & $\pm$1&no&
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 Z^
+       0 & & & 91.1876(0.0021)\cdot 10^3 & & 1& & 0& no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.20 Z^0 &
+           & & 91.1876(0.0021)\cdot 10^3 & & 1& & 0& no&
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.20 Z^0 &
+           & & 91.1876(0.0021)\cdot 10^3 & & 1& & 0& no&
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 Z^0 &
+           & & 91.1876(0.0021)\cdot 10^3 & & 1& & 0& no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 Z^0 & & & 91.1876(0.0021)\cdot
+                                    10^3 & & 1& & 0& no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.20 Z^0 & & & 91.1876(0.0021)\cdot 10^3 &
+                                           & 1& & 0& no&
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.20 Z^0 & & & 91.1876(0.0021)\cdot 10^3 &
+                                           & 1& & 0& no&
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (24.05981pt too wide) in paragraph at lines 20--20
+ []|\T1/txr/m/n/10.95 (-20) 91.1876(0.0021)$\OMS/txsy/m/n/10.95 ^^A\OT1/txr/m/n
+/10.95 (-20) 10[]| $ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 Z^0 & & & 91.1876(0.0021)\cdot 10^3 &
+                                           & 1& & 0& no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.20 ... & 91.1876(0.0021)\cdot 10^3 & & 1& & 0& n
+                                                  o&
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.20 ... 91.1876(0.0021)\cdot 10^3 & & 1& & 0& no&
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 $\gamma $ &  & &< 1\cdot
+                              10^{-24}& &1 & & 0 & no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.21 $\gamma $ &  & &< 1\cdot 10^{-24}&
+                                        &1 & & 0 & no&
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21 $\gamma $ &  & &< 1\cdot 10^{-24}&
+                                        &1 & & 0 & no&
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 $\gamma $ &  & &< 1\cdot 10^{-24}&
+                                        &1 & & 0 & no&
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.21 ...ma $ &  & &< 1\cdot 10^{-24}& &1 & & 0 & n
+                                                  o&
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.21 ... $ &  & &< 1\cdot 10^{-24}& &1 & & 0 & no&
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.22 $g$ &  & & 0& & 1& &0 & y
+                              es&
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.22 $g$ &  & & 0& & 1& &0 & yes&
+                                 
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 $H^0$ &  & & 125.09(0.24)\cdot
+                                    10^3& &0& & 0 &no &
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.23 $H^0$ &  & & 125.09(0.24)\cdot 10^3&
+                                          &0& & 0 &no &
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.23 $H^0$ &  & & 125.09(0.24)\cdot 10^3&
+                                          &0& & 0 &no &
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (7.96333pt too wide) in paragraph at lines 23--23
+ []|\T1/txr/m/n/10.95 (-20) 125.09(0.24)$\OMS/txsy/m/n/10.95 ^^A\OT1/txr/m/n/10
+.95 (-20) 10[]| $ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 $H^0$ &  & & 125.09(0.24)\cdot 10^3&
+                                          &0& & 0 &no &
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+<template> ...enter \@startpbox {0.7cm}\centreing 
+                                                  \ignorespaces 
+l.23 ... &  & & 125.09(0.24)\cdot 10^3& &0& & 0 &n
+                                                  o &
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.23 ... & & 125.09(0.24)\cdot 10^3& &0& & 0 &no &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+)
+Underfull \vbox (badness 1622) has occurred while \output is active []
+
+ [4
+
+]
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 11.39996pt on input line 44.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 52.
+
+[5]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 107.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 107.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 107.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 108.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 108.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 108.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 109.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 109.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 109.
+
+[6] [7] <Pics/cp1/Higgs.png, id=473, 718.18312pt x 443.40656pt>
+File: Pics/cp1/Higgs.png Graphic file (type png)
+
+<use Pics/cp1/Higgs.png>
+Package pdftex.def Info: Pics/cp1/Higgs.png used on input line 197.
+(pdftex.def)             Requested size: 180.63162pt x 111.52118pt.
+
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [8 <./Pics/cp1/Higgs.png>] [9] <Pics/Relevanz.png, id=517, 557.282pt x 240.097
+pt>
+File: Pics/Relevanz.png Graphic file (type png)
+
+<use Pics/Relevanz.png>
+Package pdftex.def Info: Pics/Relevanz.png used on input line 294.
+(pdftex.def)             Requested size: 406.42462pt x 175.1118pt.
+ [10 <./Pics/Relevanz.png>]
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 321.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [11]
+<Pics/cp1/single.png, id=558, 725.71124pt x 621.32124pt>
+File: Pics/cp1/single.png Graphic file (type png)
+
+<use Pics/cp1/single.png>
+Package pdftex.def Info: Pics/cp1/single.png used on input line 350.
+(pdftex.def)             Requested size: 225.79298pt x 193.30916pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 366.
+See the caption package documentation for explanation.
+
+[12 <./Pics/cp1/single.png>]
+<Pics/cp1/ttbar.png, id=589, 1126.2075pt x 598.235pt>
+File: Pics/cp1/ttbar.png Graphic file (type png)
+ <use Pics/cp1/ttbar.png>
+Package pdftex.def Info: Pics/cp1/ttbar.png used on input line 403.
+(pdftex.def)             Requested size: 316.1088pt x 167.91542pt.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.424 ..._ {t\bar{t}} = 831.76^{ +19.77 \hspace{7}
+                                                   +35.06 \hspace{7} +23.18}...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.424 ....76^{ +19.77 \hspace{7} +35.06 \hspace{7}
+                                                   +23.18}_{-29.20 \hspace{7...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.424 ....06 \hspace{7} +23.18}_{-29.20 \hspace{7}
+                                                   -35.06 \hspace{7} -22.45}...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.424 ....18}_{-29.20 \hspace{7} -35.06 \hspace{7}
+                                                   -22.45}~\text{pb}.
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[13 <./Pics/cp1/ttbar.png>]
+<Pics/cp1/PDF.png, id=615, 376.40625pt x 346.29375pt>
+File: Pics/cp1/PDF.png Graphic file (type png)
+ <use Pics/cp1/PDF.png>
+Package pdftex.def Info: Pics/cp1/PDF.png used on input line 436.
+(pdftex.def)             Requested size: 248.37366pt x 228.5123pt.
+
+<Pics/cp1/Decay.png, id=621, 656.4525pt x 815.045pt>
+File: Pics/cp1/Decay.png Graphic file (type png)
+ <use Pics/cp1/Decay.png>
+Package pdftex.def Info: Pics/cp1/Decay.png used on input line 453.
+(pdftex.def)             Requested size: 135.47717pt x 168.20459pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./Pics/cp1/PDF.png>] [15 <./Pics/cp1/Decay.png>] (./TabBranchingDecay.tex
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 2.
+See the caption package documentation for explanation.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.10 Decay channel& & Branching ratio&
+                                      
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.12 ...row bq\bar{q'} \bar{b}q\bar{q'}$	&45.7\% &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ...ow bl\bar{\nu} \bar{b}\bar{l}\nu$&10.5\% &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ...row bl\bar{\nu} \bar{b}q\bar{q'}$&43.8\% &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+)) [16]
+\openout2 = `Exp2.aux'.
+
+ (./Exp2.tex
+Chapter 3.
+<Pics/cp3/31.png, id=647, 4121.3975pt x 1312.905pt>
+File: Pics/cp3/31.png Graphic file (type png)
+ <use Pics/cp3/31.png>
+Package pdftex.def Info: Pics/cp3/31.png used on input line 15.
+(pdftex.def)             Requested size: 451.58598pt x 143.83902pt.
+
+[17
+
+
+
+
+ <./Pics/cp3/31.png>]
+<Pics/cp3/32.jpg, id=682, 1819.79875pt x 1303.87125pt>
+File: Pics/cp3/32.jpg Graphic file (type jpg)
+ <use Pics/cp3/32.jpg>
+Package pdftex.def Info: Pics/cp3/32.jpg used on input line 25.
+(pdftex.def)             Requested size: 451.58598pt x 323.55966pt.
+
+[18 <./Pics/cp3/32.jpg>] <Pics/cp3/33.png, id=712, 1022.82124pt x 639.38875pt>
+File: Pics/cp3/33.png Graphic file (type png)
+
+<use Pics/cp3/33.png>
+Package pdftex.def Info: Pics/cp3/33.png used on input line 59.
+(pdftex.def)             Requested size: 451.58598pt x 282.29778pt.
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./Pics/cp3/33.png>] <Pics/cp3/34.png, id=732, 689.57625pt x 464.73625pt>
+File: Pics/cp3/34.png Graphic file (type png)
+
+<use Pics/cp3/34.png>
+Package pdftex.def Info: Pics/cp3/34.png used on input line 110.
+(pdftex.def)             Requested size: 316.1088pt x 213.03668pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+<Pics/cp3/35.png, id=745, 734.745pt x 499.8675pt>
+File: Pics/cp3/35.png Graphic file (type png)
+ <use Pics/cp3/35.png>
+Package pdftex.def Info: Pics/cp3/35.png used on input line 130.
+(pdftex.def)             Requested size: 293.52812pt x 199.69937pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./Pics/cp3/34.png>] <Pics/cp3/36.jpg, id=753, 501.875pt x 376.40625pt>
+File: Pics/cp3/36.jpg Graphic file (type jpg)
+
+<use Pics/cp3/36.jpg>
+Package pdftex.def Info: Pics/cp3/36.jpg used on input line 155.
+(pdftex.def)             Requested size: 293.52812pt x 220.15369pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./Pics/cp3/35.png>] <Pics/cp3/37.png, id=765, 326.21875pt x 272.01625pt>
+File: Pics/cp3/37.png Graphic file (type png)
+
+<use Pics/cp3/37.png>
+Package pdftex.def Info: Pics/cp3/37.png used on input line 173.
+(pdftex.def)             Requested size: 180.63162pt x 150.62215pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <./Pics/cp3/36.jpg>] <trigger.png, id=776, 733.74126pt x 498.86375pt>
+File: trigger.png Graphic file (type png)
+
+<use trigger.png>
+Package pdftex.def Info: trigger.png used on input line 197.
+(pdftex.def)             Requested size: 361.27016pt x 245.62524pt.
+ [25 <./Pics/cp3/37.png>] [26 <./trigger.png>]) [27]
+\openout2 = `Objectdefinition.aux'.
+
+
+(./Objectdefinition.tex [28
+
+
+
+
+]
+Chapter 4.
+[29]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 24.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 24.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 26.
+
+[30]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 57.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 57.
+
+<Pics/cp4/41.png, id=831, 313.17pt x 412.54124pt>
+File: Pics/cp4/41.png Graphic file (type png)
+ <use Pics/cp4/41.png>
+Package pdftex.def Info: Pics/cp4/41.png used on input line 69.
+(pdftex.def)             Requested size: 180.63162pt x 237.95216pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [31]
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 80.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 80.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, that in 1994 font command `\rm' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\rm' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrbook)              by `\mathrm ' on input line 80.
+
+
+Class scrbook Warning: Usage of deprecated font command `\rm'!
+(scrbook)              You should note, tha
