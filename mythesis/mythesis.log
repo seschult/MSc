@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.18)  7 FEB 2018 02:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.18)  7 FEB 2018 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2818,7 +2818,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171  \end{abstract}
+l.174  \end{abstract}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2835,7 +2835,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 \begin{abstract*}
+l.179 \begin{abstract*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2848,7 +2848,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 \begin{abstract*}
+l.214 \begin{abstract*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2861,7 +2861,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 \end{abstract*}
+l.223 \end{abstract*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2925,7 +2925,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 17.
+(scrbook)              by `\mathrm ' on input line 21.
 
 [1
 
@@ -2933,15 +2933,24 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 
 
 
-] <Pics/mass.png, id=390, 762.85pt x 626.34pt>
+] <Pics/mass.png, id=396, 762.85pt x 626.34pt>
 File: Pics/mass.png Graphic file (type png)
  <use Pics/mass.png>
-Package pdftex.def Info: Pics/mass.png used on input line 28.
-(pdftex.def)             Requested size: 406.42462pt x 333.68846pt.
-) [2 <./Pics/mass.png>]
+Package pdftex.def Info: Pics/mass.png used on input line 38.
+(pdftex.def)             Requested size: 361.27016pt x 296.61621pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [2] [3 <./Pics/mass.png>]
 \openout2 = `Standard_Modell.aux'.
 
- (./Standard_Modell.tex
+ (./Standard_Modell.tex [4
+
+
+
+
+]
 Chapter 2.
 (./SM_pic.tex
 
@@ -3188,12 +3197,7 @@ l.113 ...5pt}\selectfont  Higgs}            {}{}{}
 
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 154.
-) [3
-
-
-
-
-] (./TabFreeParameter.tex
+) [5] (./TabFreeParameter.tex
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 2.
@@ -4294,7 +4298,7 @@ So I'll assume that you meant to type \cr instead.
 )
 Underfull \vbox (badness 1622) has occurred while \output is active []
 
- [4
+ [6
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
@@ -4302,7 +4306,7 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 8.54997pt on input line 52.
 
-[5]
+[7]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4429,7 +4433,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 109.
 
-[6] [7] <Pics/cp1/Higgs.png, id=473, 718.18312pt x 443.40656pt>
+[8] [9] <Pics/cp1/Higgs.png, id=489, 718.18312pt x 443.40656pt>
 File: Pics/cp1/Higgs.png Graphic file (type png)
 
 <use Pics/cp1/Higgs.png>
@@ -4438,21 +4442,21 @@ Package pdftex.def Info: Pics/cp1/Higgs.png used on input line 197.
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [8 <./Pics/cp1/Higgs.png>] [9] <Pics/Relevanz.png, id=517, 557.282pt x 240.097
-pt>
+ [10 <./Pics/cp1/Higgs.png>] [11] <Pics/Relevanz.png, id=531, 557.282pt x 240.0
+97pt>
 File: Pics/Relevanz.png Graphic file (type png)
 
 <use Pics/Relevanz.png>
 Package pdftex.def Info: Pics/Relevanz.png used on input line 294.
 (pdftex.def)             Requested size: 406.42462pt x 175.1118pt.
- [10 <./Pics/Relevanz.png>]
+ [12 <./Pics/Relevanz.png>]
 LaTeX Font Info:    Try loading font information for TS1+txr on input line 321.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [11]
-<Pics/cp1/single.png, id=558, 725.71124pt x 621.32124pt>
+) [13]
+<Pics/cp1/single.png, id=572, 725.71124pt x 621.32124pt>
 File: Pics/cp1/single.png Graphic file (type png)
 
 <use Pics/cp1/single.png>
@@ -4464,8 +4468,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 366.
 See the caption package documentation for explanation.
 
-[12 <./Pics/cp1/single.png>]
-<Pics/cp1/ttbar.png, id=589, 1126.2075pt x 598.235pt>
+[14 <./Pics/cp1/single.png>]
+<Pics/cp1/ttbar.png, id=603, 1126.2075pt x 598.235pt>
 File: Pics/cp1/ttbar.png Graphic file (type png)
  <use Pics/cp1/ttbar.png>
 Package pdftex.def Info: Pics/cp1/ttbar.png used on input line 403.
@@ -4519,14 +4523,14 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-[13 <./Pics/cp1/ttbar.png>]
-<Pics/cp1/PDF.png, id=615, 376.40625pt x 346.29375pt>
+[15 <./Pics/cp1/ttbar.png>]
+<Pics/cp1/PDF.png, id=630, 376.40625pt x 346.29375pt>
 File: Pics/cp1/PDF.png Graphic file (type png)
  <use Pics/cp1/PDF.png>
 Package pdftex.def Info: Pics/cp1/PDF.png used on input line 436.
 (pdftex.def)             Requested size: 248.37366pt x 228.5123pt.
 
-<Pics/cp1/Decay.png, id=621, 656.4525pt x 815.045pt>
+<Pics/cp1/Decay.png, id=636, 656.4525pt x 815.045pt>
 File: Pics/cp1/Decay.png Graphic file (type png)
  <use Pics/cp1/Decay.png>
 Package pdftex.def Info: Pics/cp1/Decay.png used on input line 453.
@@ -4535,7 +4539,7 @@ Package pdftex.def Info: Pics/cp1/Decay.png used on input line 453.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./Pics/cp1/PDF.png>] [15 <./Pics/cp1/Decay.png>] (./TabBranchingDecay.tex
+[16 <./Pics/cp1/PDF.png>] [17 <./Pics/cp1/Decay.png>] (./TabBranchingDecay.tex
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 2.
@@ -4577,39 +4581,39 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-)) [16]
+)) [18]
 \openout2 = `Exp2.aux'.
 
  (./Exp2.tex
 Chapter 3.
-<Pics/cp3/31.png, id=647, 4121.3975pt x 1312.905pt>
+<Pics/cp3/31.png, id=661, 4121.3975pt x 1312.905pt>
 File: Pics/cp3/31.png Graphic file (type png)
  <use Pics/cp3/31.png>
 Package pdftex.def Info: Pics/cp3/31.png used on input line 15.
 (pdftex.def)             Requested size: 451.58598pt x 143.83902pt.
 
-[17
+[19
 
 
 
 
  <./Pics/cp3/31.png>]
-<Pics/cp3/32.jpg, id=682, 1819.79875pt x 1303.87125pt>
+<Pics/cp3/32.jpg, id=696, 1819.79875pt x 1303.87125pt>
 File: Pics/cp3/32.jpg Graphic file (type jpg)
  <use Pics/cp3/32.jpg>
 Package pdftex.def Info: Pics/cp3/32.jpg used on input line 25.
 (pdftex.def)             Requested size: 451.58598pt x 323.55966pt.
 
-[18 <./Pics/cp3/32.jpg>] <Pics/cp3/33.png, id=712, 1022.82124pt x 639.38875pt>
+[20 <./Pics/cp3/32.jpg>] <Pics/cp3/33.png, id=726, 1022.82124pt x 639.38875pt>
 File: Pics/cp3/33.png Graphic file (type png)
 
 <use Pics/cp3/33.png>
 Package pdftex.def Info: Pics/cp3/33.png used on input line 59.
 (pdftex.def)             Requested size: 451.58598pt x 282.29778pt.
- [19]
+ [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./Pics/cp3/33.png>] <Pics/cp3/34.png, id=732, 689.57625pt x 464.73625pt>
+ [22 <./Pics/cp3/33.png>] <Pics/cp3/34.png, id=747, 689.57625pt x 464.73625pt>
 File: Pics/cp3/34.png Graphic file (type png)
 
 <use Pics/cp3/34.png>
@@ -4618,8 +4622,8 @@ Package pdftex.def Info: Pics/cp3/34.png used on input line 110.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-<Pics/cp3/35.png, id=745, 734.745pt x 499.8675pt>
+ [23]
+<Pics/cp3/35.png, id=759, 734.745pt x 499.8675pt>
 File: Pics/cp3/35.png Graphic file (type png)
  <use Pics/cp3/35.png>
 Package pdftex.def Info: Pics/cp3/35.png used on input line 130.
@@ -4628,7 +4632,7 @@ Package pdftex.def Info: Pics/cp3/35.png used on input line 130.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22 <./Pics/cp3/34.png>] <Pics/cp3/36.jpg, id=753, 501.875pt x 376.40625pt>
+[24 <./Pics/cp3/34.png>] <Pics/cp3/36.jpg, id=767, 501.875pt x 376.40625pt>
 File: Pics/cp3/36.jpg Graphic file (type jpg)
 
 <use Pics/cp3/36.jpg>
@@ -4638,7 +4642,7 @@ Package pdftex.def Info: Pics/cp3/36.jpg used on input line 155.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./Pics/cp3/35.png>] <Pics/cp3/37.png, id=765, 326.21875pt x 272.01625pt>
+[25 <./Pics/cp3/35.png>] <Pics/cp3/37.png, id=780, 326.21875pt x 272.01625pt>
 File: Pics/cp3/37.png Graphic file (type png)
 
 <use Pics/cp3/37.png>
@@ -4648,24 +4652,24 @@ Package pdftex.def Info: Pics/cp3/37.png used on input line 173.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./Pics/cp3/36.jpg>] <trigger.png, id=776, 733.74126pt x 498.86375pt>
+[26 <./Pics/cp3/36.jpg>] <trigger.png, id=791, 733.74126pt x 498.86375pt>
 File: trigger.png Graphic file (type png)
 
 <use trigger.png>
 Package pdftex.def Info: trigger.png used on input line 197.
 (pdftex.def)             Requested size: 361.27016pt x 245.62524pt.
- [25 <./Pics/cp3/37.png>] [26 <./trigger.png>]) [27]
+ [27 <./Pics/cp3/37.png>] [28 <./trigger.png>]) [29]
 \openout2 = `Objectdefinition.aux'.
 
 
-(./Objectdefinition.tex [28
+(./Objectdefinition.tex [30
 
 
 
 
 ]
 Chapter 4.
-[29]
+[31]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4708,7 +4712,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 26.
 
-[30]
+[32]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4737,7 +4741,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 57.
 
-<Pics/cp4/41.png, id=831, 313.17pt x 412.54124pt>
+<Pics/cp4/41.png, id=845, 313.17pt x 412.54124pt>
 File: Pics/cp4/41.png Graphic file (type png)
  <use Pics/cp4/41.png>
 Package pdftex.def Info: Pics/cp4/41.png used on input line 69.
@@ -4749,7 +4753,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 1852) has occurred while \output is active []
 
- [31]
+ [33]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
@@ -4793,5 +4797,4 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 80.
 
 
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, tha
+Class scrbook Warning: Usage of deprecate
