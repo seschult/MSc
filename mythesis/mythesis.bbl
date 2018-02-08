@@ -2137,6 +2137,28 @@
       \verb https://cds.cern.ch/record/1369219
       \endverb
     \endentry
+    \entry{CDF}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7a1882df07008ab01c868a303eded685}{{CDF\bibnamedelimb Collaboration,\bibnamedelimb }}{C\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{7a1882df07008ab01c868a303eded685}
+      \strng{fullhash}{7a1882df07008ab01c868a303eded685}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definition of Total Transverse Energy}
+      \field{urlday}{04}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://www-cdf.fnal.gov/physics/new/qcd/sumet/sumet_definition.html
+      \endverb
+    \endentry
     \entry{ATL-PHYS-PUB-2015-027}{report}{}
       \name{author}{1}{}{%
         {{hash=78f861e7e6bbd24197fb314a61ebae4a}{{ATLAS\bibnamedelimb Collaboration,\bibnamedelimb }}{A\bibinitperiod}{}{}{}{}{}{}}%

@@ -2,14 +2,13 @@
 \chapter{Uncertainty evaluation}
 \label{sec:Uns}
 %------------------------------------------------------------------------------
-The measurement of the top-quark mass is affected by the influence of several systematic uncertainties, as shown for example by the 8~TeV analysis, where the large systematic uncertainties arise form the Monte Carlo signal modelling, the b-tagging and the jet energy scale~\cite{ATLAS-CONF-2017-071}.  For this analysis, however, the Run 2 conditions of the LHC are relevant, while for 8~TeV uses data of Run 1. With the start of the Run 2 period, not only the center-of-mass energy  changed to 13~TeV. There are several updates in addition to the changes of the beam conditions, from  detector upgrades like the  insertable B-Layer (IBL), to the changes of the calorimeter energy reconstruction. A detailed overview of the changes can be found for example in~\cite{ATL-PHYS-PUB-2015-015}. In summary, 
+The measurement of the top-quark mass is affected by the influence of several systematic uncertainties, as shown for example by the 8~TeV analysis, where the large systematic uncertainties arise form the Monte Carlo signal modelling, the b-tagging and the jet energy scale~\cite{ATLAS-CONF-2017-071}.  For this analysis, however, the Run 2 conditions of the LHC are relevant. With the start of the Run 2 period, not only the center-of-mass energy  changed to 13~TeV. There are several updates in addition to the changes of the beam conditions, from  detector upgrades like the  insertable B-Layer (IBL) to the changes of the calorimeter energy reconstruction. A detailed overview of the changes can be found for example in~\cite{ATL-PHYS-PUB-2015-015}. In summary, 
 the changes described above result in changes in the systematic uncertainties compared to previous analyses. 
 
-In this chapter, the first approach of the determination of  the systematics, with the 13~TeV data and simulation, is taken. 
+In this chapter, the first approach of the determination of  the systematics with the 13~TeV data and simulation is taken. 
 Since the results of the closure test (see~\cref{ct}) show that the three-dimensional determination of $m_{\text{top}}$ is not unbiased, the systematics are only determined for one and two dimensions. 
-However, this section should be considered as a first test of the method at this new experimental environment.
-Furthermore, a first impression of the effects on the systematics, which arise by the change  of the dimensionality  fit (1D $\rightarrow$ 2D) is obtained.
-First of all the techniques, which are used to determine the systematics are introduced, followed by a discussion of the different properties and presentation of the results.   
+ A first impression of the effects on the systematics, which arise by the change  of the fit dimensionality  (1D $\rightarrow$ 2D) is obtained.
+First of all the techniques, which are used to determine the systematics are introduced, followed by a discussion of the different properties and the presentation of the results.   
 
 
 
@@ -29,24 +28,24 @@ In the next step, the nominal and the varied samples undergo the  complete analy
 	
 	\begin{subfigure}{0.4\textwidth}
 		\includegraphics[width=\linewidth]{OutputFolder_PE_Syst_Plots/{PlotParameter_JES_Flavor_Composition_mtop_250PE_1D}.pdf}
-		\caption{1D variation of the JES$_{\rm Flavour Composition}$ of $m_{\text{top}}$. } \label{fig:Sy1}
+		\caption{1D variation of the JES$_{\rm Flavour Composition}$ for $m_{\text{top}}$. } \label{fig:Sy1}
 	\end{subfigure}\hspace*{0.5cm}
 	\begin{subfigure}{0.40\textwidth}
 		\includegraphics[width=\linewidth]{OutputFolder_PE_Syst_Plots/{PlotParameter_JES_Flavor_Composition_mtop_250PE_2D}.pdf}
-		\caption{2D variation of the JES$_{\rm Flavour Composition}$ of $m_{\text{top}}$.  } \label{fig:Sy2}
+		\caption{2D variation of the JES$_{\rm Flavour Composition}$ for $m_{\text{top}}$.  } \label{fig:Sy2}
 	\end{subfigure}
 	\begin{subfigure}{0.40\textwidth}
 		\includegraphics[width=\linewidth]{OutputFolder_PE_Syst_Plots/{PlotParameter_JES_Flavour_Com_jsf_250PE_2D}.pdf}
-		\caption{2D variation of the JES$_{\rm Flavour Composition}$ of JSF. } \label{fig:Sy3}
+		\caption{2D variation of the JES$_{\rm Flavour Composition}$ for JSF. } \label{fig:Sy3}
 	\end{subfigure}\hspace*{0.5cm}
 	
-	\caption{Illustration of the systematic uncertainty evaluation. If possible, the systematic component is varied, like shown here for the jet energy flavour composition. For the determination of $m_{\text{top}}$ in the one dimensional fit, as well as for two dimensional measurement of $m_{\text{top}}$ and JSF, up and down variations are drawn and compared to the nominal sample. The different plots show the results of the fits obtained with 250 pseudoexperiments.  } \label{fig:sys1}
+	\caption{Illustration of the systematic uncertainty evaluation. If possible, the systematic component is varied, like shown here for the jet energy flavour composition. For the determination of $m_{\text{top}}$ in the one dimensional fit, as well as for the two dimensional measurement of $m_{\text{top}}$ and JSF, up and down variations are drawn and compared to the nominal sample. The different plots show the results of the fits obtained with 250 pseudoexperiments.  } \label{fig:sys1}
 \end{figure}
 
 
 
 
- If the $\pm 1 \sigma$ variation is not possible, like in case of the systematics related to the choice of the Monto Carlo generator, one takes the total deviation, i.e. the difference observed by using samples simulated with different generators, as a systematic uncertainty. 
+ If the $\pm 1 \sigma$ variation is not possible, like in case of the systematics related to the choice of the Monto Carlo generators, one takes the total deviation, i.e. the difference observed by using samples simulated with different generators, as a systematic uncertainty. 
 
 
 	
@@ -57,7 +56,7 @@ The limited precision of the detector modelling, in terms of the detector respon
  The measurement precision at hadron colliders in analysis channels with high jet multiplicity is often limited by the jet energy scale (JES). The corresponding uncertainties are evaluated via the energy variation of the jets, where
 data sets from test beam measurements, as well as from LHC collisions and simulation are used~\cite{Aad:2011he, Aad:2012ag, Aad:2012vm,Aad:2014bia}. Several sources of these uncertainties, such as the single-particle response, pile-up and the jet flavour composition, as well as the induced uncertainties, which arise from fluctuations of the calorimeter responses for different jet flavours, 
  are considered via in-situ calibration measurements.  In total one ends up with 20 systematic variations, which are assumed to be uncorrelated in this thesis and therefore can be added up in quadrature. 
- Effects on the jet energy resolution (JER) are taken into account, by smearing the jet with reference systematics from previous studies ~\cite{ATL-PHYS-PUB-2015-015}.
+ Effects on the jet energy resolution (JER) are taken into account by smearing the jet with reference systematics from previous studies ~\cite{ATL-PHYS-PUB-2015-015}.
  In addition, the influence of the  jet vertex fraction (JVF)  is taken into account.
  
 
@@ -70,7 +69,7 @@ The full procedure is performed  for  light- and heavy jets ($b$ and $c$). The e
 The missing transverse energy $E_{T}^{\rm miss}$ related uncertainties, arise from the corrections for leptons and jets. The shifts in these corrections are considered by the reconstruction of the measured properties, i.e. particle momentum and the energy deposition in the detector. In addition, uncertainties of tracks, which can not be matched to any physical object and thus affecting the evaluation of  $E_{T}^{\rm miss}$, are considered independently~\cite{Aad:2012re}.
 
  
-The pile-up  uncertainties are evaluated  via reweighting, which is performed,  to match the average number of interactions per proton-proton collision observed in data, by varying the scale factors.
+The pile-up  uncertainties are evaluated  via reweighting, which is performed  to match the average number of interactions per proton-proton collision observed in data by varying the scale factors.
 
  For signal region of the $t\bar{t}\rightarrow$ lepton + jets, several sources of systematic uncertainties are considered, such as the matrix element simulation, 
  the impact of the parton-shower and hadronization modelling, the amount of initial- and final-state radiation.
@@ -82,19 +81,21 @@ The uncertainties from the $t\bar{t}$ event generator are considered by comparin
 Effects of  parton shower and hadronization modelling are taken into account by the use of different  
 PS matching scales, as well as fragmentation functions. Furthermore, different hadronization models are applied. 
 
- Effects related to final- and initial-state radiation, e.g. the increasing jet multiplicity, are evaluated by   $t\bar{t}$ samples  with increased and reduced radiation. Therefore,  the factorisation scale  $\mu_F $ and  the renormalisation scale $\mu_R $  in the matrix elements are varied, as well as $h_{damp}$. In addition to the up variation for the high radiation sample,  respectively the down variation in case low radiation, the
+ Effects related to final- and initial-state radiation, e.g. the increasing jet multiplicity, are evaluated by   $t\bar{t}$ samples  with increased and reduced radiation. Therefore,  the factorisation scale  $\mu_F $ and  the renormalisation scale $\mu_R $  in the matrix elements are varied, as well as $h_{\rm damp}$. In addition to the up variation for the high radiation sample,  respectively the down variation in case low radiation, the
  \textsc{Perugia 2012}  tune variations are used (radHi and radLo). 
 
 
 \section{Obtained systematics}
 
 
- In~\cref{tab:error1}, the obtained systematic uncertaintes for the one-dimensional and two dimensional fit of $m_{\text{top}}$ and JSF are presented.  For one-dimension only the systematics of $m_{\text{top}}$ are displayed, while for two dimensions the JSF systematics are considered. The main uncertainties of $m_{\text{top}}$, in both dimensions, stem from the matrix element generator (ME), the radiation, the hadronization and the JES.  With the change from one to two dimensions, an increase in the  total systematic uncertainty of $m_{\text{top}}$ can be observed. The most noticeable effects are seen by the increase of the JES component of $m_{\text{top}}$.
+ In~\cref{tab:error1}, the obtained systematic uncertaintes for the one-dimensional and two dimensional fit of $m_{\text{top}}$ and JSF are presented.  In one-dimension only the systematics of $m_{\text{top}}$ are displayed, while for two dimensions the JSF systematics are considered. The main uncertainties of $m_{\text{top}}$, in both dimensions, stem from the matrix element generator (ME), the radiation, the hadronization and the JES.  With the change from one to two dimensions, an increase in the  total systematic uncertainty of $m_{\text{top}}$ can be observed. The most noticeable effects are seen by the increase of the JES component of $m_{\text{top}}$.
 
- The individual components of the JES uncertainties of $m_{\text{top}}$, for one- and two-dimensions, are listed in~\cref{tab:errorx1}. The first eight listings are nuisance parameters, which belong to the above mentioned in-situ calibration. The most significant contributions in both dimensions arise from pile-up and the jet flavour composition. While  the pile-up component decreases in the two dimensional fit, the result for the flavour composition increases to more than twice as much, compared to the one-dimensional fit.  The flavour composition takes into account  that the  in-situ uncertainties rely on the jet flavour~\cite{ATL-PHYS-PUB-2015-015}. Next to the flavour composition, also a remarkable increase of the flavour response can be observed. The flavour response uncertainty is the uncertainty which is related to the gluon jet energy scale~\cite{ATL-PHYS-PUB-2015-015}.  
+ The individual components of the JES uncertainties of $m_{\text{top}}$, for one- and two-dimensions, are listed in~\cref{tab:errorx1}. The first eight listings are nuisance parameters, which belong to the above mentioned in-situ calibration. The most significant contributions in both dimensions arise from pile-up and the jet flavour composition. While  the pile-up component decreases in the two dimensional fit, the result for the flavour composition increases to more than twice as much, compared to the one-dimensional fit.  The flavour composition takes into account  that the  in-situ uncertainties depend on the jet flavour~\cite{ATL-PHYS-PUB-2015-015}. Next to the flavour composition, also a remarkable increase of the flavour response can be observed. The flavour response uncertainty is the uncertainty which is related to the gluon jet energy scale~\cite{ATL-PHYS-PUB-2015-015}.  
 
- These first results of the evaluation of the systematic uncertainties, with the one and two dimensional template fits of the top-quark mass and the jet energy scale factor, demonstrate  that the  first main steps of the multidimensional approach, which has been used for the 7 an 8~TeV analyses and has been successfully adopted for the new analysis.  Before any further studies of the observed systematic changes are made, the 
-focus is set on understanding the offsets that were observed in the closure tests and in the pull width distributions.
+ These first results for the systematics on $m_{\rm top}$, which have been evaluate here, demonstrate that the simultaneous determination of  $m_{\rm top}$ and JSF result in changes of systematics. While the total systematics increases noticeable, there is no clear trend for the single systematic compotes.  While some systematics decrease with the shift form a 1D to a 2D fit, others increase dramatically. However, one has to keep in mind that not all systematic components have been included jet. Furthermore, there might further changes in the future analysis which can affect the systematics as well, like for example the assumed quark-gluon fraction. 
+
+  Before any further studies, the 
+focus should be set on understanding the offsets that have been observed in the closure tests and in the pull width distributions.
 
 
 \begin{center}
@@ -111,19 +112,19 @@ focus is set on understanding the offsets that were observed in the closure test
 		& $m_{\text{top}} / [\text{GeV}]$ & $m_{\text{top}} / [\text{GeV}]$&JSF\\
 		\midrule
 
-ME Generator    & 0.95 & 1.28&0.0 \\
-Hadronization   & 0.76 & 1.10& 0.0 \\
-Radiation   & 0.8 & 0.18&0.01 \\
-Btagging   & 0.17 &0.13&0.0 \\
-Lepton   & 0.04&0.049&0.0 \\
+matrix element generator    & 0.95 & 1.28&0.0 \\
+hadronization   & 0.76 & 1.10& 0.0 \\
+radiation   & 0.8 & 0.18&0.01 \\
+b-tagging   & 0.17 &0.13&0.0 \\
+lepton   & 0.04&0.049&0.0 \\
 JES (without bJES)  &  0.75& 1.86&0.02 \\
 bJES  &  0.47&0.46&0.0 \\
-JER   & 0.35&0.11&0.01 \\
-MET &   0.09&0.11&0.0 \\
-JVT  &   0.031&0.02& 0.0\\
-Pileup   & 0.01&0.12&0.0 \\
+JER\footnote{Jet Energy Resolution.}   & 0.35&0.11&0.01 \\
+$E_{T}^{\rm miss}$ &   0.09&0.11&0.0 \\
+JVT\footnote{Jet Vertex fraction.}   &   0.031&0.02& 0.0\\
+pileup   & 0.01&0.12&0.0 \\
 \midrule
-Total systematic uncertainty&1.8&	2.6& 0.03\\
+total systematic uncertainty&1.8&	2.6& 0.03\\
 		
 		   
 

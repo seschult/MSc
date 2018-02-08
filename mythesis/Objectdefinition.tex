@@ -32,7 +32,7 @@ For so called \textbf{loose} electrons, only the shower shape inside the EC and 
 
  Therefore, specific isolation variables quantify the energy of the particles produced around the electron candidate and allow the separation of prompt electrons from non-isolated electron candidates.  The first variable is  the calorimetric isolation energy $E_T$.  This energy corresponds to a cone of  $\Delta R$ = 0.2, of the  topological calorimeter clusters, around the electron candidate. The sum over the energy of the chosen clusters has to be positive. There are corrections, which take care of the energy leakage outside of the cluster, as well as for the pile-up and the underlying events. The second variable is the track isolation $p_T$. It is defined by the total transverse momentum of all tracks which fulfil  certain quality requirements within a cone of $\Delta R =$ min(0.2~GeV/$E_T$) around the the track of the electron candidate. The source of the track has to be identified with the primary vertex of the hard interaction\footnote{The primary vertex is the one  with the highest   $\sum p_T^2$, where  $p_T$ denotes the transverse momentum and the sum runs over all associated  tracks.}. In addition, within the different cones, the $E_T$/$p_T$ has to be smaller than a certain threshold.~\cite{ATLAS:2016iqc}
 
- In addition to the isolation criteria, the impact parameter $d_0$, which is the closest measured distance of the track to the beam-line has to full fill: $d_0/\sigma_{d_0} <5$, where  $\sigma_{d_0}$ represents the estimated uncertainty of $d_0$. Furthermore, the distance $z_0$ along the beam-line, between the beam-spot position and the measured position of $d_0$,  is constrained together with the polar angle of the track to be: $\mid \Delta z_0 \text{sin}(\phi) \mid$ < 0.5~mm. ~\cite{ATLAS:2016iqc}
+ In addition to the isolation criteria, the impact parameter $d_0$, which is the closest measured distance of the track to the beam-line has to fulfil: $d_0/\sigma_{d_0} <5$, where  $\sigma_{d_0}$ represents the estimated uncertainty of $d_0$. Furthermore, the distance $z_0$ along the beam-line, between the beam-spot position and the measured position of $d_0$,  is constrained together with the polar angle of the track to be: $\mid \Delta z_0 \text{sin}(\phi) \mid$ < 0.5~mm. ~\cite{ATLAS:2016iqc}
 
 
 
@@ -87,7 +87,12 @@ In addition to $d_{\rm i,j}$, the distance to the beam pipe $d_{\rm i,beam}=k_{\
 
 \subsubsection{Jet energy scales}
 
- The reconstructed jets are built from calorimeter clusters obtained at a certain energy scale, determined by the deposited energy. The \textbf{jet energy scale (JES)} is calibrated in several consecutive steps derived from a combination of MC-based simulation and in-situ methods. The calorimeter jets are obtained at the electromagnetic scale  and corrected in their orientation. Therefore, the four-momenta of the jets are orientated to point towards the primary vertex of the hard interaction, which results in an improvement of the $\eta$ resolution.  In the next calibration step, pile-up effects are removed  by the subtraction via the area-based $p_T$ method~\cite{Cacciari:2007fd} and  residual corrections are applied to the  jets in data.  The  average momentum contamination from pile-up is subtracted from each jet momentum, depending on the jet area $A$. The average $p_T$ per event density in the $\eta-\phi$ plane is calculated and for each jet taken to be $p_T/A$, using ghost particles. The measurement of the number of ghost particles  allows to determine the size of the  jet area $A$.~\cite{Aaboud:2017jcu}
+ The reconstructed jets are built from calorimeter clusters obtained at a certain energy scale, determined by the deposited energy. The \textbf{jet energy scale (JES)} is calibrated in several consecutive steps derived from a combination of MC-based simulation and in-situ methods. The measured jets are called calorimeter jets in the following, while the term truth jets belongs to  simulated jets obtained at Monte Carlo level. 
+ 
+
+ 
+ The calorimeter jets are obtained at the electromagnetic scale  and corrected in their orientation.
+ Therefore, the four-momenta of the jets are orientated to point towards the primary vertex of the hard interaction, which results in an improvement of the $\eta$ resolution.  In the next calibration step, pile-up effects are removed  by the subtraction via the area-based $p_T$ method~\cite{Cacciari:2007fd} and  residual corrections are applied to the  jets in data.  The  average momentum contamination from pile-up is subtracted from each jet momentum, depending on the jet area $A$. The average $p_T$ per event density in the $\eta-\phi$ plane is calculated and for each jet taken to be $p_T/A$, using ghost particles. The measurement of the number of ghost particles  allows to determine the size of the  jet area $A$.~\cite{Aaboud:2017jcu}
 
  In order to reject jets originating from pile-up events,  additional cuts are applied. For jets with  $p_T <$ 60~GeV and within  0 $<\mid \eta \mid<$ 2.4,  a track-based technique is used, which rejects  jets from pile-up by the jet vertex tagger (JVT). Moreover, the effects of out-of-time pile-up are taken into account via the application of  a residual correction  which is derived from comparisons to truth particle jets in simulated dijet events.~\cite{Aad:2015ina}
 
@@ -151,7 +156,7 @@ A $b$-tagging working point (WP) is chosen by constraining $w$ via specific cuts
 
 \subsection{Missing transverse  energy}\label{ET}
 
-The transverse energy ($E_T$)  is determined with the cell structure of the calorimeter system.  For a physical object, the transverse energy can be calculated with:
+The transverse energy ($E_T$)  is determined with the cell structure of the calorimeter system.  For a physical object, the transverse energy can be calculated with (see~\cite{CDF}):
 \begin{equation}
 E_T = E \text{sin}(\theta).
 \end{equation}
