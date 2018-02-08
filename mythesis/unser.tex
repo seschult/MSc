@@ -2,13 +2,13 @@
 \chapter{Uncertainty evaluation}
 \label{sec:Uns}
 %------------------------------------------------------------------------------
-The measurement of the top-quark mass is affected by the influence of several systematic uncertainties, as shown for example by the 8~TeV analysis, where the large systematic uncertainties arise form the Monte Carlo signal modelling, the b-tagging and the jet energy scale~\cite{ATLAS-CONF-2017-071}.  For this analysis, however, the Run 2 conditions of the LHC are relevant. With the start of the Run 2 period, not only the center-of-mass energy  changed to 13~TeV. There are several updates in addition to the changes of the beam conditions, from  detector upgrades like the  insertable B-Layer (IBL) to the changes of the calorimeter energy reconstruction. A detailed overview of the changes can be found for example in~\cite{ATL-PHYS-PUB-2015-015}. In summary, 
+The measurement of the top-quark mass is affected by the influence of several systematic uncertainties, as shown for example by the 8~TeV analysis, where the large systematic uncertainties arise from the Monte Carlo signal modelling, the b-tagging and the jet energy scale~\cite{ATLAS-CONF-2017-071}.  For this analysis, however, the Run 2 conditions of the LHC are relevant, while the 8~TeV analysis used data from Run 1. With the start of the Run 2 period, not only the center-of-mass energy  changed to 13~TeV. There are several updates in addition to the changes of the beam conditions, from  detector upgrades like the  insertable B-Layer (IBL) to the changes of the calorimeter energy reconstruction. A detailed overview of the changes can be found for example in~\cite{ATL-PHYS-PUB-2015-015}. In summary, 
 the changes described above result in changes in the systematic uncertainties compared to previous analyses. 
 
-In this chapter, the first approach of the determination of  the systematics with the 13~TeV data and simulation is taken. 
-Since the results of the closure test (see~\cref{ct}) show that the three-dimensional determination of $m_{\text{top}}$ is not unbiased, the systematics are only determined for one and two dimensions. 
- A first impression of the effects on the systematics, which arise by the change  of the fit dimensionality  (1D $\rightarrow$ 2D) is obtained.
-First of all the techniques, which are used to determine the systematics are introduced, followed by a discussion of the different properties and the presentation of the results.   
+In this chapter, the first approach of the determination of  the systematic uncertainties with the 13~TeV data and simulation is taken. 
+Since the results of the closure test (see~\cref{ct}) show that the three-dimensional determination of $m_{\text{top}}$ is not unbiased, the systematic uncertainties  are only determined for one and two dimensions. 
+ A first impression of the effects on the systematic uncertainties, which arise by the change  of the fit dimensionality  (1D $\rightarrow$ 2D) is obtained.
+First of all the techniques, which are used to determine the systematic uncertainties  are introduced, followed by a discussion of the different properties and the presentation of the results.   
 
 
 
@@ -17,7 +17,7 @@ First of all the techniques, which are used to determine the systematics are int
 %\noindent In order to measure the effects arising from the mass determination, a one dimensional fit, where only the $m_{top}$ is fitted and the scale factors are kept at 1.0. In the same way, the influence of the simultaneous measurement is obtained, with a two dimensional fit including JSF, respectively with a three dimensional fit with the bJSF. 
 
 
-\section{Evaluation of the systematics}
+\section{Evaluation of the systematic uncertainties }
 
 The impact of the systematic uncertainties on $m_{\text{top}}$ is determined  by varying the corresponding quantity about one standard deviation  $\pm1~\sigma$ from its nominal value. In the following the variation of +$1\sigma$ is referred to as up, while down denotes the variation of  -$1 \sigma$.  
 In the next step, the nominal and the varied samples undergo the  complete analysis with 250 pseudoexperiments, drawn from the full Monte Carlo sample. As a result of the pseudoexperiments, one gets for each variation a distribution of the estimators with 250 entries. From these distributions, the mean values (MW) are calculated and compared to the nominal sample (see~\cref{fig:sys1}). The final error can then be obtained from the results of $\mid \text{MW(nominal) - MW(up)}\mid$ and $\mid \text{MW(nominal)-MW(down)}\mid$. If the mean value of the nominal sample lies between the values of the up and down variation, the uncertainty is  $\mid \text{MW(up) - MW(down)}\mid/2$.
@@ -45,18 +45,18 @@ In the next step, the nominal and the varied samples undergo the  complete analy
 
 
 
- If the $\pm 1 \sigma$ variation is not possible, like in case of the systematics related to the choice of the Monto Carlo generators, one takes the total deviation, i.e. the difference observed by using samples simulated with different generators, as a systematic uncertainty. 
+ If the $\pm 1 \sigma$ variation is not possible, like in case of the systematic uncertainties  related to the choice of the Monte Carlo generators, one takes the total deviation, i.e. the difference observed by using samples simulated with different generators, as a systematic uncertainty. 
 
 
 	
 
-\section{Modelling of the systematics}
-The limited precision of the detector modelling, in terms of the detector response and further experimental sources, are affecting the analysis noticeably. 
+\section{Modelling of the systematic uncertainties }
+The limited precision of the detector modelling, in terms of the detector response and further experimental sources, affect the analysis noticeably. 
 
  The measurement precision at hadron colliders in analysis channels with high jet multiplicity is often limited by the jet energy scale (JES). The corresponding uncertainties are evaluated via the energy variation of the jets, where
 data sets from test beam measurements, as well as from LHC collisions and simulation are used~\cite{Aad:2011he, Aad:2012ag, Aad:2012vm,Aad:2014bia}. Several sources of these uncertainties, such as the single-particle response, pile-up and the jet flavour composition, as well as the induced uncertainties, which arise from fluctuations of the calorimeter responses for different jet flavours, 
  are considered via in-situ calibration measurements.  In total one ends up with 20 systematic variations, which are assumed to be uncorrelated in this thesis and therefore can be added up in quadrature. 
- Effects on the jet energy resolution (JER) are taken into account by smearing the jet with reference systematics from previous studies ~\cite{ATL-PHYS-PUB-2015-015}.
+ Effects on the jet energy resolution (JER) are taken into account by smearing the jet with reference systematic uncertainties  from previous studies ~\cite{ATL-PHYS-PUB-2015-015}.
  In addition, the influence of the  jet vertex fraction (JVF)  is taken into account.
  
 
@@ -66,18 +66,18 @@ The full procedure is performed  for  light- and heavy jets ($b$ and $c$). The e
 
  Uncertainties arising from the modelling of the lepton isolation efficiency, the lepton identification and triggering, as well as from the lepton reconstruction, are obtained with a tag-and-probe method, which uses charged leptonic  $Z$-, $W-$boson and $J/\Psi$ decays~\cite{ATLAS:2016iqc,ATL-PHYS-PUB-2016-015,Aad:2011mk,Aad:2016jkr}. Furthermore, the uncertainties of the  momentum resolution,  as well as of the momentum scale  are  obtained from data by measuring regions with high purity of  $Z \rightarrow ll$ events.
 
-The missing transverse energy $E_{T}^{\rm miss}$ related uncertainties, arise from the corrections for leptons and jets. The shifts in these corrections are considered by the reconstruction of the measured properties, i.e. particle momentum and the energy deposition in the detector. In addition, uncertainties of tracks, which can not be matched to any physical object and thus affecting the evaluation of  $E_{T}^{\rm miss}$, are considered independently~\cite{Aad:2012re}.
+The missing transverse energy $E_{T}^{\rm miss}$ related uncertainties, arise from the corrections for leptons and jets. The shifts in these corrections are considered by the reconstruction of the measured properties, i.e. particle momentum and the energy deposition in the detector. In addition, uncertainties of tracks, which can not be matched to any physical object and thus affect the evaluation of  $E_{T}^{\rm miss}$, are considered independently~\cite{Aad:2012re}.
 
  
 The pile-up  uncertainties are evaluated  via reweighting, which is performed  to match the average number of interactions per proton-proton collision observed in data by varying the scale factors.
 
  For signal region of the $t\bar{t}\rightarrow$ lepton + jets, several sources of systematic uncertainties are considered, such as the matrix element simulation, 
- the impact of the parton-shower and hadronization modelling, the amount of initial- and final-state radiation.
+ the impact of the parton-shower and hadronization modelling, and the amount of initial- and final-state radiation.
 
 The uncertainties from the $t\bar{t}$ event generator are considered by comparing  individual Monte Carlo samples. The choice of the  signal generators \textsc{Powheg-Box v2} +  \textsc{Pythia 6} are replaced by  MG5\_aMC@NLO + \textsc{Pythia 8}.  \textsc{Pythia 8} is used with the~\textsc{NNPDF 2.3} PDF and the \textsc{A14} tune (see~\cref{DATA}) .
 
 
- For the estimation of the parton shower (PS) induced uncertainties, the  \textsc{Powheg-Box v2} generator is paired with the \textsc{HERWIG 7} generator~\cite{Bellm:2015jjp}, where the PS is simulated in leading-order: The corresponding PDF is MMHT 2014 PDF~\cite{Harland-Lang:2014zoa}.
+ For the estimation of the parton shower (PS) induced uncertainties, the  \textsc{Powheg-Box v2} generator is paired with the \textsc{HERWIG 7} generator~\cite{Bellm:2015jjp}, where the PS is simulated in leading-order. The corresponding PDF is MMHT 2014 PDF~\cite{Harland-Lang:2014zoa}.
 Effects of  parton shower and hadronization modelling are taken into account by the use of different  
 PS matching scales, as well as fragmentation functions. Furthermore, different hadronization models are applied. 
 
@@ -85,21 +85,23 @@ PS matching scales, as well as fragmentation functions. Furthermore, different h
  \textsc{Perugia 2012}  tune variations are used (radHi and radLo). 
 
 
-\section{Obtained systematics}
+\section{Obtained systematic uncertainties }
 
 
- In~\cref{tab:error1}, the obtained systematic uncertaintes for the one-dimensional and two dimensional fit of $m_{\text{top}}$ and JSF are presented.  In one-dimension only the systematics of $m_{\text{top}}$ are displayed, while for two dimensions the JSF systematics are considered. The main uncertainties of $m_{\text{top}}$, in both dimensions, stem from the matrix element generator (ME), the radiation, the hadronization and the JES.  With the change from one to two dimensions, an increase in the  total systematic uncertainty of $m_{\text{top}}$ can be observed. The most noticeable effects are seen by the increase of the JES component of $m_{\text{top}}$.
+ In~\cref{tab:error1}, the obtained systematic uncertaintes for the one-dimensional and two dimensional fit of $m_{\text{top}}$ and JSF are presented.  In one-dimension only the systematic uncertainties  of $m_{\text{top}}$ are displayed, while for two dimensions the JSF systematic uncertainties are considered. The main uncertainties of $m_{\text{top}}$, in both dimensions, stem from the matrix element generator (ME), the radiation, the hadronization and the JES.  With the change from one to two dimensions, an increase in the  total systematic uncertainty of $m_{\text{top}}$ can be observed. The most noticeable effects are seen by the increase of the JES component of $m_{\text{top}}$.
 
  The individual components of the JES uncertainties of $m_{\text{top}}$, for one- and two-dimensions, are listed in~\cref{tab:errorx1}. The first eight listings are nuisance parameters, which belong to the above mentioned in-situ calibration. The most significant contributions in both dimensions arise from pile-up and the jet flavour composition. While  the pile-up component decreases in the two dimensional fit, the result for the flavour composition increases to more than twice as much, compared to the one-dimensional fit.  The flavour composition takes into account  that the  in-situ uncertainties depend on the jet flavour~\cite{ATL-PHYS-PUB-2015-015}. Next to the flavour composition, also a remarkable increase of the flavour response can be observed. The flavour response uncertainty is the uncertainty which is related to the gluon jet energy scale~\cite{ATL-PHYS-PUB-2015-015}.  
 
- These first results for the systematics on $m_{\rm top}$, which have been evaluate here, demonstrate that the simultaneous determination of  $m_{\rm top}$ and JSF result in changes of systematics. While the total systematics increases noticeable, there is no clear trend for the single systematic compotes.  While some systematics decrease with the shift form a 1D to a 2D fit, others increase dramatically. However, one has to keep in mind that not all systematic components have been included jet. Furthermore, there might further changes in the future analysis which can affect the systematics as well, like for example the assumed quark-gluon fraction. 
+ These first results for the systematic uncertainties on $m_{\rm top}$, which have been evaluate here, demonstrate that the simultaneous determination of  $m_{\rm top}$ and JSF result in changes of systematic uncertainties . While the total systematic uncertainties  increases noticeable, there is no clear trend for the single systematic compotes.  While some systematic uncertainties decrease with the shift from a 1D to a 2D fit, others increase dramatically. However, one has to keep in mind that not all systematic components have been included jet. Furthermore, there might further changes in the future analysis which can affect the systematic uncertainties  as well, like for example the assumed quark-gluon fraction. 
 
   Before any further studies, the 
 focus should be set on understanding the offsets that have been observed in the closure tests and in the pull width distributions.
 
 
 \begin{center}
-	\captionof{table}{Systematic uncertianits obtained in the measurment of $m_{\text{top}}$ and JSF.  The different systematic contributions for the one-dimensional and the two-dimensional fit of $m_{\text{top}}$, respectivly of $m_{\text{top}}$ and JSF, are displayed. The total systematics are obtained by adding the different contributionas as the sum in quadarature. All shown values are rounded to two significant digits. }\label{tab:error1}
+	\captionof{table}{Systematic uncertianits obtained in the measurment of $m_{\text{top}}$ and JSF.  The different systematic contributions for the one-dimensional and the two-dimensional fit of $m_{\text{top}}$, respectivly of $m_{\text{top}}$ and JSF, are displayed.  The components are introduced in the text. 
+		The total systematic uncertainties  are obtained by adding the different contributionas as the sum in quadarature.
+ All shown values are rounded to two significant digits. }\label{tab:error1}
 	
 	
 	
@@ -119,9 +121,9 @@ b-tagging   & 0.17 &0.13&0.0 \\
 lepton   & 0.04&0.049&0.0 \\
 JES (without bJES)  &  0.75& 1.86&0.02 \\
 bJES  &  0.47&0.46&0.0 \\
-JER\footnote{Jet Energy Resolution.}   & 0.35&0.11&0.01 \\
+JER  & 0.35&0.11&0.01 \\
 $E_{T}^{\rm miss}$ &   0.09&0.11&0.0 \\
-JVT\footnote{Jet Vertex fraction.}   &   0.031&0.02& 0.0\\
+JVT  &   0.031&0.02& 0.0\\
 pileup   & 0.01&0.12&0.0 \\
 \midrule
 total systematic uncertainty&1.8&	2.6& 0.03\\
@@ -140,7 +142,7 @@ total systematic uncertainty&1.8&	2.6& 0.03\\
 
 
 \begin{center}
-	\captionof{table}{Summary of the different JES systematics. The absolute values, as well as relative uncertianties to the total JES systematics, for the one-dimensional and the two-dimensional fit of $m_{\text{top}}$.  NP denotes the nuisance parameters, mentioned in the text. All shown values are rounded to two significant digits.}\label{tab:errorx1}
+	\captionof{table}{Summary of the different JES systematic uncertainties . The absolute values, as well as relative uncertianties to the total JES systematic uncertainties , for the one-dimensional and the two-dimensional fit of $m_{\text{top}}$.  NP denotes the nuisance parameters, mentioned in the text. All shown values are rounded to two significant digits.}\label{tab:errorx1}
 	
 	
 	\vspace{0.3cm}	
@@ -148,7 +150,7 @@ total systematic uncertainty&1.8&	2.6& 0.03\\
 \begin{tabular}{>{}m{5.0cm}>{}m{2.5cm}>{}m{2.0cm} >{}m{2.5cm}>{}m{1.0cm}} \toprule
 		
 JES components of $m_{\text{top}}$&  \hspace{1.2cm} 1D fit&&{\centering  \hspace{1.2cm} 2D fit}\\
-	& $\delta_{ \text{JES}}^{m_{\text{top}}} / [\text{GeV}]$ & & $\delta_{ \text{JES}}^{m_{\text{top}}} / [\text{GeV}]$ &\\
+	& $\delta_{ \text{JES}}^{m_{\text{top}}} / [\text{GeV}]$ & $\delta_{ \text{\rm JES relativ}}^{\rm  m_{\text{top}}$& $\delta_{ \text{JES}}^{m_{\text{top}}} / [\text{GeV}]$ &$\delta_{ \text{\rm JES relativ}}^{\rm m_{\text{top}}$&\\
 \midrule
 	%	& $m_{top} / [GeV]$ & $m_{top} / [GeV]$&JSF\\
 

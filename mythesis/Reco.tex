@@ -1,20 +1,21 @@
 \chapter{Event reconstruction}\label{ch5}
 The second step of the analysis, following the event selection, is the event reconstruction, where the $t\bar{t}$ final-state is rebuilt by the selected information from its decay products. Therefore, the reconstructed jets have to be assigned to the initial partons, taking the event topology and kinematics into account. For this reconstruction, the same approach as for the previous measurements~\cite{Aad:2015nba, ATLAS-CONF-2017-071} is used, based on a kinematic maximum likelihood fit. 
 
-The details of the reconstruction are introduced in this section and the results, as well as the control distributions of the reconstructed observables are discussed.  
+The details of the reconstruction are introduced in this section and the results, as well as the control distributions of the reconstructed observables, are discussed.  
 
 
 \section{Reconstruction of the $t\bar{t}$ final-state}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.65\linewidth]{Pics/cp5/51}
-	\caption{ Illustration of the reconstruction of the $t\bar{t}$ final-state. The  invariant masses of the hadronically and leptonically decaying top-quark are shown, as well as the corresponding $W$-boson masses. } 
+	\caption{ Illustration of the reconstruction of the $t\bar{t}$ final-state. The components taht make up the different invariant mass, which are used for the event reconstruction are shown.
+	} 
 	\label{fig:51}
 \end{figure}
 
 As displayed in~\cref{fig:51}, events with at least four jets are selected in this analysis. Therefore, one ends up with 4! = 24 possible jet-parton assignments, which will be denoted as permutations in the following. The minimum number of permutations gets further reduced by not distinguishing between the light jets of the $W$-boson decay, which results in a total of 12 permutations. 
 
-In order to find the best jet-parton assignment, a kinematic likelihood fit is performed with the \textsc{KLFitter} framework~\cite{Erdmann:2013rxa}. Within this program, the best possible jet-parton matching is evaluated based on the leading-order kinematics of the $t\bar{t}$ decay. For each permutation of the jets, a kinematic likelihood function ($L_{ \textsc{KLFitter}}$) is defined, using reconstructed properties like the hadronic $W$-boson mass, which is the invariant mass of the two jets of the hadronic top-quark decay $m(q_1q_2)$. In the following, $q_1$ and $ q_2$ denote the light quarks of the $W$-boson decays, where $b_{\rm had}$  is referred to  the $b$-quark from the hadronic top-quark decay and $b_{\rm lep}$ to the leptonic one.  $E_{\rm jet_i}$ is the energy of the jet with number $i$. Properties of the charged lepton are labelled with $l$, while $\nu$ denotes the neutrino. All masses shown in~\cref{fig:51} are calculated and related to the  predicted kinematics for the leptons and the quarks of the $t\bar{t}$ decay.
+In order to find the best jet-parton assignment, a kinematic likelihood fit is performed with the \textsc{KLFitter} framework~\cite{Erdmann:2013rxa}. Within this program, the best possible jet-parton matching is evaluated based on the leading-order kinematics of the $t\bar{t}$ decay. For each permutation of the jets, a kinematic likelihood function ($L_{ \textsc{KLFitter}}$) is defined, using reconstructed properties like the hadronic $W$-boson mass, which is the invariant mass of the two jets of the hadronic $W$-boson decay $m(q_1q_2)$. In the following, $q_1$ and $ q_2$ denote the light quarks of the $W$-boson decays, where $b_{\rm had}$   refers to  the $b$-quark from the hadronic top-quark decay and $b_{\rm lep}$ to the leptonic one.  $E_{\rm jet_i}$ is the energy of the jet with number $i$. Properties of the charged lepton are labelled with $l$, while $\nu$ denotes the neutrino. All masses shown in~\cref{fig:51} are calculated and related to the  predicted kinematics for the leptons and the quarks of the $t\bar{t}$ decay.
 
 
 The input variables for the kinematic likelihood fit are the energy of the charged lepton $E_{\rm l_i}$, the $y$ and $x$ components of the missing transverse momentum ($p_{\nu,x}$, $p_{\nu,y})$ and the four-momenta of the jets. For events with at least two $b$-jets, the two highest $p_T$ $b$-tagged jets and the two untagged jets, with the highest $p_T$,  are used.
@@ -79,7 +80,7 @@ For this measurement, these three estimators are obtained with the event reconst
  The first estimator is the reconstructed top-quark mass $m_{\text{top}}^{\rm reco}$. It is a free parameter in event reconstruction with  \textsc{KLFitter} and takes the implicit constraint  to the known $W$-boson mass into account. By construction, it is sensitive to the top-quark mass and both scale factors.
  The second estimator is the reconstructed $W$-boson mass ($m_\text{W}^{\rm reco}$), which is the invariant mass of $W$-boson of the hadronically decaying top-quark. While $m_{\text{top}}^{\rm reco}$ is determined by the kinematic likelihood fit, $m_\text{W}^{\rm reco}$ is calculated from the original four-vectors of the chosen jet permutation and sensitive to the JSF.
  A third estimator  ($R_{\text{bq}}^{\rm reco}$) is introduced to provide the sensitivity to bJSF. It is calculated, like  $m_\text{W}^{\rm reco}$,  from the original four-vectors of the chosen jet permutation and has two different definitions, which depend on the number of $b$-tagged jets. 
-  If only one $b$-tagged jet is required, $R_{\text{bq}}^{\rm reco}$ is defined as the transverse momentum of this $b$-tagged jet, divided by the scalar sum of the averaged transverse momenta of the two untagged jets which are associated to the hadronically decaying $W$-boson (see~\cref{rbq}).
+  For events with only one $b$-tagged jet, $R_{\text{bq}}^{\rm reco}$ is defined as the transverse momentum of this $b$-tagged jet, divided by  the averaged transverse momenta of the two untagged jets which are associated to the hadronically decaying $W$-boson (see~\cref{rbq}).
  For events with two $b$-tagged jets, $R_{\text{bq}}^{\rm reco}$ is defined as the ratio of the scalar sum of the transverse momenta of the two $b$-tagged jets and the scalar sum of the transverse momenta of the two untagged jets from the hadronically decaying $W$-boson (see~\cref{rbq2}). The $b$-tagged transverse momenta in the later definition belong to the leptoincally and hadronically decaying top-quark. 
   \begin{equation}\label{rbq}
 R^{\rm reco,1b}_{\rm bq} = \frac{ p_T^{\rm b_{\rm tag}}}{(p_T^{\rm W_{\rm jet_1}}+p_T^{\rm W_{\rm jet_2}})/2}
@@ -90,7 +91,7 @@ R^{\rm reco,1b}_{\rm bq} = \frac{ p_T^{\rm b_{\rm tag}}}{(p_T^{\rm W_{\rm jet_1}
 R^{\rm reco,2b}_{\text{bq}} = \frac{p_T^{\rm b_{\rm had}}+ p_T^{\rm b_{\rm lep}}}{(p_T^{\rm W_{\rm jet_1}}+p_T^{\rm W_{\rm jet_2}})}.
 \end{equation}
 In terms of this analysis, only events with at least two $b$-jets are used for the event reconstruction. Thus, only the second definition of $R_{\text{bq}}^{\rm reco,2b}$ is used here and just called $R_{\text{bq}}^{\rm reco}$ in the following. 
-Furthermore, all three reconstructed variables are constrained by cuts, which are implemented before the event reconstruction:  $m_{\text{top}}^{\rm reco}  \subseteq [125,200]$~GeV,  $m_{\text{W}}^{\rm reco}  \subseteq [55,110]$~GeV and $R_{\text{bq}}^{\rm reco}  \subseteq [0.3,3.0]$. These cuts are applied on top of the cuts of the preselection. Moreover, events where the minimization of  \textsc{KLFitter} does not converge, are rejected.
+Furthermore, all three reconstructed variables are constrained by  additional cuts:  $m_{\text{top}}^{\rm reco}  \subseteq [125,200]$~GeV,  $m_{\text{W}}^{\rm reco}  \subseteq [55,110]$~GeV and $R_{\text{bq}}^{\rm reco}  \subseteq [0.3,3.0]$. These cuts are applied on top of the cuts of the preselection. Moreover, events where the minimization of  \textsc{KLFitter} does not converge, are rejected.
 
 
 
@@ -103,9 +104,9 @@ For the data-simulation comparison the top-quark mass is assumed to be 172.5~GeV
 
 In~\cref{tab:T41}, the shown single top events are treated as an additional background process.
 The main background stems from $W$ + jets events. For the sample with at least two $b$-tags it is  2~\% of the total background and for the sample with one $b$-tag it is 9~\%. However, the QCD-multijet background has not been estimated yet and might lead to noticeable contributions for the future analysis. The other background sources, e.g.  diboson  and $Z$ + jet events, play only a minor role. 
-The choice of the selection cuts on events with at least two $b$-tagged jets, can be explained by the nature of the top-quark pair decay, which almost always produces two $b$-quarks.  As shown here, as well as by the previous measurements, the main background sources can be reduced impressively by the cuts on the number of tagged jets. In the  case of this analysis, the total background gets reduced from  15~\% to 6~\% for events with two  $b$-tags. While this remarkable reduction leads to a noticeable decrease of the background, the predicted number of events remain consistent with the observed number in data. Based on these experiences, the selection cuts on events with at least four jets, where at least two have to be tagged as $b$-jets are used for this analysis.
+The choice of the selection cuts on events with at least two $b$-tagged jets, can be explained by the nature of the top-quark pair decay, which almost always produces two $b$-quarks.  As shown here, as well as by the previous measurements, the main background sources can be reduced impressively by the cuts on the number of tagged jets. In the  case of this analysis, the total background gets reduced from  15~\% to 6~\% for events with two  $b$-tags. While this remarkable reduction leads to a noticeable decrease of the background, the predicted number of events remain consistent with the observed number in data. Based on these experiences, the selection cuts on events with at least four jets, where at least two have to be tagged as $b$-jets, are used for this analysis.
 
-Despite the fact that the three measurements at 7, 8 and 13~TeV are sharing the same main background sources, the relative contributions are different for each center-of-mass energy. This can be explained by the fact that the cross-sections of the different backgrounds depend differently on the increasing center-of-mass energy.
+Despite the fact that the three measurements at 7, 8 and 13~TeV share the same main background sources, the relative contributions are different for each center-of-mass energy. This can be explained by the fact that the cross-sections of the different backgrounds depend differently on the increasing center-of-mass energy.
 \vspace{0.5cm}
 \input{Yields}
 \vspace{1.0cm}
@@ -114,7 +115,9 @@ Despite the fact that the three measurements at 7, 8 and 13~TeV are sharing the 
 
 In~\cref{fig:Sel1,fig:Sel2,fig:Sel4}, chosen distributions of observables are displayed for events with at least two $b$-tagged jets, together with the data-simulation comparison ratio. These control plots correspond to the  2016 ATLAS data set, obtained at 13~TeV with a corresponding integrated luminosity of 33~fb$^{-1}$. The different backgrounds are also shown by the coloured histograms. 
 
-If not mentioned otherwise, all shown distributions contain only statistical uncertainties and the  predicted distributions are normalised to the observed number of events in data, due to the sensitivity of the top-quark mass on the distribution shape~\cite{ATLAS-CONF-2017-071}. For the generation of  the control distributions, the \textsc{Powheg} + \textsc{Pythia 6} samples are used.
+If not mentioned otherwise, all shown distributions contain only statistical uncertainties.
+% and the  predicted distributions are normalised to the observed number of events in data, due to the sensitivity of the top-quark mass on the distribution shape~\cite{ATLAS-CONF-2017-071}.
+ For the generation of  the control distributions, the \textsc{Powheg} + \textsc{Pythia 6} samples are used.
 
 In general more events in data than in simulation can be seen, which seems to be consistent for all observables. Furthermore, a slight offset of the data points to the simulation can be observed in the normalization of several distributions.    
 Here one has to keep in mind that the QCD background is missing, as well as the systematic uncertainties.
@@ -123,7 +126,7 @@ Here one has to keep in mind that the QCD background is missing, as well as the 
 
 The displayed control distributions test also the quality of the Monte Carlo simulation.
 Disagreements in the data-prediction comparison can for example  arise due to imperfections in the  modelling  with different physics generators. Furthermore, disagreements can appear if the \textsc{Geant4} simulation of the detector is not good enough. Therefore, the improvement of the simulation is one of the key tasks for the general physics analysis. 
-The control distributions for the reconstructed quantities are shown after the global quantities of the preselection.
+The control distributions for the reconstructed quantities are shown after the global quantities.
 
 
 
@@ -158,7 +161,7 @@ The control distributions for the reconstructed quantities are shown after the g
 	\end{subfigure}
 	
 	
-	\caption{As in in~\cref{fig:Sel1}, transverse momentum distributions  for of the four jets, obtained for the sample with at least 4 jets and at last two $b$-tagged jets.}
+	\caption{As in in~\cref{fig:Sel1}, transverse momentum distributions  for the four jets, obtained for the sample with at least 4 jets and at least two $b$-tagged jets.}
 	\label{fig:Sel4}
 \end{figure}
 
@@ -170,11 +173,9 @@ The control distributions for the reconstructed quantities are shown after the g
 In the following the control distributions of the three estimators that are used in this thesis are displayed in~\cref{fig:K3,fig:K4,fig:K5}, together with further observables  reconstructed with \textsc{KLFitter}. 
 All shown control distributions contain at least 4 jets with at least two $b$-tagged jets.  The ratio plots below the histograms show the data-simulation comparison. Only the statistical uncertainties are shown and the QCD-multijet background is not included. Further reconstructed distributions can be found in~\cref{sec:app0}. 
 
-
-
- Despite the general slight offset of the data points with respect to the solid histogram lines of the simulation, the number of events for almost each simulated distribution, remains consistent with the observed numbers in data.
-
- For the hadronic top $p_T$ spectrum~\cref{fig:K10}, however, the distribution is softer in data than predicted by the simulation. This issue has also been discovered by the 8~TeV analysis, where it was studied extensively with the result that it will only affect the measurement, if the observed deviations are not covered by the systematic uncertainties~\cite{ATLAS-CONF-2017-071}. Since this is not the case for the 8~TeV measurement, it is assumed that this observation will also not affect the analysis presented here. Further investigations are needed when all  uncertainties are included in the analysis. 
+ Despite the general slight offset of the data points with respect to the solid histogram lines of the simulation, the shapes of the distributions are consistent with those of the data. 
+ 
+ For the hadronic top $p_T$ spectrum in~\cref{fig:K10}, however, the distribution is softer in data than predicted by the simulation. This issue has also been discovered by the 8~TeV analysis, where it was studied extensively with the result that it will only affect the measurement, if the observed deviations are not covered by the systematic uncertainties~\cite{ATLAS-CONF-2017-071}. Since this is not the case for the 8~TeV measurement, it is assumed that this observation will also not affect the analysis presented here. Further investigations are needed when all  uncertainties are included in the analysis. 
 
 
 

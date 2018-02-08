@@ -1,0 +1,73 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {UKenglish}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}The Standard Model and the top quark}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Particles, forces and fields}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fundamental forces and symmetry breaking}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Quantum Chromo Dynamics}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The electroweak force}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The Higgs mechanism}{8}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Relevance of the top quark}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Top-quark production}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Single top-quark production}{12}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Top-quark pair production}{13}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Top-quark decay}{14}{section.2.5}
+\contentsline {subsubsection}{\nonumberline The all-hadronic decay channel}{15}{section*.11}
+\contentsline {subsubsection}{\nonumberline The dileptonic decay channel}{15}{section*.12}
+\contentsline {subsubsection}{\nonumberline The lepton + jets decay channel}{15}{section*.13}
+\contentsline {chapter}{\numberline {3}The ATLAS experiment at the LHC}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}The ATLAS experiment}{19}{section.3.2}
+\contentsline {subsubsection}{\nonumberline The coordinate system}{20}{section*.17}
+\contentsline {subsection}{\numberline {3.2.1}The Inner Detector System}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The Calorimeter System}{22}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The Muon Spectrometer}{23}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Trigger system and data acquisition}{25}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Data handling}{26}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Detector simulation}{26}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Object definition and preselection}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Physics objects}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Total event topology}{29}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Electron candidates}{30}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Muon candidates}{31}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Jets}{31}{subsection.4.1.4}
+\contentsline {subsubsection}{\nonumberline Jet reconstruction}{32}{section*.24}
+\contentsline {subsubsection}{\nonumberline Jet energy scales}{32}{section*.25}
+\contentsline {subsection}{\numberline {4.1.5}Tagging of $b$-Jets}{34}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Missing transverse energy}{35}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Data and Monte Carlo samples}{35}{section.4.2}
+\contentsline {section}{\numberline {4.3}Background contributions and event preselection}{36}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Lepton +jets background}{36}{subsection.4.3.1}
+\contentsline {subsubsection}{\nonumberline Single top background}{37}{section*.28}
+\contentsline {subsubsection}{\nonumberline Diboson background}{37}{section*.29}
+\contentsline {subsubsection}{\nonumberline $W$ + jets background}{37}{section*.30}
+\contentsline {subsubsection}{\nonumberline $Z$ + jets background}{37}{section*.31}
+\contentsline {subsubsection}{\nonumberline Multijet/non-prompt lepton background}{37}{section*.32}
+\contentsline {subsection}{\numberline {4.3.2}Event triggering}{38}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Preselection criteria}{38}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Event reconstruction}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Reconstruction of the $t\bar {t}$ final-state}{39}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Analysis specific quantities}{41}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Event yields}{42}{subsection.5.1.2}
+\contentsline {subsubsection}{\nonumberline Global quantities of the preselection}{43}{section*.34}
+\contentsline {subsubsection}{\nonumberline Global reconstructed quantities}{46}{section*.38}
+\contentsline {chapter}{\numberline {6}Measurement of top-quark mass}{49}{chapter.6}
+\contentsline {section}{\numberline {6.1}The multidimensional template method}{49}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}The 2D template method}{49}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}The 3D template method}{50}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}The template parametrization}{53}{section.6.2}
+\contentsline {subsubsection}{\nonumberline The single fits}{53}{section*.42}
+\contentsline {subsubsection}{\nonumberline Simultaneous template parametrization}{55}{section*.44}
+\contentsline {section}{\numberline {6.3}The unbinned maximum likelihood fit}{56}{section.6.3}
+\contentsline {section}{\numberline {6.4}Closure tests}{59}{section.6.4}
+\contentsline {chapter}{\numberline {7}Uncertainty evaluation}{63}{chapter.7}
+\contentsline {section}{\numberline {7.1}Evaluation of the systematic uncertainties}{63}{section.7.1}
+\contentsline {section}{\numberline {7.2}Modelling of the systematic uncertainties}{64}{section.7.2}
+\contentsline {section}{\numberline {7.3}Obtained systematic uncertainties}{65}{section.7.3}
+\contentsline {chapter}{\numberline {8}Summary and outlook}{69}{chapter.8}
+\contentsline {chapter}{\nonumberline Bibliography}{71}{chapter*.52}
+\contentsline {chapter}{\numberline {A}KLFitter reconstruction}{81}{appendix.A}
+\contentsline {chapter}{\numberline {B}Template parametrization}{83}{appendix.B}
+\contentsline {chapter}{\nonumberline List of Figures}{103}{appendix*.77}
+\contentsline {chapter}{\nonumberline List of Tables}{107}{appendix*.78}
